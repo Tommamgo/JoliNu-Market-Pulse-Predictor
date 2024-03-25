@@ -11,11 +11,39 @@ target_directory_path = './data/missingContent/'
 # Stellen Sie sicher, dass das Zielverzeichnis existiert
 os.makedirs(target_directory_path, exist_ok=True)
 
-def save_article(publish_date, keywords, authors, title, text, link, original_publisher, article_publisher, search_word, short_description, last_modified_date, file_name="collected_articles.json"):
-    # Path to the file
+
+# Globale Variable für Zwischenspeicherung der Artikel
+articles_buffer = []
+BUFFER_SIZE = 1000  # Anzahl der Artikel, die im Speicher gehalten werden, bevor sie gespeichert werden
+
+def flush_articles_to_file(file_name="collected_articles.json"):
     file_path = Path(file_name)
+    data = {"articles": {}}
     
-    # Article data structure
+    if file_path.exists():
+        with open(file_path, 'r', encoding='utf-8') as file:
+            try:
+                data = json.load(file)
+                if "articles" not in data:
+                    data["articles"] = {}
+            except json.JSONDecodeError:
+                data = {"articles": {}}
+    
+    # Füge Artikel aus dem Buffer zum 'data'-Dict hinzu
+    for article in articles_buffer:
+        title = article['title']
+        if title not in data["articles"]:
+            data["articles"][title] = article
+        else:
+            print(f"Artikel mit dem Titel '{title}' existiert bereits und wird nicht erneut hinzugefügt.")
+    
+    with open(file_path, 'w', encoding='utf-8') as file:
+        json.dump(data, file, ensure_ascii=False, indent=4)
+
+    # Leere den Buffer nach dem Schreiben
+    articles_buffer.clear()
+
+def save_article(publish_date, keywords, authors, title, text, link, original_publisher, article_publisher, search_word, short_description, last_modified_date, file_name="collected_articles.json"):
     article = {
         "publish_date": publish_date,
         "keywords": keywords,
@@ -29,26 +57,20 @@ def save_article(publish_date, keywords, authors, title, text, link, original_pu
         "short_description": short_description,
         "last_modified_date": last_modified_date
     }
+
+    # Füge den Artikel zum globalen Buffer hinzu
+    articles_buffer.append(article)
     
-    # Check if the file already exists
-    if file_path.exists():
-        # File exists, load the existing content
-        with open(file_path, 'r', encoding='utf-8') as file:
-            try:
-                data = json.load(file)
-            except json.JSONDecodeError:
-                # If the file cannot be correctly read, start with an empty list
-                data = []
-    else:
-        # File does not exist, start with an empty list
-        data = []
-    
-    # Add article to the data list
-    data.append(article)
-    
-    # Save the data in the file
-    with open(file_path, 'w', encoding='utf-8') as file:
-        json.dump(data, file, ensure_ascii=False, indent=4)
+    # Wenn der Buffer die festgelegte Größe erreicht, schreibe die Daten in die Datei
+    if len(articles_buffer) >= BUFFER_SIZE:
+        flush_articles_to_file(file_name)
+
+# Diese Funktion sollte aufgerufen werden, wenn alle Artikel verarbeitet wurden, um sicherzustellen, dass alle verbleibenden Artikel im Buffer gespeichert werden.
+def finalize_article_saving(file_name="collected_articles.json"):
+    if articles_buffer:
+        flush_articles_to_file(file_name)
+
+
 
 
 
@@ -137,6 +159,7 @@ def process_file(file_path, filename):
             body_content = article_body_content.find('div', class_="body__content")
             if body_content:
                 text_content = body_content.get_text(separator=" ", strip=True)
+                text_content = text_content.replace('"', "'")
                 reporterMail = extract_information(soup)  # Reporter-E-Mail extrahieren
                 publisherInfo = extract_publisher_info(soup)  # Publisher-Infos extrahieren
                 ldData = extract_ld_json_info(soup)  # JSON-LD Infos extrahieren
