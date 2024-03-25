@@ -51,7 +51,7 @@ if response.status_code == 200:
                 save_data(all_data)
 
             # Warten für eine zufällige Zeit zwischen 2 und 10 Sekunden
-            wait_time = random.randint(2, 10)
+            wait_time = random.randint(2, 6)
             print(f"Warte {wait_time} Sekunden...")
             time.sleep(wait_time)
         else:
