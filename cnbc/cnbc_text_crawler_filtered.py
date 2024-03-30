@@ -28,49 +28,54 @@ def replace_quotes_in_item(item):
     else:
         return item
 
-def get_value(data, keys, default="nan"):
+def safe_get(data, path, default=None):
     """
-    Navigate through a nested dictionary using a list of keys.
-    Returns the value if found, else returns default ('nan').
-    Applies quote replacement to strings and lists of strings.
+    Sicherer Zugriff auf verschachtelte Datenstrukturen.
+    :param data: Die Datenstruktur, aus der die Daten abgerufen werden sollen.
+    :param path: Eine Liste von Schlüsseln/Indizes, die den Pfad zum Zielwert definieren.
+    :param default: Der Standardwert, der zurückgegeben wird, wenn der Zielwert nicht gefunden wird.
+    :return: Der Zielwert oder der Standardwert, falls der Zielwert nicht gefunden wird.
     """
-    for key in keys:
-        try:
+    try:
+        for key in path:
             data = data[key]
-        except (KeyError, TypeError):
-            return replace_quotes_in_item(default)
-        
-    return replace_quotes_in_item(data) if data else replace_quotes_in_item(default)
-
+        return data
+    except (KeyError, IndexError, TypeError):
+        return default
 
 def extract_article_data(data):
-
-    # Versuch, die Autorenliste zu extrahieren
-    authors_list = get_value(data, ["page", "page", "layout", 1, "columns", 0, "modules", 0, "data", "author"], [])
-    authors_names = [author["name"] for author in authors_list] if authors_list else []
-
-    # Fallback auf 'creatorOverwrite', falls keine Autoren gefunden wurden
-    if not authors_names:
-        creator_overwrite = get_value(data, ["page", "page", "layout", 2, "columns", 0, "modules", 2, "data", "creatorOverwrite"], "nan")
-        authors_names = [creator_overwrite] if creator_overwrite != "nan" else []
-
     """
-    Extrahiert erforderliche Daten aus einem JSON-Objekt, das aus einem Artikel stammt.
+    Verbesserte Extraktion von Artikeldaten mit sicherer Fehlerbehandlung.
     """
-    extracted_info = {
-    "publish_date": get_value(data, ["page", "page", "layout", 1, "columns", 0, "modules", 0, "data", "datePublished"]),
-    "keywords": [tag["headline"] for tag in get_value(data, ["page", "page", "additionalSectionContent"], [])],
-    "authors": authors_names,
-    "title": get_value(data, ["page", "page", "layout", 1, "columns", 0, "modules", 0, "data", "title"]),
-    "text": get_value(data, ["page", "page", "layout", 2, "columns", 0, "modules", 2, "data", "articleBodyText"]),
-    "link": get_value(data, ["page", "page", "layout", 1, "columns", 0, "modules", 0, "data", "url"]),
-    "original_publisher": get_value(data, ["page", "page", "layout", 1, "columns", 0, "modules", 0, "data", "sourceOrganization", 0, "name"]),
-    "article_publisher": "CNBC",
-    "search_word": "Boeing",  # Placeholder for 'search_word' as its source wasn't specified
-    "short_description": get_value(data, ["page", "page", "layout", 1, "columns", 0, "modules", 0, "data", "description"]),
-    "last_modified_date": get_value(data, ["page", "page", "layout", 1, "columns", 0, "modules", 0, "data", "dateModified"])
-    }
-    return extracted_info
+    try:
+        # Versuch, die Autorenliste zu extrahieren
+        authors_list = safe_get(data, ["page", "page", "layout", 1, "columns", 0, "modules", 0, "data", "author"], [])
+        authors_names = [author.get("name", "") for author in authors_list] if authors_list else []
+
+        # Fallback auf 'creatorOverwrite', falls keine Autoren gefunden wurden
+        if not authors_names:
+            creator_overwrite = safe_get(data, ["page", "page", "layout", 2, "columns", 0, "modules", 2, "data", "creatorOverwrite"], "nan")
+            authors_names = [creator_overwrite] if creator_overwrite != "nan" else []
+
+        # Extraktion der restlichen erforderlichen Daten
+        extracted_info = {
+            "publish_date": safe_get(data, ["page", "page", "layout", 1, "columns", 0, "modules", 0, "data", "datePublished"], "nan"),
+            "keywords": [tag.get("headline", "") for tag in safe_get(data, ["page", "page", "additionalSectionContent"], [])],
+            "authors": authors_names,
+            "title": safe_get(data, ["page", "page", "layout", 1, "columns", 0, "modules", 0, "data", "title"], "nan"),
+            "text": safe_get(data, ["page", "page", "layout", 2, "columns", 0, "modules", 2, "data", "articleBodyText"], "nan"),
+            "link": safe_get(data, ["page", "page", "layout", 1, "columns", 0, "modules", 0, "data", "url"], "nan"),
+            "original_publisher": safe_get(data, ["page", "page", "layout", 1, "columns", 0, "modules", 0, "data", "sourceOrganization", 0, "name"], "nan"),
+            "article_publisher": "CNBC",
+            "search_word": "Boeing",
+            "short_description": safe_get(data, ["page", "page", "layout", 1, "columns", 0, "modules", 0, "data", "description"], "nan"),
+            "last_modified_date": safe_get(data, ["page", "page", "layout", 1, "columns", 0, "modules", 0, "data", "dateModified"], "nan")
+        }
+        return extracted_info
+    except Exception as e:
+        print(f"Ein Fehler ist aufgetreten: {e}")
+        return None
+
 
 
 def crawl_article(url):
