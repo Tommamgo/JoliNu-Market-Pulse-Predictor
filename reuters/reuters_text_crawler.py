@@ -17,6 +17,8 @@ base_url = "https://www.reuters.com"
 # Pfad zur CSV-Datei
 csv_file_path = '/Users/jonas/Documents/Master/S2/Natural Language Processing/codes/git/JoliNu-Market-Pulse-Predictor/reuters/gesammelte_links.csv'
 
+with open('/Users/jonas/Documents/Master/S2/Natural Language Processing/codes/git/JoliNu-Market-Pulse-Predictor/reuters/userAgents.txt', 'r') as file:
+    user_agents = [line.strip() for line in file.readlines()]
 
 
 def save_article(articles_buffer, file_name="reuters_collected_articles.json"):
@@ -48,6 +50,7 @@ def scrape_article(article_url):
     options = webdriver.FirefoxOptions()
     #options.add_argument("--headless")  # Firefox im Headless-Modus
     #options.add_argument("-private")
+    options.add_argument(f"--user-agent={random.choice(user_agents)}")
     driver = webdriver.Firefox(options=options)
     wait = WebDriverWait(driver, 15)  # Maximal 10 Sekunden auf Elemente warten
 
