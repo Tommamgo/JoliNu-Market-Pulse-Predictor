@@ -91,8 +91,11 @@ def crawl_article(url):
                 if json_data_match:
                     json_data_str = json_data_match.group(1)
                     json_data = json.loads(json_data_str)
+                    if safe_get(json_data, ["page", "page", "layout", 2, "columns", 0, "modules", 2, "data", "articleBodyText"], "nan") != "nan":   
                     # Anpassung: Rückgabe eines vereinfachten Datenstruktur-Objekts
-                    return extract_article_data(json_data)
+                        return extract_article_data(json_data)
+                    else:
+                        print("Artikel vermutlich im falschen Format. Json-Teil nicht gefunden.")
                 else:
                     print("JSON-Daten konnten im Script-Tag nicht gefunden werden.")
             else:
@@ -105,9 +108,10 @@ def crawl_article(url):
         print(f"Unbekannter Fehler beim Verarbeiten von {url}: {e}")
     return None
 
-def save_article(article, file_name="collected_articles.json"):
+def save_article(articles_buffer, file_name="cnbc_collected_articles.json"):
     # Path to the file
     file_path = Path(file_name)
+    data = {"articles": {}}
     
     # Check if the file already exists
     if file_path.exists():
@@ -115,19 +119,16 @@ def save_article(article, file_name="collected_articles.json"):
         with open(file_path, 'r', encoding='utf-8') as file:
             try:
                 data = json.load(file)
+                if "articles" not in data:
+                    data["articles"] = {}
             except json.JSONDecodeError:
-                # If the file cannot be correctly read, start with an empty list
-                data = []
-    else:
-        # File does not exist, start with an empty list
-        data = []
-    
-    # Add article to the data list
-    data.append(article)
-    
-    # Save the data in the file
-    with open(file_path, 'w', encoding='utf-8') as file:
-        json.dump(data, file, ensure_ascii=False, indent=4)
+                data = {"articles": {}}
+
+    for article in articles_buffer:
+        title = article['title']
+        data["articles"][title] = article
+        with open(file_path, 'w', encoding='utf-8') as file:
+            json.dump(data, file, ensure_ascii=False, indent=4)
 
 
 file_path = '/Users/jonas/Documents/Master/S2/Natural Language Processing/codes/git/JoliNu-Market-Pulse-Predictor/cnbc/CNBC_links.json'  # Pfad aktualisieren
