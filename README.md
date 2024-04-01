@@ -3,10 +3,10 @@
 
 ## Lib (Vorgabe) 
 SPACY 
-Scikit lern 
+Scikit learn 
 
 ## StepByStep
-1. Daten Sammelen       (Artikel von Boeing) 
+1. Daten Sammeln       (Artikel von Boeing) 
 2. Daten aufbereiten    
 3. Daten Spiechern in (MongoDb und in Neo4J für Analyse) 
 4. ...
