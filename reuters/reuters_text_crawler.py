@@ -3,7 +3,7 @@ import random
 import time
 import json
 import re
-from datetime import datetime
+from dateutil import parser
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -89,6 +89,10 @@ def scrape_article(article_url):
             # Zusammenführen von Datum und Uhrzeit in einem String
             datetime_str = f"{datum} {zeit}"
 
+            dt = parser.parse(datetime_str)
+
+        # Konvertiere das datetime Objekt in das gewünschte ISO 8601 Format
+            date = dt.isoformat()   
             # Konvertieren in datetime Objekt ohne explizite Zeitzone
             # '%I:%M %p' verarbeitet die 12-Stunden Uhrzeit mit AM/PM
             #---datetime_obj = datetime.strptime(datetime_str, '%B %d, %Y %I:%M %p')
@@ -96,8 +100,7 @@ def scrape_article(article_url):
             #---datum_zeit = datetime_obj.isoformat()
     
         except TimeoutException:
-            datum = "nan"
-            zeit = "nan"
+            date = "nan"
 
         # Text extrahieren
         try: # Ein Text ist in mehrere Paragraphen unterteilt
@@ -112,7 +115,7 @@ def scrape_article(article_url):
 
         # Ausgabe der extrahierten Informationen
         extracted_info = {
-            "publish_date": datetime_str,
+            "publish_date": date,
             "keywords": kategorie,
             "authors": autoren_str,
             "title": titel,
@@ -150,13 +153,15 @@ try:
             full_url = base_url + row[0]
             print(counter)
             article_data = scrape_article(full_url)
-            if article_data:
+            if article_data and article_data["text"] != "nan":
                 all_extracted_data.append(article_data)
                 counter += 1
                 # Zwischenspeichern alle 20 Artikel
                 if counter % 10 == 0:
                     save_article(all_extracted_data)
                     all_extracted_data = []  # Reset der Liste nach dem Speichern
+            else:
+                print(f"Überspringe Atrikel: {article_data['link']}")
 
 except Exception as ex:
     print(ex)      
