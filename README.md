@@ -16,7 +16,7 @@ Die Skripte gehen jeweils auf die Onlineplattform und wenden deren Suchfunktion 
 
 Beispiel: https://www.cnbc.com/search/?query=boeing&qsearchterm=boeing <- wobei Boeing der Suchbegriff ist
 
-Die gesammelten Links werden in Listen gespeichert, welche von den Text-Crawlern später weiterverwendet werden.
+Die gesammelten Links werden in Listen (z.B. [cnbc\CNBC_links.json]) gespeichert, welche von den Text-Crawlern später weiterverwendet werden.
 
 
 
@@ -26,7 +26,7 @@ Da jede Website eine andere vorgehensweise in der Anzeige ihrer Artikel verwende
 Für jeden Artikel werden Folgende Daten gespeichert:
 
 |       Bezeichnung      |   Beschreibung                        |
-|------------------------|---------------------------------------|         
+|:----------------------:|---------------------------------------|         
 | **keywords**           | Enthält Schlüsselwörter wie z.B. Ressort (Finanzen und Dienstleistungen) |
 | **authors**            | Enthält eine Liste der Autoren |
 | **title**              | Titel des Onlineartikels |
@@ -37,6 +37,38 @@ Für jeden Artikel werden Folgende Daten gespeichert:
 | **search_word**        | Das verwendete Suchwort, in diesem Projek "Boeing"
 | **short_description**  | Kurzbeschreibung des Artikels. Ansonsten gleich zu title
 | **last_modified_date** | Letztes Änderungsdatum. Ansonsten Veröffentlichungsdatum | 
+
+Die durch die Crawler resultierende JSON mit allen Artileln sieht demnach wiefolgt aus:
+
+```json
+{
+    "articles": {
+        "Boeing CEO to step down in broad management shake-up as 737 Max crisis weighs on aerospace giant": {
+            "publish_date": "2024-03-25T12:00:25+0000",
+            "keywords": [
+                "Industrials",
+                "Business News"
+            ],
+            "authors": [
+                "Leslie Josephs",
+                "Phil LeBeau",
+                "Meghan Reeder"
+            ],
+            "title": "Boeing CEO to...",
+            "text": "Boeing CEO Dave Calhoun will step ...",
+            "link": "https://www.cnbc....",
+            "original_publisher": "CNBC.com",
+            "article_publisher": "CNBC",
+            "search_word": "Boeing",
+            "short_description": "Boeing CEO Dave Calhoun ...",
+            "last_modified_date": "2024-03-25T20:45:18+0000"
+        },
+        .
+        .
+        .
+    }
+}
+```
 
 
 #### 2.1 [CNBC](cnbc/cnbc_text_crawler.py)
