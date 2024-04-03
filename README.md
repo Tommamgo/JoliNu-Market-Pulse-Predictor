@@ -16,7 +16,7 @@ Die Skripte gehen jeweils auf die Onlineplattform und wenden deren Suchfunktion 
 
 Beispiel: https://www.cnbc.com/search/?query=boeing&qsearchterm=boeing <- wobei Boeing der Suchbegriff ist
 
-Die gesammelten Links werden in Listen (z.B. [cnbc\CNBC_links.json]) gespeichert, welche von den Text-Crawlern später weiterverwendet werden.
+Die gesammelten Links werden in Listen (z.B. [cnbc/CNBC_links.json](cnbc/CNBC_links.json)) gespeichert, welche von den Text-Crawlern später weiterverwendet werden.
 
 ---
 
@@ -78,7 +78,7 @@ Der CNBC Crawler verwendet die eingebettete JSON, welche beim Aufruf eines Artik
 </p>
 Um die eingebettete JSON zu finden wird nach dem tag *window.__s_data* gesucht.
 
-Die extrahierten Artikel und deren Metadaten werden allesamt in einer neuen JSON gespeichert. [cnbc\CNBC_articles.json]
+Die extrahierten Artikel und deren Metadaten werden allesamt in einer neuen JSON gespeichert. [cnbc/CNBC_articles.json]
 
 
 #### 2.2 [NASDAQ](nasdaq/downloadArtikel.py) Artikel Crawler
@@ -112,11 +112,11 @@ Da eine einheitliche Verwendung der Datenbank unter den verschiedenen Entwickler
 
 ## Was ist sonst noch so passiert???
 
-..* Texte wurden in Mongo geladen [mongoDB/ArticleJSON_to_MongoDB.py]
+* Texte wurden in Mongo geladen [mongoDB/ArticleJSON_to_MongoDB.py]
 
-..* Datumsformate wurden angeglichen [mongoDB/date_preprocessing.py]
+* Datumsformate wurden angeglichen [mongoDB/date_preprocessing.py]
 
-..* Texte wurden Vorverarbeitet [mongoDB/Text_Preprocessing.py]
+* Texte wurden Vorverarbeitet [mongoDB/Text_Preprocessing.py]
 
 ..* Worthäufigkeiten wurden gezählt [mongoDB/Keyword_Counter.py]
 
