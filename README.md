@@ -1,8 +1,8 @@
 # JoliNu-Market-Pulse-Predictor
-## Wir sammeln Daten über Boeing und wollen mir NLP was cooles machen. 
 
+## Wir sammeln Daten über Boeing und wollen mir NLP was cooles machen.
 
-## Vorgehen
+[screenshots\flugzeug_nlp.png]
 
 ### 1. Links zu Onlineartikeln über "Boeing" wurden gescraped 
 
@@ -18,7 +18,7 @@ Beispiel: https://www.cnbc.com/search/?query=boeing&qsearchterm=boeing <- wobei 
 
 Die gesammelten Links werden in Listen (z.B. [cnbc\CNBC_links.json]) gespeichert, welche von den Text-Crawlern später weiterverwendet werden.
 
-
+---
 
 ### 2. Onlineartikel und Metadaten herunterladen 
 Da jede Website eine andere vorgehensweise in der Anzeige ihrer Artikel verwendet, gehem die jeweiligen Cawler unterschiedlich vor. 
@@ -71,7 +71,7 @@ Die durch die Crawler resultierende JSON mit allen Artileln sieht demnach wiefol
 ```
 
 
-#### 2.1 [CNBC](cnbc/cnbc_text_crawler.py)
+#### 2.1 [CNBC](cnbc/cnbc_text_crawler.py) Artikel Crawler
 Der CNBC Crawler verwendet die eingebettete JSON, welche beim Aufruf eines Artikels geladen wird. Die JSON ist im HTML-Code der Artikel eingebettet und wird z.B. mithilfe von RegEx daraus extrahiert. 
 <p align="center">
 <img src="screenshots\cnbc_json.png" width="512"/>
@@ -81,17 +81,46 @@ Um die eingebettete JSON zu finden wird nach dem tag *window.__s_data* gesucht.
 Die extrahierten Artikel und deren Metadaten werden allesamt in einer neuen JSON gespeichert. [cnbc\CNBC_articles.json]
 
 
-#### 2.2 [NASDAQ](nasdaq/downloadArtikel.py)
+#### 2.2 [NASDAQ](nasdaq/downloadArtikel.py) Artikel Crawler
 
 
-#### 2.3 [Reuters](reuters/reuters_text_crawler.py)
 
+#### 2.3 [Reuters](reuters/reuters_text_crawler.py) Artikel Crawler
+Der Reuters Crawler kann aufgrund von redirects und eingebettetem javaScript nicht direkt auf die HTML Datei der Artikel zugreifen. Aufgrun dessen muss mittels selenium automationen jeder Artikel vollständig in einem Browser geladen werden, sodass auch die eingebetteten javaScript Funktionen ausgeführt werden. Erst danach kann die HTML des Artikels auf die geforderten Elemente untersucht werden. 
 
-- Die JSONS von CNBC, Reutes und NASDAQ wurden gesammelt in eine MongoDB überfürt. (MongoDB/ArticleJSON_to_MongoDB.py)
+Im Beispiel wird *presence_of_all_elements_located* von selenium verwendet, um nach dem Laden der Seite alle Inhalte aus *[rel="author"]* zu extrahieren.
 
-- Datumsformate wurden angeglichen (MongoDB/date_preprocessing.py)
+```python
+try:
+            autoren_elemente = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, '[rel="author"]')))
+            autoren = [element.text for element in autoren_elemente]
+            autoren_str = ', '.join(autoren)
+        except TimeoutException:
+            autoren_str = "nan"
+```
+Anschließend werden auch hier alle gefundenen Artikel und Metadaten in einer JSON zusammengefasst. [reuters/reuters_articles.json]
 
-- Texte wurden Vorverarbeitet
+---
 
+### 3. MongoDB zur Speicherung aller Artikel und Metadaten
+Um mit der Masse an Artikeln einheitlich und performant arbeiten zu können, werden diese in einer MongoDB abgelegt. Verwendet wird hierfür das [klassische MongoDB Docker Image](https://hub.docker.com/_/mongo). 
+Als grafische Benutzeroberfläche für die Datenbank wird ebenfalls das [Mongo-Express Image](https://hub.docker.com/_/mongo-express) installiert. 
 
+Da eine einheitliche Verwendung der Datenbank unter den verschiedenen Entwicklern angestrebt wird, wurde eine *docer-compose.yml* zum Starten und Stoppen der Datenbank angefertig. Diese Compose Datei, als auch die vollständige Datenbank sind in diesem Repository [hier](mongoDB/docker-compose.yml) zu finden. 
+
+---
+
+## Was ist sonst noch so passiert???
+
+..* Texte wurden in Mongo geladen [mongoDB/ArticleJSON_to_MongoDB.py]
+
+..* Datumsformate wurden angeglichen [mongoDB/date_preprocessing.py]
+
+..* Texte wurden Vorverarbeitet [mongoDB/Text_Preprocessing.py]
+
+..* Worthäufigkeiten wurden gezählt [mongoDB/Keyword_Counter.py]
+
+..* Wortkombinationen wurden gezählt [mongoDB/nGramCounter.py]
+
+..* [Jonas ist cool](https://de.wikipedia.org/wiki/Wurmautomat)
 

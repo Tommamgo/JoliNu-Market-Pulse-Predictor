@@ -21,7 +21,7 @@ with open('/Users/jonas/Documents/Master/S2/Natural Language Processing/codes/gi
     user_agents = [line.strip() for line in file.readlines()]
 
 
-def save_article(articles_buffer, file_name="reuters_collected_articles.json"):
+def save_article(articles_buffer, file_name="reuters_articles.json"):
     # Path to the file
     file_path = Path(file_name)
     data = {"articles": {}}
