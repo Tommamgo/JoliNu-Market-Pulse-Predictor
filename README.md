@@ -106,7 +106,7 @@ Anschließend werden auch hier alle gefundenen Artikel und Metadaten in einer JS
 Um mit der Masse an Artikeln einheitlich und performant arbeiten zu können, werden diese in einer MongoDB abgelegt. Verwendet wird hierfür das [klassische MongoDB Docker Image](https://hub.docker.com/_/mongo). 
 Als grafische Benutzeroberfläche für die Datenbank wird ebenfalls das [Mongo-Express Image](https://hub.docker.com/_/mongo-express) installiert. 
 
-Da eine einheitliche Verwendung der Datenbank unter den verschiedenen Entwicklern angestrebt wird, wurde eine *docer-compose.yml* zum Starten und Stoppen der Datenbank angefertig. Diese Compose Datei, als auch die vollständige Datenbank sind in diesem Repository [hier](mongoDB/docker-compose.yml) zu finden. 
+Da eine einheitliche Verwendung der Datenbank unter den verschiedenen Entwicklern angestrebt wird, wurde eine *docer-compose.yml* zum Starten und Stoppen der Datenbank angefertig. Diese Compose Datei, als auch die vollständige Datenbank sind in diesem Repository [hier](mongoDB) zu finden. 
 
 ---
 
