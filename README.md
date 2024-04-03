@@ -2,7 +2,7 @@
 
 ## Wir sammeln Daten über Boeing und wollen mir NLP was cooles machen.
 
-![JAAAAAAAA FUUUUUUUUUUUUGZEUUUUUUUUUUG](screenshots\flugzeug_nlp.png)
+![JAAAAAAAA FUUUUUUUUUUUUGZEUUUUUUUUUUG](screenshots/flugzeug_nlp.png)
 
 ### 1. Links zu Onlineartikeln über "Boeing" wurden gescraped 
 
