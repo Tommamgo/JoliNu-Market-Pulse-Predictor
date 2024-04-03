@@ -2,7 +2,7 @@
 
 ## Wir sammeln Daten über Boeing und wollen mir NLP was cooles machen.
 
-[screenshots\flugzeug_nlp.png]
+![JAAAAAAAA FUUUUUUUUUUUUGZEUUUUUUUUUUG](screenshots\flugzeug_nlp.png)
 
 ### 1. Links zu Onlineartikeln über "Boeing" wurden gescraped 
 
@@ -78,7 +78,7 @@ Der CNBC Crawler verwendet die eingebettete JSON, welche beim Aufruf eines Artik
 </p>
 Um die eingebettete JSON zu finden wird nach dem tag *window.__s_data* gesucht.
 
-Die extrahierten Artikel und deren Metadaten werden allesamt in einer neuen JSON gespeichert. [cnbc/CNBC_articles.json]
+Die extrahierten Artikel und deren Metadaten werden allesamt in einer neuen JSON gespeichert. [cnbc/CNBC_articles.json]([cnbc/CNBC_articles.json])
 
 
 #### 2.2 [NASDAQ](nasdaq/downloadArtikel.py) Artikel Crawler
@@ -98,7 +98,7 @@ try:
         except TimeoutException:
             autoren_str = "nan"
 ```
-Anschließend werden auch hier alle gefundenen Artikel und Metadaten in einer JSON zusammengefasst. [reuters/reuters_articles.json]
+Anschließend werden auch hier alle gefundenen Artikel und Metadaten in einer JSON zusammengefasst. [reuters/reuters_articles.json]([reuters/reuters_articles.json])
 
 ---
 
@@ -112,15 +112,15 @@ Da eine einheitliche Verwendung der Datenbank unter den verschiedenen Entwickler
 
 ## Was ist sonst noch so passiert???
 
-* Texte wurden in Mongo geladen [mongoDB/ArticleJSON_to_MongoDB.py]
+* Texte wurden in Mongo geladen [mongoDB/ArticleJSON_to_MongoDB.py](mongoDB/ArticleJSON_to_MongoDB.py)
 
-* Datumsformate wurden angeglichen [mongoDB/date_preprocessing.py]
+* Datumsformate wurden angeglichen [mongoDB/date_preprocessing.py](mongoDB/date_preprocessing.py)
 
-* Texte wurden Vorverarbeitet [mongoDB/Text_Preprocessing.py]
+* Texte wurden Vorverarbeitet [mongoDB/Text_Preprocessing.py](mongoDB/Text_Preprocessing.py)
 
-..* Worthäufigkeiten wurden gezählt [mongoDB/Keyword_Counter.py]
+..* Worthäufigkeiten wurden gezählt [mongoDB/Keyword_Counter.py](mongoDB/Keyword_Counter.py)
 
-..* Wortkombinationen wurden gezählt [mongoDB/nGramCounter.py]
+..* Wortkombinationen wurden gezählt [mongoDB/nGramCounter.py](mongoDB/nGramCounter.py)
 
 ..* [Jonas ist cool](https://de.wikipedia.org/wiki/Wurmautomat)
 
