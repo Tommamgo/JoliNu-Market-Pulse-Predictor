@@ -1,13 +1,16 @@
 # JoliNu-Market-Pulse-Predictor
-## Thema: Wir sammeln Daten über Boeing und wollen mir NLP was cooles machen. 
+## Wir sammeln Daten über Boeing und wollen mir NLP was cooles machen. 
 
 
 ## Vorgehen
 
 ### 1. Links zu Onlineartikeln über "Boeing" wurden gescraped 
-CNBC    --> cnbc/cnbc_link_crawler.py
-NASDAQ  --> nasdaq/extractLink.py
-Reuters --> reuters/reuters_link_crawler.py
+
+- [CNBC](cnbc/cnbc_link_crawler.py)
+
+- [NASDAQ](nasdaq/extractLink.py)
+
+- [Reuters](reuters/reuters_link_crawler.py)
 
 Die Skripte gehen jeweils auf die Onlineplattform und wenden deren Suchfunktion an. Meist kann dies durch verändern der URL durchgeführt werden. 
 
@@ -22,25 +25,26 @@ Da jede Website eine andere vorgehensweise in der Anzeige ihrer Artikel verwende
 
 Für jeden Artikel werden Folgende Daten gespeichert:
 
-|       Bezeichnung     |   Beschreibung                        |
-|-----------------------|---------------------------------------|         
-| keywords              | Enthält Schlüsselwörter wie z.B. Ressort (Finanzen und Dienstleistungen) |
-| authors               | Enthält eine Liste der Autoren |
-| title                 | Titel des Onlineartikels |
-| text                  | Text / Content des Artikels |
-| link                  | Link zum Artikel |
-| original_publisher    | Wenn sich der Artikel auf eine andere Quelle beruft, dann ist diese hier enthalten. Ansonsten gleich zu article_publisher |
-| article_publisher     | Die Plattform, von der gescrapte Artikel heruntergeladen wurde |
-| search_word           | Das verwendete Suchwort, in diesem Projek "Boeing"
-| short_description     | Kurzbeschreibung des Artikels. Ansonsten gleich zu title
-| last_modified_date    | Letztes Änderungsdatum. Ansonsten Veröffentlichungsdatum | 
+|       Bezeichnung      |   Beschreibung                        |
+|------------------------|---------------------------------------|         
+| **keywords**           | Enthält Schlüsselwörter wie z.B. Ressort (Finanzen und Dienstleistungen) |
+| **authors**            | Enthält eine Liste der Autoren |
+| **title**              | Titel des Onlineartikels |
+| **text**               | Text / Content des Artikels |
+| **link**               | Link zum Artikel |
+| **original_publisher** | Wenn sich der Artikel auf eine andere Quelle beruft, dann ist diese hier enthalten. Ansonsten gleich zu article_publisher |
+| **article_publisher**  | Die Plattform, von der gescrapte Artikel heruntergeladen wurde |
+| **search_word**        | Das verwendete Suchwort, in diesem Projek "Boeing"
+| **short_description**  | Kurzbeschreibung des Artikels. Ansonsten gleich zu title
+| **last_modified_date** | Letztes Änderungsdatum. Ansonsten Veröffentlichungsdatum | 
 
 
-#### 2.1 CNBC    --> cnbc/cnbc_text_crawler.py
+#### 2.1 [CNBC](cnbc/cnbc_text_crawler.py)
 Der CNBC Crawler verwendet die eingebettete JSON, welche beim Aufruf eines Artikels geladen wird. Die JSON ist im HTML-Code der Artikel eingebettet und wird z.B. mithilfe von RegEx daraus extrahiert. 
 <p align="center">
-<img src="screenshots\cnbc_json.png" width="128"/>
+<img src="screenshots\cnbc_json.png" width="512"/>
 </p>
+
 
 NASDAQ  --> nasdaq/downloadArtikel.py
 Reuters --> reuters/reuters_text_crawler.py
