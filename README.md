@@ -44,10 +44,15 @@ Der CNBC Crawler verwendet die eingebettete JSON, welche beim Aufruf eines Artik
 <p align="center">
 <img src="screenshots\cnbc_json.png" width="512"/>
 </p>
+Um die eingebettete JSON zu finden wird nach dem tag *window.__s_data* gesucht.
+
+Die extrahierten Artikel und deren Metadaten werden allesamt in einer neuen JSON gespeichert. [cnbc\CNBC_articles.json]
 
 
-NASDAQ  --> nasdaq/downloadArtikel.py
-Reuters --> reuters/reuters_text_crawler.py
+#### 2.2 [NASDAQ](nasdaq/downloadArtikel.py)
+
+
+#### 2.3 [Reuters](reuters/reuters_text_crawler.py)
 
 
 - Die JSONS von CNBC, Reutes und NASDAQ wurden gesammelt in eine MongoDB überfürt. (MongoDB/ArticleJSON_to_MongoDB.py)
