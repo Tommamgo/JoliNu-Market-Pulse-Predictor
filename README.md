@@ -10,7 +10,8 @@ NASDAQ  --> nasdaq/extractLink.py
 Reuters --> reuters/reuters_link_crawler.py
 
 Die Skripte gehen jeweils auf die Onlineplattform und wenden deren Suchfunktion an. Meist kann dies durch verändern der URL durchgeführt werden. 
- Beispiel: https://www.cnbc.com/search/?query=boeing&qsearchterm=boeing <--- wobei Boeing der Suchbegriff ist
+
+Beispiel: https://www.cnbc.com/search/?query=boeing&qsearchterm=boeing <- wobei Boeing der Suchbegriff ist
 
 Die gesammelten Links werden in Listen gespeichert, welche von den Text-Crawlern später weiterverwendet werden.
 
