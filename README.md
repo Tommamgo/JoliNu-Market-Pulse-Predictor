@@ -118,9 +118,9 @@ Da eine einheitliche Verwendung der Datenbank unter den verschiedenen Entwickler
 
 * Texte wurden Vorverarbeitet [mongoDB/Text_Preprocessing.py](mongoDB/Text_Preprocessing.py)
 
-..* Worthäufigkeiten wurden gezählt [mongoDB/Keyword_Counter.py](mongoDB/Keyword_Counter.py)
+* Worthäufigkeiten wurden gezählt [mongoDB/Keyword_Counter.py](mongoDB/Keyword_Counter.py)
 
-..* Wortkombinationen wurden gezählt [mongoDB/nGramCounter.py](mongoDB/nGramCounter.py)
+* Wortkombinationen wurden gezählt [mongoDB/nGramCounter.py](mongoDB/nGramCounter.py)
 
-..* [Jonas ist cool](https://de.wikipedia.org/wiki/Wurmautomat)
+* [Jonas ist cool](https://de.wikipedia.org/wiki/Wurmautomat)
 
