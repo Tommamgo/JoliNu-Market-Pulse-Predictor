@@ -71,7 +71,21 @@ def finalize_article_saving(file_name="collected_articles.json"):
         flush_articles_to_file(file_name)
 
 
-
+def finde_autor(html_dokument):
+    # Nach dem JSON-LD-Skript suchen, das die Autorinformationen enthält
+    script_tag = html_dokument.find('script', type='application/ld+json')
+    try: 
+        if script_tag:
+            import json
+            data = json.loads(script_tag.string)  # Den JSON-String in ein Python-Dictionary umwandeln
+            
+            author_info = data.get('author', {}).get('name', 'Kein Autor gefunden')
+            return author_info
+        else:
+            return "Kein Autorinformationen gefunden"
+    except: 
+        #print("Error")
+        return "nan"
 
 
 def extract_information(soup):
@@ -175,7 +189,14 @@ def process_file(file_path, filename):
                 
                 # Angenommene oder fehlende Werte
                 keywords = ldData["About"]  # 'About' als Stellvertreter für Keywords
-                authors = reporterMail  # ReporterMail als Stellvertreter für Autoren
+                authors = finde_autor(soup)  # ReporterMail als Stellvertreter für Autoren
+                authors = authors.replace('"', "'")
+
+                # Es kommt des oft vor dass der Artikel von einer anderen Webseite kommt und des aus diesem Grund keine Autor gibt
+                if authors == "null" or authors == "" or authors == "nan":
+                    authors = publisherInfo["Publisher"]
+                    print("New Author: " + authors)
+
                 search_word = title  # Titel als Stellvertreter für Suchwort
                 short_description = description  # Description als Stellvertreter für kurze Beschreibung
                 link = main_entity_of_page  # Main Entity Of Page als Stellvertreter für Link

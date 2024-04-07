@@ -106,4 +106,4 @@ def startDownlaod(name, pageCounter, url_1, url_2, dirver):
 
 
 
-setUp("Tesla")
+# setUp("Tesla")

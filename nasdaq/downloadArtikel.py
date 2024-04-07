@@ -13,22 +13,21 @@ def read_links_from_csv(csv_filename):
     return links
 
 
-# Konfiguriere Selenium, um Firefox im Headless-Modus zu verwenden
-firefox_options = Options()
-firefox_options.add_argument("--headless")  # Headless-Modus aktivieren
 
-# Pfad zum GeckoDriver
-webdriver_path = './../linux/geckodriver'  # Aktualisiere diesen Pfad
+def start(name): 
+    # Konfiguriere Selenium, um Firefox im Headless-Modus zu verwenden
+    firefox_options = Options()
+    firefox_options.add_argument("--headless")  # Headless-Modus aktivieren
 
-# Initialisiere den WebDriver
-service = Service(executable_path=webdriver_path)
-driver = webdriver.Firefox(service=service, options=firefox_options)
+    # Pfad zum GeckoDriver
+    webdriver_path = './../linux/geckodriver'  # Aktualisiere diesen Pfad
 
-links = read_links_from_csv("./data/nasdaqBoeingLinks.csv")
-counter = 0
-for link in links: 
-    if counter > 10086:
-
+    # Initialisiere den WebDriver
+    service = Service(executable_path=webdriver_path)
+    driver = webdriver.Firefox(service=service, options=firefox_options)
+    
+    links = read_links_from_csv("./data/nasdaqLinks" + name + ".csv")
+    for link in links: 
         # Navigiere zur URL
         driver.get(link)
 
@@ -39,14 +38,12 @@ for link in links:
         content = driver.page_source
 
         # Erstellen einer Datei um die Daten zu speichern
-        filename = "./data/nasdaqArtikel/" + str(counter) + "BoeingArtikel.html"
+        filename = "./data/nasdaqArtikel/" + name + "/" + str(counter) + name + "Artikel.html"
         # Öffne die Datei zum Schreiben und speichere den Inhalt
         with open(filename, 'w', encoding='utf-8') as file:
             file.write(content)
 
         print("Download: " + link)  # Zeige den Inhalt in der Konsole an
-    counter += 1
 
-# Beende den WebDriver und schließe das Browserfenster
-driver.quit()
-
+    # Beende den WebDriver und schließe das Browserfenster
+    driver.quit()
