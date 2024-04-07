@@ -7,8 +7,8 @@ def startCrawling(name):
     # Wir holen uns alle möglichen Links von der Suchseite.
     #nqSearch.setUp(name)
     #nqExLinks.extractLinks(name)  # Wir extrahieren alle Links aus den zuvor heruntergeladenen Suchergebnissen.
-    nqArtikel.start(name)  # Jetzt laden wir alle Artikel herunter.
+    # nqArtikel.start(name)  # Jetzt laden wir alle Artikel herunter.
     nqExAr.start(name)  # Nun holen wir alle Informationen und speichern diese in einer JSON-Datei.
 
 
-startCrawling("brainchip")
+startCrawling("Boeing")

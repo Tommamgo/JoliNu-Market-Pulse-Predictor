@@ -166,11 +166,15 @@ def process_file(file_path, filename, name):
 
         soup = BeautifulSoup(html_content, 'html.parser')
         article_body_content = soup.find('section', class_="jupiter22-c-article-body")
-
-        if article_body_content:
+        if not article_body_content:
+            article_body_content = soup.find('div', class_="xn-location")
+        if not article_body_content: 
+            article_body_content = soup.find('div', class_="page__content")
+        
+        if True:
             body_content = article_body_content.find('div', class_="body__content")
             if body_content:
-                print(body_content)
+                #print(body_content)
                 text_content = body_content.get_text(separator=" ", strip=True)
                 text_content = text_content.replace('"', "'")
                 reporterMail = extract_information(soup)  # Reporter-E-Mail extrahieren
@@ -209,7 +213,7 @@ def process_file(file_path, filename, name):
                 print(f"{filename} wurde wegen fehlendem 'body__content' verschoben.")
         else:
             shutil.move(file_path, os.path.join(target_directory_path + "/" + name, filename))
-            print(f"{filename} wurde wegen fehlendem 'jupiter22-c-article-body' Tag verschoben.")
+            print(f"{filename} wurde wegen fehlendem 'jupiter22-c-article-body | xn-location' Tag verschoben.")
 
 
 
