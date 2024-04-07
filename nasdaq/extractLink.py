@@ -15,7 +15,7 @@ def extractLinks(name):
     folder_path = "data/nasdaqSearch/" + name + "/"  # Hier den Pfad zum Ordner mit den HTML-Dateien angeben
     
     # CSV-Datei zum Schreiben öffnen
-    with open("data/nasdaqLinks " + name +".csv", 'w', newline='', encoding='utf-8') as csvfile:
+    with open("data/nasdaqLinks" + name +".csv", 'w', newline='', encoding='utf-8') as csvfile:
         fieldnames = ['Filename', 'Link']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         
@@ -31,6 +31,4 @@ def extractLinks(name):
                     # Link in CSV-Datei schreiben
                     writer.writerow({'Filename': filename, 'Link': "https://www.nasdaq.com" + link})
                 print()
-
-
 
