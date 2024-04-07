@@ -4,19 +4,19 @@ from bs4 import BeautifulSoup
 import json
 from pathlib import Path
 
+BUFFER_SIZE = 1000  # Anzahl der Artikel, die im Speicher gehalten werden, bevor sie gespeichert werden
+
 # Definieren der Quell- und Zielverzeichnisse
 source_directory_path = './data/nasdaqArtikel/'
 target_directory_path = './data/missingContent/'
 
-# Stellen Sie sicher, dass das Zielverzeichnis existiert
-os.makedirs(target_directory_path, exist_ok=True)
-
 
 # Globale Variable für Zwischenspeicherung der Artikel
 articles_buffer = []
-BUFFER_SIZE = 1000  # Anzahl der Artikel, die im Speicher gehalten werden, bevor sie gespeichert werden
 
 def flush_articles_to_file(file_name="collected_articles.json"):
+
+    
     file_path = Path(file_name)
     data = {"articles": {}}
     
@@ -121,8 +121,6 @@ def extract_publisher_info(soup):
     return publisher_info
 
 
-
-
 def extract_ld_json_info(soup):
     # Initialisieren eines leeren Wörterbuchs für die gesammelten Informationen
     extracted_info = {
@@ -162,7 +160,7 @@ def extract_ld_json_info(soup):
 
 
 
-def process_file(file_path, filename):
+def process_file(file_path, filename, name):
     with open(file_path, 'r', encoding='utf-8') as file:
         html_content = file.read()
 
@@ -202,21 +200,26 @@ def process_file(file_path, filename):
                 link = main_entity_of_page  # Main Entity Of Page als Stellvertreter für Link
                 
                 # Speichern der Artikelinformationen
-                save_article(publish_date, keywords, [authors], title, text_content, link, original_publisher, article_publisher, search_word, short_description, last_modified_date, "nasdaqData.json")
+                save_article(publish_date, keywords, [authors], title, text_content, link, original_publisher, article_publisher, search_word, short_description, last_modified_date, name + "Data.json")
 
                 print(f"Daten für {filename} gespeichert.")
             else:
-                shutil.move(file_path, os.path.join(target_directory_path, filename))
+                shutil.move(file_path, os.path.join(target_directory_path + "/" + name , filename))
                 print(f"{filename} wurde wegen fehlendem 'body__content' verschoben.")
         else:
-            shutil.move(file_path, os.path.join(target_directory_path, filename))
+            shutil.move(file_path, os.path.join(target_directory_path + "/" + name, filename))
             print(f"{filename} wurde wegen fehlendem 'jupiter22-c-article-body' Tag verschoben.")
 
 
 
 
-# Alle Dateien im Verzeichnis durchgehen
-for filename in os.listdir(source_directory_path):
-    if filename.endswith("BoeingArtikel.html"):
-        file_path = os.path.join(source_directory_path, filename)
-        process_file(file_path, filename)
+def start(name):
+    # Stellen Sie sicher, dass das Zielverzeichnis existiert
+    os.makedirs(target_directory_path + "/" + name, exist_ok=True)     
+    # Alle Dateien im Verzeichnis durchgehen
+    for filename in os.listdir(source_directory_path + "/" + name):
+        if filename.endswith(name + "Artikel.html"):
+            file_path = os.path.join(source_directory_path + "/" + name, filename)
+            process_file(file_path, filename, name)
+
+

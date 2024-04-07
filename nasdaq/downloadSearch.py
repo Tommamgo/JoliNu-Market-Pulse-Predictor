@@ -103,7 +103,3 @@ def startDownlaod(name, pageCounter, url_1, url_2, dirver):
         startDownloadFile(url01=url_1, url02=url_2, counter=i, name=name, driver=dirver)
 
 
-
-
-
-# setUp("Tesla")
