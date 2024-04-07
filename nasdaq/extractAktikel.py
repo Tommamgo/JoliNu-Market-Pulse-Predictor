@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import json
 from pathlib import Path
 
-BUFFER_SIZE = 1000  # Anzahl der Artikel, die im Speicher gehalten werden, bevor sie gespeichert werden
+BUFFER_SIZE = 100  # Anzahl der Artikel, die im Speicher gehalten werden, bevor sie gespeichert werden
 
 # Definieren der Quell- und Zielverzeichnisse
 source_directory_path = './data/nasdaqArtikel/'
@@ -14,7 +14,7 @@ target_directory_path = './data/missingContent/'
 # Globale Variable für Zwischenspeicherung der Artikel
 articles_buffer = []
 
-def flush_articles_to_file(file_name="collected_articles.json"):
+def flush_articles_to_file(file_name):
 
     
     file_path = Path(file_name)
@@ -43,7 +43,7 @@ def flush_articles_to_file(file_name="collected_articles.json"):
     # Leere den Buffer nach dem Schreiben
     articles_buffer.clear()
 
-def save_article(publish_date, keywords, authors, title, text, link, original_publisher, article_publisher, search_word, short_description, last_modified_date, file_name="collected_articles.json"):
+def save_article(publish_date, keywords, authors, title, text, link, original_publisher, article_publisher, search_word, short_description, last_modified_date, file_name):
     article = {
         "publish_date": publish_date,
         "keywords": keywords,
@@ -170,6 +170,7 @@ def process_file(file_path, filename, name):
         if article_body_content:
             body_content = article_body_content.find('div', class_="body__content")
             if body_content:
+                print(body_content)
                 text_content = body_content.get_text(separator=" ", strip=True)
                 text_content = text_content.replace('"', "'")
                 reporterMail = extract_information(soup)  # Reporter-E-Mail extrahieren
@@ -200,7 +201,7 @@ def process_file(file_path, filename, name):
                 link = main_entity_of_page  # Main Entity Of Page als Stellvertreter für Link
                 
                 # Speichern der Artikelinformationen
-                save_article(publish_date, keywords, [authors], title, text_content, link, original_publisher, article_publisher, search_word, short_description, last_modified_date, name + "Data.json")
+                save_article(publish_date, keywords, [authors], title, text_content, link, original_publisher, article_publisher, search_word, short_description, last_modified_date, "./data/" + name + "Data.json")
 
                 print(f"Daten für {filename} gespeichert.")
             else:
@@ -221,5 +222,6 @@ def start(name):
         if filename.endswith(name + "Artikel.html"):
             file_path = os.path.join(source_directory_path + "/" + name, filename)
             process_file(file_path, filename, name)
+    flush_articles_to_file("./data/" + name + "Data.json")
 
 

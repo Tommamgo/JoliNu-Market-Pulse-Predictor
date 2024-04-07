@@ -2,6 +2,8 @@ from selenium import webdriver
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.firefox.options import Options
 import csv
+import os
+
 
 def read_links_from_csv(csv_filename):
     links = []
@@ -27,6 +29,7 @@ def start(name):
     driver = webdriver.Firefox(service=service, options=firefox_options)
     
     links = read_links_from_csv("./data/nasdaqLinks" + name + ".csv")
+    counter = 0
     for link in links: 
         # Navigiere zur URL
         driver.get(link)
@@ -39,11 +42,15 @@ def start(name):
 
         # Erstellen einer Datei um die Daten zu speichern
         filename = "./data/nasdaqArtikel/" + name + "/" + str(counter) + name + "Artikel.html"
+            # Stelle sicher, dass das Verzeichnis existiert
+        os.makedirs(os.path.dirname("./data/nasdaqArtikel/" + name + "/"), exist_ok=True)
+            
         # Öffne die Datei zum Schreiben und speichere den Inhalt
         with open(filename, 'w', encoding='utf-8') as file:
             file.write(content)
 
         print("Download: " + link)  # Zeige den Inhalt in der Konsole an
+        counter += 1
 
     # Beende den WebDriver und schließe das Browserfenster
     driver.quit()
