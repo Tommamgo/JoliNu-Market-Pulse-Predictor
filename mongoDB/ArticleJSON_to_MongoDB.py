@@ -19,7 +19,7 @@ db = client['web_articles']
 collection = db['articles']
 
 # Lade deine JSON-Daten
-with open('/Users/jonas/Documents/Master/S2/Natural Language Processing/codes/git/JoliNu-Market-Pulse-Predictor/nasdaq/nasdaqData.json', 'r') as file:
+with open('reuters/reuters_articles.json', 'r') as file:
     data = json.load(file)
 
 # Konvertiere die Daten in ein Array von Dokumenten
