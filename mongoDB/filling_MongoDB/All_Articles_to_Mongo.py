@@ -109,7 +109,10 @@ def preprocess_text(text):
 cursor = collection.find(no_cursor_timeout=True)  # Verhindert das Timeout für große Collections
 
 try:
+    c = 0
     for document in cursor:
+        print(f"Verarbeite Tex Nummer {c}")
+        c+=1
         # Extrahiere den Text des Dokuments
         text = document.get("text", "")
         # Führe die Textvorverarbeitung durch
