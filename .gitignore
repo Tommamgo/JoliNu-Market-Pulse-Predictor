@@ -162,3 +162,4 @@ cython_debug/
 
 # ignore the DBFolder
 mongoDB/data/*
+.DS_Store

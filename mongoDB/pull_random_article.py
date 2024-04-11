@@ -2,7 +2,7 @@ from pymongo import MongoClient
 import random
 
 
-def get_random_article(db_name='web_articles', collection_name='articles', seed=None):
+def pull_random_article(db_name='web_articles', collection_name='articles', seed=None):
     # Ersetze diese Werte mit deinen eigenen Anmeldeinformationen
     username = 'admin'
     password = 'admin'
