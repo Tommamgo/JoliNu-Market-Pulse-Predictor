@@ -1,0 +1,4162 @@
+{
+    "props":{
+       "pageProps":{
+          "page":{
+             "@\"news\",\"business-68656925\",":{
+                "id":"urn:bbc:cps:curie:asset:b4030033-d701-4634-affd-9c3f61f4a235",
+                "contents":[
+                   {
+                      "type":"headline",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"fragment",
+                               "model":{
+                                  "text":"Boeing chief executive Dave Calhoun to leave as firm faces safety crisis",
+                                  "attributes":[
+                                     
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"timestamp",
+                      "model":{
+                         "timestamp":1711437211000
+                      }
+                   },
+                   {
+                      "type":"byline",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"contributor",
+                               "model":{
+                                  "blocks":[
+                                     {
+                                        "type":"name",
+                                        "model":{
+                                           "blocks":[
+                                              {
+                                                 "type":"text",
+                                                 "model":{
+                                                    "blocks":[
+                                                       {
+                                                          "type":"paragraph",
+                                                          "model":{
+                                                             "text":"By Theo Leggett",
+                                                             "blocks":[
+                                                                {
+                                                                   "type":"fragment",
+                                                                   "model":{
+                                                                      "text":"By Theo Leggett",
+                                                                      "attributes":[
+                                                                         
+                                                                      ]
+                                                                   }
+                                                                }
+                                                             ]
+                                                          }
+                                                       }
+                                                    ]
+                                                 }
+                                              }
+                                           ]
+                                        }
+                                     },
+                                     {
+                                        "type":"role",
+                                        "model":{
+                                           "blocks":[
+                                              {
+                                                 "type":"text",
+                                                 "model":{
+                                                    "blocks":[
+                                                       {
+                                                          "type":"paragraph",
+                                                          "model":{
+                                                             "text":"Business correspondent, BBC News",
+                                                             "blocks":[
+                                                                {
+                                                                   "type":"fragment",
+                                                                   "model":{
+                                                                      "text":"Business correspondent, BBC News",
+                                                                      "attributes":[
+                                                                         
+                                                                      ]
+                                                                   }
+                                                                }
+                                                             ]
+                                                          }
+                                                       }
+                                                    ]
+                                                 }
+                                              }
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            },
+                            {
+                               "type":"timestamp",
+                               "model":{
+                                  "timestamp":1711437211000
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"image",
+                      "model":{
+                         "emphasiseImage":true,
+                         "blocks":[
+                            {
+                               "type":"altText",
+                               "model":{
+                                  "blocks":[
+                                     {
+                                        "type":"text",
+                                        "model":{
+                                           "blocks":[
+                                              {
+                                                 "type":"fragment",
+                                                 "model":{
+                                                    "text":"Boeing chief executive Dave Calhoun",
+                                                    "attributes":[
+                                                       
+                                                    ]
+                                                 }
+                                              }
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            },
+                            {
+                               "type":"rawImage",
+                               "model":{
+                                  "height":549,
+                                  "width":976,
+                                  "locator":"3A0C/production/_133006841_davecalhoun_reuters.jpg",
+                                  "originCode":"cpsprodpb",
+                                  "copyrightHolder":"Reuters"
+                               }
+                            },
+                            {
+                               "type":"caption",
+                               "model":{
+                                  "blocks":[
+                                     {
+                                        "type":"text",
+                                        "model":{
+                                           "blocks":[
+                                              {
+                                                 "type":"fragment",
+                                                 "model":{
+                                                    "text":"Boeing chief executive Dave Calhoun",
+                                                    "attributes":[
+                                                       
+                                                    ]
+                                                 }
+                                              }
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"Boeing boss Dave Calhoun will leave at the end of this year amid a deepening crisis over the firm's safety record.",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"Boeing boss Dave Calhoun will leave at the end of this year amid a deepening crisis over the firm's safety record.",
+                                           "attributes":[
+                                              "bold"
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"Boeing also said that the head of its commercial airlines division will retire immediately while its chairman will not stand for re-election. ",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"Boeing also said that the head of its commercial airlines division will retire immediately while its chairman will not stand for re-election. ",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"The firm is under pressure after an unused door blew out of a Boeing 737 Max in January shortly after take-off.",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"The firm is under pressure after an unused door blew out of a Boeing 737 Max in January shortly after take-off.",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"No-one was injured but the firm's safety and quality control standards came under renewed scrutiny.",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"No-one was injured but the firm's safety and quality control standards came under renewed scrutiny.",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"Mr Calhoun took on the chief executive role in early 2020 after the previous boss, Dennis Muilenburg, was ousted in the aftermath of one of the biggest scandals in Boeing's history.",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"Mr Calhoun took on the chief executive role in early 2020 after the previous boss, Dennis Muilenburg, was ousted in the aftermath of one of the biggest scandals in Boeing's history.",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"advertisement",
+                      "model":{
+                         "adType":"horizontal"
+                      },
+                      "incrementedType":"mid_1"
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"Within the space of five months, two brand new 737 Max planes had been lost in almost identical accidents that claimed the lives of 346 passengers and crew.",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"Within the space of five months, two brand new 737 Max planes had been lost in almost identical accidents that claimed the lives of 346 passengers and crew.",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"A board member at the time, after being made boss Mr Calhoun promised to strengthen Boeing's \"safety culture\" and \"rebuild trust\".",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"A board member at the time, after being made boss Mr Calhoun promised to strengthen Boeing's \"safety culture\" and \"rebuild trust\".",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"However, in January this year a disused emergency exit door blew off a new Alaska Airlines Boeing 737 Max shortly after take-off from Portland International Airport.",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"However, in January this year a disused emergency exit door blew off a new Alaska Airlines Boeing 737 Max shortly after take-off from Portland International Airport.",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"An initial report from the US National Transportation Safety Board concluded that four bolts meant to attach the door securely to the aircraft had not been fitted.",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"An initial report from the US National Transportation Safety Board concluded that four bolts meant to attach the door securely to the aircraft had not been fitted.",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"Boeing is facing a criminal investigation into the incident itself, as well as legal action from passengers aboard the plane.",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"Boeing is facing a criminal investigation into the incident itself, as well as legal action from passengers aboard the plane.",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"advertisement",
+                      "model":{
+                         "adType":"horizontal"
+                      },
+                      "incrementedType":"mid_2"
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"Many analysts said a change in Boeing's leadership was overdue. ",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"Many analysts said a change in Boeing's leadership was overdue. ",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"\"A shake-up at the top is necessary,\" said Stewart Glickman, equity analyst at CFRA Research, adding that he believed the current crisis stemmed from problems in the firm's corporate culture that only fresh insight would be able to fix.",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"\"A shake-up at the top is necessary,\" said Stewart Glickman, equity analyst at CFRA Research, adding that he believed the current crisis stemmed from problems in the firm's corporate culture that only fresh insight would be able to fix.",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"\"I don't think you can change the culture with internal voices because I think this has been modus operandi for this company for too long.\"",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"\"I don't think you can change the culture with internal voices because I think this has been modus operandi for this company for too long.\"",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"In a letter to staff on Monday, Mr Calhoun described the Alaska Airlines incident as a \"watershed moment\" for Boeing and said it had to respond with \"humility and complete transparency\".",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"In a letter to staff on Monday, Mr Calhoun described the Alaska Airlines incident as a \"watershed moment\" for Boeing and said it had to respond with \"humility and complete transparency\".",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"\"The eyes of the world are on us, and I know that we will come through this moment a better company,\" he said.",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"\"The eyes of the world are on us, and I know that we will come through this moment a better company,\" he said.",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"advertisement",
+                      "model":{
+                         "adType":"horizontal"
+                      },
+                      "incrementedType":"mid_3"
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"Air safety campaigner Ed Pierson, a former senior manager at Boeing's 737 factory in Renton, Washington, said Mr Calhoun had had years to try to boost safety at the company.",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"Air safety campaigner Ed Pierson, a former senior manager at Boeing's 737 factory in Renton, Washington, said Mr Calhoun had had years to try to boost safety at the company.",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"\"It's been one failure after the other,\" said Mr Pierson, who is now executive director at The Foundation for Aviation Safety. ",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"\"It's been one failure after the other,\" said Mr Pierson, who is now executive director at The Foundation for Aviation Safety. ",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"\"The company deserves much better leadership and the people who get on these airplanes deserve much better leadership.\"",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"\"The company deserves much better leadership and the people who get on these airplanes deserve much better leadership.\"",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"unorderedList",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"listItem",
+                               "model":{
+                                  "blocks":[
+                                     {
+                                        "type":"urlLink",
+                                        "model":{
+                                           "text":"FBI probes mid-air blowout on Alaska Airlines flight",
+                                           "locator":"https://www.bbc.co.uk/news/world-us-canada-68640136",
+                                           "blocks":[
+                                              {
+                                                 "type":"fragment",
+                                                 "model":{
+                                                    "text":"FBI probes mid-air blowout on Alaska Airlines flight",
+                                                    "attributes":[
+                                                       
+                                                    ]
+                                                 }
+                                              }
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            },
+                            {
+                               "type":"listItem",
+                               "model":{
+                                  "blocks":[
+                                     {
+                                        "type":"urlLink",
+                                        "model":{
+                                           "text":"How much trouble is Boeing in?",
+                                           "locator":"https://www.bbc.co.uk/news/business-68573686",
+                                           "blocks":[
+                                              {
+                                                 "type":"fragment",
+                                                 "model":{
+                                                    "text":"How much trouble is Boeing in?",
+                                                    "attributes":[
+                                                       
+                                                    ]
+                                                 }
+                                              }
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"The blowout had tested Boeing's relationships with its airline customers and regulators in Washington, reviving concerns that the company's corporate culture had focused on speed of production ahead of safety.",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"The blowout had tested Boeing's relationships with its airline customers and regulators in Washington, reviving concerns that the company's corporate culture had focused on speed of production ahead of safety.",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"advertisement",
+                      "model":{
+                         "adType":"horizontal"
+                      },
+                      "incrementedType":"mid_4"
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"The Federal Aviation Administration said earlier this month that a six-week audit of the 737 Max production process at Boeing and its supplier Spirit Aerosystems had found \"multiple instances where the companies failed to comply with manufacturing quality control requirements\".",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"The Federal Aviation Administration said earlier this month that a six-week audit of the 737 Max production process at Boeing and its supplier Spirit Aerosystems had found \"multiple instances where the companies failed to comply with manufacturing quality control requirements\".",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"video",
+                      "model":{
+                         "locator":"urn:bbc:pips:pid:p0h3f26c",
+                         "blocks":[
+                            {
+                               "type":"media",
+                               "model":{
+                                  "blocks":[
+                                     {
+                                        "type":"mediaMetadata",
+                                        "blockId":"urn:bbc:ares::clip:p0h3f26c",
+                                        "model":{
+                                           "advertising":true,
+                                           "caption":"Watch: 'Trip from hell': On board flight during mid-air blowout",
+                                           "embedding":true,
+                                           "format":"video",
+                                           "id":"p0h3f26c",
+                                           "imageCopyright":"UGC",
+                                           "imageUrl":"https://ichef.bbci.co.uk/images/ic/$recipe/p0h3k1bd.jpg",
+                                           "smpKind":"programme",
+                                           "subType":"clip",
+                                           "syndication":{
+                                              "destinations":[
+                                                 
+                                              ]
+                                           },
+                                           "synopses":{
+                                              "short":"'Trip from hell': Inside plane after part falls off mid-flight",
+                                              "long":"Video posted on social media shows the inside of a plane moments after it lost a window mid-flight.\nPassengers can be seen on board the Alaska Airlines aircraft, which was carrying 177 people, using emergency oxygen masks but staying remarkably calm.\nThe flight was forced to make an emergency landing in the US state of Oregon and the US Federal Aviation Agency said the plane \"returned safely... after the crew reported a pressurisation issue\".\nAlaska Airlines has since grounded all 65 of its Boeing 737 Max 9 aircraft.",
+                                              "medium":"Footage from TikTok shows passengers on an Alaska Airlines flight moments after it lost a section of its fuselage."
+                                           },
+                                           "title":"'Trip from hell': Inside plane after part falls off mid-flight",
+                                           "versions":[
+                                              {
+                                                 "versionId":"p0h3k01l",
+                                                 "types":[
+                                                    "Editorial"
+                                                 ],
+                                                 "duration":71,
+                                                 "durationISO8601":"PT1M11S",
+                                                 "warnings":{
+                                                    
+                                                 },
+                                                 "availableTerritories":{
+                                                    "uk":true,
+                                                    "nonUk":true
+                                                 },
+                                                 "availableFrom":1704527128000
+                                              }
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            },
+                            {
+                               "type":"caption",
+                               "model":{
+                                  "blocks":[
+                                     {
+                                        "type":"text",
+                                        "model":{
+                                           "blocks":[
+                                              {
+                                                 "type":"paragraph",
+                                                 "model":{
+                                                    "text":"Watch: 'Trip from hell': On board flight during mid-air blowout",
+                                                    "blocks":[
+                                                       {
+                                                          "type":"fragment",
+                                                          "model":{
+                                                             "text":"Watch: 'Trip from hell': On board flight during mid-air blowout",
+                                                             "attributes":[
+                                                                
+                                                             ]
+                                                          }
+                                                       }
+                                                    ]
+                                                 }
+                                              }
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ],
+                         "playerPosition":"embedded-0"
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"Another report into Boeing's safety culture by an expert panel found a \"disconnect\" between senior management and regular staff, as well as signs that staff were hesitant about reporting problems for fear of retaliation.",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"Another report into Boeing's safety culture by an expert panel found a \"disconnect\" between senior management and regular staff, as well as signs that staff were hesitant about reporting problems for fear of retaliation.",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"After the two plane crashes in October 2018 and 2019, it was discovered that flawed flight control software caused the incidents - details of which Boeing was accused of deliberately concealing from regulators.",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"After the two plane crashes in October 2018 and 2019, it was discovered that flawed flight control software caused the incidents - details of which Boeing was accused of deliberately concealing from regulators.",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"The company agreed to pay $2.5bn (£1.8bn) to settle fraud charges and admitted deception, though in later court hearings it formally pleaded not guilty.",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"The company agreed to pay $2.5bn (£1.8bn) to settle fraud charges and admitted deception, though in later court hearings it formally pleaded not guilty.",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"advertisement",
+                      "model":{
+                         "adType":"horizontal"
+                      },
+                      "incrementedType":"mid_5"
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"It subsequently faced widespread accusations that it had put profits ahead of passengers' lives.",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"It subsequently faced widespread accusations that it had put profits ahead of passengers' lives.",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"Mark Pegram, whose 25-year-old son Sam died when Ethiopian Airlines 737 Max crashed in 2019, said Mr Calhoun had appeared to have been brought in to say what investors wanted to hear and \"not fix the cause of the problems that were making planes fall out of the sky\". ",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"Mark Pegram, whose 25-year-old son Sam died when Ethiopian Airlines 737 Max crashed in 2019, said Mr Calhoun had appeared to have been brought in to say what investors wanted to hear and \"not fix the cause of the problems that were making planes fall out of the sky\". ",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"He said he was pleased by the change but disappointed it had taken so long.",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"He said he was pleased by the change but disappointed it had taken so long.",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"\"It's something we've been calling for for quite some time now,\" he said.",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"\"It's something we've been calling for for quite some time now,\" he said.",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"The crisis at Boeing has caused wider disruption in the travel industry as the company, one of the world's two major jet-makers, slows its manufacturing lines to try to get a grip on the problems.",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"The crisis at Boeing has caused wider disruption in the travel industry as the company, one of the world's two major jet-makers, slows its manufacturing lines to try to get a grip on the problems.",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"advertisement",
+                      "model":{
+                         "adType":"horizontal"
+                      },
+                      "incrementedType":"mid_6"
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"Airlines, including Ryanair, have warned of higher ticket prices and more limited flight schedules as they face delayed aircraft deliveries. On Monday, Ryanair's chief executive Michael O'Leary said that the company \"welcomed\" Boeing's management changes, specifically the departure of Stan Deal who is leaving his role as head of the commercial airlines division immediately. ",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"Airlines, including Ryanair, have warned of higher ticket prices and more limited flight schedules as they face delayed aircraft deliveries. On Monday, Ryanair's chief executive Michael O'Leary said that the company \"welcomed\" Boeing's management changes, specifically the departure of Stan Deal who is leaving his role as head of the commercial airlines division immediately. ",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"Mr O'Leary said: \"Stan Deal has done a great sales job for Boeing for many years but he is not the person to turnaround the operation in Seattle and that's where most of the problems have been in recent years.\"",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"Mr O'Leary said: \"Stan Deal has done a great sales job for Boeing for many years but he is not the person to turnaround the operation in Seattle and that's where most of the problems have been in recent years.\"",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"Scott Hamilton, managing director of Seattle-based aircraft and economics research firm Leeham Company, told the BBC's Today programme: \"I've never quite understood O'Leary's defence of Calhoun.",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"Scott Hamilton, managing director of Seattle-based aircraft and economics research firm Leeham Company, told the BBC's Today programme: \"I've never quite understood O'Leary's defence of Calhoun.",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"\"I certainly understand his criticism of Stan Deal, now the former chief executive of Boeing commercial airplanes. but I've never understood his defence of Calhoun quite frankly.\"",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"\"I certainly understand his criticism of Stan Deal, now the former chief executive of Boeing commercial airplanes. but I've never understood his defence of Calhoun quite frankly.\"",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"Mr Hamilton added: \"I think the rank and file [at Boeing] are happy to see the changes. The unknown, of course, is who is going to come in to replace Calhoun.\"",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"Mr Hamilton added: \"I think the rank and file [at Boeing] are happy to see the changes. The unknown, of course, is who is going to come in to replace Calhoun.\"",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"advertisement",
+                      "model":{
+                         "adType":"horizontal"
+                      },
+                      "incrementedType":"mid_7"
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"Speculation has already started on who that might be but the pool of people with qualifications for such a job is small. ",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"Speculation has already started on who that might be but the pool of people with qualifications for such a job is small. ",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"Air transport consultant John Strickland of JLS Consulting warned that the hard work for the company was still ahead.",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"Air transport consultant John Strickland of JLS Consulting warned that the hard work for the company was still ahead.",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"\"It's all very well to get rid of people but what are you going to do to keep steering the business,\" Mr Strickland said. \"This is much easier said than done.\"",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"\"It's all very well to get rid of people but what are you going to do to keep steering the business,\" Mr Strickland said. \"This is much easier said than done.\"",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"Shares in the company rose more than 1% after the changes were announced.",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"Shares in the company rose more than 1% after the changes were announced.",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"Mr Deal will will be replaced as head of Boeing's commercial airlines division by Stephanie Pope who has spent the past three months working as Boeing's chief operating officer.",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"Mr Deal will will be replaced as head of Boeing's commercial airlines division by Stephanie Pope who has spent the past three months working as Boeing's chief operating officer.",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"advertisement",
+                      "model":{
+                         "adType":"horizontal"
+                      },
+                      "incrementedType":"mid_8"
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"Larry Kellner, the firm's chair will also leave and be replaced by Steve Mollenkopf, the former boss of Qualcomm, the chip-maker, who has been a board member at Boeing since 2020. He will lead the search for a new chief executive.",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"Larry Kellner, the firm's chair will also leave and be replaced by Steve Mollenkopf, the former boss of Qualcomm, the chip-maker, who has been a board member at Boeing since 2020. He will lead the search for a new chief executive.",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"links",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"link",
+                               "model":{
+                                  "blocks":[
+                                     {
+                                        "type":"text",
+                                        "model":{
+                                           "blocks":[
+                                              {
+                                                 "type":"paragraph",
+                                                 "model":{
+                                                    "text":"FBI probes mid-air blowout on Alaska Airlines flight",
+                                                    "blocks":[
+                                                       {
+                                                          "type":"urlLink",
+                                                          "model":{
+                                                             "text":"FBI probes mid-air blowout on Alaska Airlines flight",
+                                                             "locator":"/news/world-us-canada-68640136",
+                                                             "blocks":[
+                                                                {
+                                                                   "type":"fragment",
+                                                                   "model":{
+                                                                      "text":"FBI probes mid-air blowout on Alaska Airlines flight",
+                                                                      "attributes":[
+                                                                         
+                                                                      ]
+                                                                   }
+                                                                }
+                                                             ]
+                                                          }
+                                                       }
+                                                    ]
+                                                 }
+                                              }
+                                           ]
+                                        }
+                                     },
+                                     {
+                                        "type":"image",
+                                        "model":{
+                                           "blocks":[
+                                              {
+                                                 "type":"altText",
+                                                 "model":{
+                                                    "blocks":[
+                                                       {
+                                                          "type":"text",
+                                                          "model":{
+                                                             "blocks":[
+                                                                {
+                                                                   "type":"fragment",
+                                                                   "model":{
+                                                                      "text":"Alaska Airlines Boeing 737-990 prepares for takeoff at San Francisco International Airport on March 16, 2024 in San Francisco, California.",
+                                                                      "attributes":[
+                                                                         
+                                                                      ]
+                                                                   }
+                                                                }
+                                                             ]
+                                                          }
+                                                       }
+                                                    ]
+                                                 }
+                                              },
+                                              {
+                                                 "type":"rawImage",
+                                                 "model":{
+                                                    "height":576,
+                                                    "width":1024,
+                                                    "locator":"3547/production/_132993631_gettyimages-2083301062.jpg",
+                                                    "originCode":"cpsprodpb",
+                                                    "copyrightHolder":"Getty Images"
+                                                 }
+                                              }
+                                           ]
+                                        }
+                                     }
+                                  ],
+                                  "timestamp":1711124387000
+                               }
+                            },
+                            {
+                               "type":"link",
+                               "model":{
+                                  "blocks":[
+                                     {
+                                        "type":"text",
+                                        "model":{
+                                           "blocks":[
+                                              {
+                                                 "type":"paragraph",
+                                                 "model":{
+                                                    "text":"'Trip from hell': Inside plane after part falls off mid-flight",
+                                                    "blocks":[
+                                                       {
+                                                          "type":"urlLink",
+                                                          "model":{
+                                                             "text":"'Trip from hell': Inside plane after part falls off mid-flight",
+                                                             "locator":"/news/world-us-canada-67900834",
+                                                             "blocks":[
+                                                                {
+                                                                   "type":"fragment",
+                                                                   "model":{
+                                                                      "text":"'Trip from hell': Inside plane after part falls off mid-flight",
+                                                                      "attributes":[
+                                                                         
+                                                                      ]
+                                                                   }
+                                                                }
+                                                             ]
+                                                          }
+                                                       }
+                                                    ]
+                                                 }
+                                              }
+                                           ]
+                                        }
+                                     },
+                                     {
+                                        "type":"image",
+                                        "model":{
+                                           "blocks":[
+                                              {
+                                                 "type":"altText",
+                                                 "model":{
+                                                    "blocks":[
+                                                       {
+                                                          "type":"text",
+                                                          "model":{
+                                                             "blocks":[
+                                                                {
+                                                                   "type":"fragment",
+                                                                   "model":{
+                                                                      "text":"Plane with hole in fuselage",
+                                                                      "attributes":[
+                                                                         
+                                                                      ]
+                                                                   }
+                                                                }
+                                                             ]
+                                                          }
+                                                       }
+                                                    ]
+                                                 }
+                                              },
+                                              {
+                                                 "type":"rawImage",
+                                                 "model":{
+                                                    "height":575,
+                                                    "width":1024,
+                                                    "locator":"10037/production/_132219556_p0h3f2fx.jpg",
+                                                    "originCode":"cpsprodpb",
+                                                    "copyrightHolder":"UGC"
+                                                 }
+                                              }
+                                           ]
+                                        }
+                                     }
+                                  ],
+                                  "durationISO8601":"PT1M11S",
+                                  "timestamp":1704556226000,
+                                  "type":"video"
+                               }
+                            },
+                            {
+                               "type":"link",
+                               "model":{
+                                  "blocks":[
+                                     {
+                                        "type":"text",
+                                        "model":{
+                                           "blocks":[
+                                              {
+                                                 "type":"paragraph",
+                                                 "model":{
+                                                    "text":"How much trouble is Boeing in?",
+                                                    "blocks":[
+                                                       {
+                                                          "type":"urlLink",
+                                                          "model":{
+                                                             "text":"How much trouble is Boeing in?",
+                                                             "locator":"/news/business-68573686",
+                                                             "blocks":[
+                                                                {
+                                                                   "type":"fragment",
+                                                                   "model":{
+                                                                      "text":"How much trouble is Boeing in?",
+                                                                      "attributes":[
+                                                                         
+                                                                      ]
+                                                                   }
+                                                                }
+                                                             ]
+                                                          }
+                                                       }
+                                                    ]
+                                                 }
+                                              }
+                                           ]
+                                        }
+                                     },
+                                     {
+                                        "type":"image",
+                                        "model":{
+                                           "blocks":[
+                                              {
+                                                 "type":"altText",
+                                                 "model":{
+                                                    "blocks":[
+                                                       {
+                                                          "type":"text",
+                                                          "model":{
+                                                             "blocks":[
+                                                                {
+                                                                   "type":"fragment",
+                                                                   "model":{
+                                                                      "text":"An Alaska Airlines 737-9 Max model",
+                                                                      "attributes":[
+                                                                         
+                                                                      ]
+                                                                   }
+                                                                }
+                                                             ]
+                                                          }
+                                                       }
+                                                    ]
+                                                 }
+                                              },
+                                              {
+                                                 "type":"rawImage",
+                                                 "model":{
+                                                    "height":549,
+                                                    "width":976,
+                                                    "locator":"1FFF/production/_132219180_alaska2.jpg",
+                                                    "originCode":"cpsprodpb",
+                                                    "copyrightHolder":"Alaska Airlines"
+                                                 }
+                                              },
+                                              {
+                                                 "type":"caption",
+                                                 "model":{
+                                                    "blocks":[
+                                                       {
+                                                          "type":"text",
+                                                          "model":{
+                                                             "blocks":[
+                                                                {
+                                                                   "type":"fragment",
+                                                                   "model":{
+                                                                      "text":"The mid-air blowout involved an Alaska Airlines 737 Max 9, such as this one",
+                                                                      "attributes":[
+                                                                         
+                                                                      ]
+                                                                   }
+                                                                }
+                                                             ]
+                                                          }
+                                                       }
+                                                    ]
+                                                 }
+                                              }
+                                           ]
+                                        }
+                                     }
+                                  ],
+                                  "timestamp":1710641480000
+                               }
+                            }
+                         ],
+                         "isLast":true
+                      }
+                   }
+                ],
+                "topics":[
+                   {
+                      "title":"Companies",
+                      "url":"/news/business/companies",
+                      "isEvent":false
+                   },
+                   {
+                      "title":"Boeing",
+                      "url":"/news/topics/c40rjmqd0pgt",
+                      "isEvent":false
+                   }
+                ],
+                "onwardJourney":[
+                   {
+                      "type":"ohio",
+                      "content":[
+                         {
+                            "title":"Ex-Post Office chair defends himself against claims",
+                            "href":"/news/articles/cjk4nr63j04o",
+                            "isLiveNow":false,
+                            "metadata":{
+                               "contentType":"article",
+                               "subtype":"news",
+                               "lastUpdated":1713442068084,
+                               "firstUpdated":1713442068084,
+                               "topics":[
+                                  "Business"
+                               ]
+                            },
+                            "tags":[
+                               
+                            ],
+                            "description":"A report claims Henry Staunton used derogatory language about recruiting a board member",
+                            "image":{
+                               "type":"indexImage",
+                               "model":{
+                                  "blocks":{
+                                     "src":"https://ichef.bbci.co.uk/news/480/cpsprodpb/c73a/live/3abbde30-fd6c-11ee-a9f7-4d961743aa47.png",
+                                     "altText":"Former Post Office chairman Henry Staunton ",
+                                     "width":970,
+                                     "height":558
+                                  }
+                               }
+                            },
+                            "relatedUrls":[
+                               
+                            ],
+                            "id":"urn:bbc:optimo:asset:cjk4nr63j04o",
+                            "state":"published"
+                         },
+                         {
+                            "title":"Post Office boss cleared of misconduct claims",
+                            "href":"/news/business-68835798",
+                            "isLiveNow":false,
+                            "metadata":{
+                               "contentType":"article",
+                               "subtype":"news",
+                               "lastUpdated":1713370725000,
+                               "firstUpdated":1713349976000,
+                               "topics":[
+                                  "Business"
+                               ]
+                            },
+                            "tags":[
+                               
+                            ],
+                            "description":"An investigation on behalf of the Post Office cleared Nick Read of misconduct allegations.",
+                            "image":{
+                               "type":"indexImage",
+                               "model":{
+                                  "blocks":{
+                                     "src":"https://ichef.bbci.co.uk/news/480/cpsprodpb/90E7/production/_132759073_c5d1165d5da731d9d6175cd549478888fb67788e.jpg",
+                                     "altText":"Nick Read",
+                                     "width":976,
+                                     "height":549
+                                  }
+                               }
+                            },
+                            "relatedUrls":[
+                               
+                            ],
+                            "id":"urn:bbc:cps:curie:asset:5e5ad709-a173-4ba2-98f1-9f8fe510884a",
+                            "state":"published"
+                         },
+                         {
+                            "title":"Superdry boss hits back at 'not cool' criticism",
+                            "href":"/news/articles/cl7ledeq02wo",
+                            "isLiveNow":false,
+                            "metadata":{
+                               "contentType":"article",
+                               "subtype":"news",
+                               "lastUpdated":1713266946452,
+                               "firstUpdated":1713253543764,
+                               "topics":[
+                                  "Business"
+                               ]
+                            },
+                            "tags":[
+                               
+                            ],
+                            "description":"The brand, which runs 216 shops as well as franchised stores, is looking at ways to save cash.",
+                            "image":{
+                               "type":"indexImage",
+                               "model":{
+                                  "blocks":{
+                                     "src":"https://ichef.bbci.co.uk/news/480/cpsprodpb/c87f/live/3046d770-fbdc-11ee-bbcb-57c9a3db37cb.jpg",
+                                     "altText":"Julian Dunkerton",
+                                     "width":626,
+                                     "height":352
+                                  }
+                               }
+                            },
+                            "relatedUrls":[
+                               
+                            ],
+                            "id":"urn:bbc:optimo:asset:cl7ledeq02wo",
+                            "state":"published"
+                         }
+                      ],
+                      "collectionId":"",
+                      "paginationData":{
+                         "page":0,
+                         "pageSize":3,
+                         "total":3
+                      },
+                      "title":"Companies"
+                   },
+                   {
+                      "type":"alaska",
+                      "content":[
+                         {
+                            "title":"Boeing whistleblower says he was put through 'hell'",
+                            "href":"/news/world-us-canada-68834525",
+                            "isLiveNow":false,
+                            "metadata":{
+                               "contentType":"article",
+                               "subtype":"news",
+                               "lastUpdated":1713402007000,
+                               "firstUpdated":1713362804000,
+                               "topics":[
+                                  "US \u0026 Canada"
+                               ]
+                            },
+                            "tags":[
+                               
+                            ],
+                            "description":"Lawmakers voice concerns over claims that Boeing threatens staff who raise safety concerns.",
+                            "image":{
+                               "type":"indexImage",
+                               "model":{
+                                  "blocks":{
+                                     "src":"https://ichef.bbci.co.uk/news/480/cpsprodpb/DE69/production/_133173965_gettyimages-2147882906.jpg",
+                                     "altText":"Boeing engineer, Sam Salehpour testifies before the US Senate Homeland Security and Governmental Affairs Subcommittee on Investigations during a hearing on \"Examining Boeing's Broken Safety Culture: Firsthand Accounts,\" at Capitol Hill in Washington, DC, on April 17, 2024.",
+                                     "width":976,
+                                     "height":549
+                                  }
+                               }
+                            },
+                            "relatedUrls":[
+                               
+                            ],
+                            "id":"urn:bbc:cps:curie:asset:dda3631e-f0d5-4788-86bb-73f53fa1dd3a",
+                            "state":"published"
+                         },
+                         {
+                            "title":"United Airlines says Boeing blowout cost it $200m",
+                            "href":"/news/articles/cd189nmv2dro",
+                            "isLiveNow":false,
+                            "metadata":{
+                               "contentType":"article",
+                               "subtype":"news",
+                               "lastUpdated":1713382583447,
+                               "firstUpdated":1713317562431,
+                               "topics":[
+                                  "Business"
+                               ]
+                            },
+                            "tags":[
+                               
+                            ],
+                            "description":"The firm had to ground its Boeing 737 MAX 9 fleet after a mid-air blowout on an Alaska Airlines flight.",
+                            "image":{
+                               "type":"indexImage",
+                               "model":{
+                                  "blocks":{
+                                     "src":"https://ichef.bbci.co.uk/news/480/cpsprodpb/9287/live/9b370890-fc5c-11ee-8649-bfbba1b76bbf.jpg",
+                                     "altText":"United Airlines Boeing 737-9 MAX takes off at Los Angeles International Airport.",
+                                     "width":2198,
+                                     "height":1236
+                                  }
+                               }
+                            },
+                            "relatedUrls":[
+                               
+                            ],
+                            "id":"urn:bbc:optimo:asset:cd189nmv2dro",
+                            "state":"published"
+                         },
+                         {
+                            "title":"Boeing hit after new whistleblower raises concerns",
+                            "href":"/news/business-68775413",
+                            "isLiveNow":false,
+                            "metadata":{
+                               "contentType":"article",
+                               "subtype":"news",
+                               "lastUpdated":1712699255000,
+                               "firstUpdated":1712699255000,
+                               "topics":[
+                                  "Business"
+                               ]
+                            },
+                            "tags":[
+                               
+                            ],
+                            "description":"Boeing shares dropped almost 2% after concerns were raised over its 787 and 777 jets.",
+                            "image":{
+                               "type":"indexImage",
+                               "model":{
+                                  "blocks":{
+                                     "src":"https://ichef.bbci.co.uk/news/480/cpsprodpb/10C7B/production/_133113786_whatsubject.jpg",
+                                     "altText":"An American Airlines Boeing 787-8 Dreamliner is landing at Barcelona Airport in Barcelona, Spain, on March 25, 2024",
+                                     "width":976,
+                                     "height":549
+                                  }
+                               }
+                            },
+                            "relatedUrls":[
+                               
+                            ],
+                            "id":"urn:bbc:cps:curie:asset:deb3aab9-b444-445e-b8b4-3e3e0ab68de6",
+                            "state":"published"
+                         },
+                         {
+                            "title":"Probe after Boeing plane engine cover falls off",
+                            "href":"/news/business-68758088",
+                            "isLiveNow":false,
+                            "metadata":{
+                               "contentType":"article",
+                               "subtype":"news",
+                               "lastUpdated":1712532569000,
+                               "firstUpdated":1712521120000,
+                               "topics":[
+                                  "Business"
+                               ]
+                            },
+                            "tags":[
+                               
+                            ],
+                            "description":"The Southwest Airlines flight had to return to Denver International airport shortly after taking off.",
+                            "image":{
+                               "type":"indexImage",
+                               "model":{
+                                  "blocks":{
+                                     "src":"https://ichef.bbci.co.uk/news/480/cpsprodpb/4AFF/production/_133099191_gettyimages-1207206801.jpg",
+                                     "altText":"A southwest Airlines Boeing 737-800 (stock image)",
+                                     "width":976,
+                                     "height":549
+                                  }
+                               }
+                            },
+                            "relatedUrls":[
+                               
+                            ],
+                            "id":"urn:bbc:cps:curie:asset:cf5736e8-40e7-4287-9744-57b838142944",
+                            "state":"published"
+                         },
+                         {
+                            "title":"Boeing pays Alaska Air $160m after mid-air blowout",
+                            "href":"/news/business-68737292",
+                            "isLiveNow":false,
+                            "metadata":{
+                               "contentType":"article",
+                               "subtype":"news",
+                               "lastUpdated":1712290558000,
+                               "firstUpdated":1712263476000,
+                               "topics":[
+                                  "Business"
+                               ]
+                            },
+                            "tags":[
+                               
+                            ],
+                            "description":"The sum to the airline for losses since January reflects the ongoing fallout to Boeing from the crisis.",
+                            "image":{
+                               "type":"indexImage",
+                               "model":{
+                                  "blocks":{
+                                     "src":"https://ichef.bbci.co.uk/news/480/cpsprodpb/8672/production/_133081443_whatsubject.jpg",
+                                     "altText":"Alaska Airlines plane",
+                                     "width":976,
+                                     "height":549
+                                  }
+                               }
+                            },
+                            "relatedUrls":[
+                               
+                            ],
+                            "id":"urn:bbc:cps:curie:asset:bde845ab-9576-4821-b659-b27163a08f4c",
+                            "state":"published"
+                         }
+                      ],
+                      "collectionId":"",
+                      "paginationData":{
+                         "page":0,
+                         "pageSize":5,
+                         "total":5
+                      },
+                      "title":"Boeing"
+                   }
+                ],
+                "relatedUrls":[
+                   
+                ],
+                "collections":[
+                   
+                ],
+                "section":[
+                   {
+                      "title":"Business",
+                      "url":"/news/business"
+                   }
+                ],
+                "pillar":[
+                   {
+                      "title":"Business",
+                      "url":"/business"
+                   }
+                ],
+                "collection":[
+                   
+                ],
+                "destination":[
+                   
+                ]
+             }
+          },
+          "country":"de",
+          "isUkHeader":"no",
+          "featureFlags":{
+             "authentication":true,
+             "bookmarking":false,
+             "client-side-routing":false,
+             "client-side-uk-redirect":true,
+             "comments":false,
+             "legacy-api":false,
+             "live-articles-in-same-tab":true,
+             "nevada-ad":true,
+             "new-navigation":false,
+             "optimizely-web":true,
+             "playlists":false,
+             "seo-allow-indexing":true,
+             "virginia-ad":true,
+             "webvitals":true,
+             "wntv":true,
+             "wntv-preroll-ad":false,
+             "zephr":true
+          },
+          "authInfo":{
+             "signInUrl":"https://session.bbc.com/session",
+             "signOutUrl":"https://account.bbc.com/signout",
+             "registerUrl":"https://session.bbc.com/session?action=register",
+             "statusUrl":"https://account.bbc.com/account",
+             "idSignedInCookieName":"ckns_id",
+             "accessTokenRefreshUrl":"https://session.bbc.com/session?ptrt=https%3A%2F%2Fsession.bbc.com%2Fsession%2Fannounce",
+             "accessTokenExpiredAt":0
+          },
+          "mainNavigation":[
+             {
+                "id":"709a55d4-aa9d-4d21-95ee-4035d5a1c323",
+                "title":"Home",
+                "isSpecial":false,
+                "slug":"home",
+                "path":"/home",
+                "externalTarget":"_self",
+                "subMenus":[
+                   
+                ]
+             },
+             {
+                "id":"f46e59d8-fcc4-4a80-b3e2-995e563ba18f",
+                "title":"News",
+                "isSpecial":false,
+                "slug":"news",
+                "path":"/news",
+                "externalTarget":"_self",
+                "subMenus":[
+                   {
+                      "id":"6637ba89-882d-4e15-af59-62a5aa0dbc04",
+                      "title":"India Election 2024",
+                      "isSpecial":false,
+                      "slug":"india-election-2024",
+                      "path":"/news/topics/ce483qevngqt",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"c48a9e80-bc92-45b8-85ec-7b6c831d14ae",
+                      "title":"Israel-Gaza War",
+                      "isSpecial":false,
+                      "slug":"israel-gaza-war",
+                      "path":"/news/topics/c2vdnvdg6xxt",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"3a84c3e0-50a6-44b6-bbf1-3005082daecd",
+                      "title":"War in Ukraine",
+                      "isSpecial":false,
+                      "slug":"war-in-ukraine",
+                      "path":"/news/war-in-ukraine",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"0f1c7161-fd3d-4f5e-adb1-e90c37b868c8",
+                      "title":"World",
+                      "isSpecial":false,
+                      "slug":"world",
+                      "path":"/news/world",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         {
+                            "id":"2821b57e-f2c8-4d23-a76d-c7d51e653844",
+                            "title":"Africa",
+                            "isSpecial":false,
+                            "slug":"africa",
+                            "path":"/news/world/africa",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"ed015412-5b58-4cf3-8ebb-7ff840c0ed25",
+                            "title":"Asia",
+                            "isSpecial":false,
+                            "slug":"asia",
+                            "path":"/news/world/asia",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               {
+                                  "id":"71449847-4340-4fa1-a6b5-ac391eb6b359",
+                                  "title":"China",
+                                  "isSpecial":false,
+                                  "slug":"china",
+                                  "path":"/news/world/asia/china",
+                                  "externalTarget":"_self",
+                                  "subMenus":[
+                                     
+                                  ]
+                               },
+                               {
+                                  "id":"cb8aaf70-4196-4909-a806-7110974ab1b8",
+                                  "title":"India",
+                                  "isSpecial":false,
+                                  "slug":"india",
+                                  "path":"/news/world/asia/india",
+                                  "externalTarget":"_self",
+                                  "subMenus":[
+                                     
+                                  ]
+                               }
+                            ]
+                         },
+                         {
+                            "id":"ae718ae1-b82a-4afc-a212-e8d09bcb7fa8",
+                            "title":"Australia",
+                            "isSpecial":false,
+                            "slug":"australia",
+                            "path":"/news/world/australia",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"dd53adc7-cb50-4810-aeaf-e5948c576b28",
+                            "title":"Europe",
+                            "isSpecial":false,
+                            "slug":"europe",
+                            "path":"/news/world/europe",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"bf3af0a2-c355-4edc-a581-2963e6b8fada",
+                            "title":"Latin America",
+                            "isSpecial":false,
+                            "slug":"latin-america",
+                            "path":"/news/world/latin_america",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"4309324d-0306-44ba-b399-b0cbf45381c2",
+                            "title":"Middle East",
+                            "isSpecial":false,
+                            "slug":"middle-east",
+                            "path":"/news/world/middle_east",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         }
+                      ]
+                   },
+                   {
+                      "id":"f505463a-23e0-4406-a4f9-ee026c67f59c",
+                      "title":"US \u0026 Canada",
+                      "isSpecial":false,
+                      "slug":"us-canada",
+                      "path":"/news/us-canada",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"a606016d-862b-4840-84d2-a6f050781c36",
+                      "title":"UK",
+                      "isSpecial":false,
+                      "slug":"uk",
+                      "path":"/news/uk",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         {
+                            "id":"d8c99341-66f9-4e3d-9515-8044f460e5d5",
+                            "title":"England",
+                            "isSpecial":false,
+                            "slug":"england",
+                            "path":"/news/england",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"05c8340f-42e2-4975-946a-1a1fd77a23dc",
+                            "title":"N. Ireland",
+                            "isSpecial":false,
+                            "slug":"n-ireland",
+                            "path":"/news/northern_ireland",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"ff36e4d5-eeb0-458f-a3ec-e229622283a2",
+                            "title":"Scotland",
+                            "isSpecial":false,
+                            "slug":"scotland",
+                            "path":"/news/scotland",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"b6e2ef37-4d09-42eb-95c9-3ae08b14ae2d",
+                            "title":"Wales",
+                            "isSpecial":false,
+                            "slug":"wales",
+                            "path":"/news/wales",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         }
+                      ]
+                   },
+                   {
+                      "id":"7bed7b6a-ed2b-4f7b-85cc-313175fd2b8b",
+                      "title":"In Pictures",
+                      "isSpecial":false,
+                      "slug":"in-pictures",
+                      "path":"/news/in_pictures",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"f58515b3-3ddc-4088-9b64-8cd5540f8e07",
+                      "title":"BBC Verify",
+                      "isSpecial":false,
+                      "slug":"bbc-verify",
+                      "path":"/news/reality_check",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   }
+                ]
+             },
+             {
+                "id":"bc136766-f435-4766-8e83-e00acc7819a0",
+                "title":"Sport",
+                "isSpecial":false,
+                "slug":"sport",
+                "path":"/sport",
+                "externalTarget":"_self",
+                "subMenus":[
+                   
+                ]
+             },
+             {
+                "id":"c71ce418-6808-46be-90dc-0db9f7301a1d",
+                "title":"Business",
+                "isSpecial":false,
+                "slug":"business",
+                "path":"/business",
+                "externalTarget":"_self",
+                "subMenus":[
+                   {
+                      "id":"23daad86-a391-43a9-bc66-14b7541e4b36",
+                      "title":"Future of Business",
+                      "isSpecial":false,
+                      "slug":"future-of-business",
+                      "path":"/business/future-of-business",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"537d5d63-8543-4915-aca9-a813c05d355c",
+                      "title":"Technology of Business",
+                      "isSpecial":false,
+                      "slug":"technology-of-business",
+                      "path":"/business/technology-of-business",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"5ee4e000-ea1f-4cc1-8e6f-2603b3df7506",
+                      "title":"Work Culture",
+                      "isSpecial":false,
+                      "slug":"work-culture",
+                      "path":"/business/c-suite",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   }
+                ]
+             },
+             {
+                "id":"42242d8c-2a0f-48af-ac04-15bfb3fada34",
+                "title":"Innovation",
+                "isSpecial":false,
+                "slug":"innovation",
+                "path":"/innovation",
+                "externalTarget":"_self",
+                "subMenus":[
+                   {
+                      "id":"b439c9ed-d61c-4932-864e-9ab8fab1a28a",
+                      "title":"Technology",
+                      "isSpecial":false,
+                      "slug":"technology",
+                      "path":"/innovation/technology",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"e2a44ea9-05f4-463a-ac72-65f13e688e0a",
+                      "title":"Science \u0026 Health",
+                      "isSpecial":false,
+                      "slug":"science-health",
+                      "path":"/innovation/science",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"cd54f966-c1db-4c1d-b0a8-952910c54fc9",
+                      "title":"Artificial Intelligence",
+                      "isSpecial":false,
+                      "slug":"artificial-intelligence",
+                      "path":"/innovation/artificial-intelligence",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   }
+                ]
+             },
+             {
+                "id":"e65c9d33-0a26-4a11-9081-5d1ebc3d2082",
+                "title":"Culture",
+                "isSpecial":false,
+                "slug":"culture",
+                "path":"/culture",
+                "externalTarget":"_self",
+                "subMenus":[
+                   {
+                      "id":"7d5d8bfa-56ab-4b97-8978-21918b1a8c3b",
+                      "title":"Film \u0026 TV",
+                      "isSpecial":false,
+                      "slug":"film-tv",
+                      "path":"/culture/film-tv",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"c8224fe4-d5c8-4fb4-baec-29b71a194223",
+                      "title":"Music",
+                      "isSpecial":false,
+                      "slug":"music",
+                      "path":"/culture/music",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"b6cd7e0d-52e6-45b8-b0b2-b9f81439eb25",
+                      "title":"Art \u0026 Design",
+                      "isSpecial":false,
+                      "slug":"art-design",
+                      "path":"/culture/art",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"b5db9722-9e35-4563-9fcc-d4be0f632a8a",
+                      "title":"Style",
+                      "isSpecial":false,
+                      "slug":"style",
+                      "path":"/culture/style",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"dbe2d6e5-41f4-46d3-aeb8-0479c98d6ca6",
+                      "title":"Books",
+                      "isSpecial":false,
+                      "slug":"books",
+                      "path":"/culture/books",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"a55aa263-1ab0-46b8-b8ec-ca496e308987",
+                      "title":"Entertainment News",
+                      "isSpecial":false,
+                      "slug":"entertainment-news",
+                      "path":"/culture/entertainment-news",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   }
+                ]
+             },
+             {
+                "id":"2a023c3e-3ed8-4c82-a10e-213d02ef6fbb",
+                "title":"Travel",
+                "isSpecial":false,
+                "slug":"travel",
+                "path":"/travel",
+                "externalTarget":"_self",
+                "subMenus":[
+                   {
+                      "id":"fca67f79-485c-40f7-988a-ff9665cf80a4",
+                      "title":"Destinations",
+                      "isSpecial":false,
+                      "slug":"destinations",
+                      "path":"/travel/destinations",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         {
+                            "id":"be85db45-9573-4e5f-9fc4-fcf41ce4b473",
+                            "title":"Africa",
+                            "isSpecial":false,
+                            "slug":"africa",
+                            "path":"/travel/destinations/africa",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"72ddfcac-ce64-46af-83fe-c1e712852de1",
+                            "title":"Antarctica",
+                            "isSpecial":false,
+                            "slug":"antarctica",
+                            "path":"/travel/destinations/antarctica",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"db43e83b-c413-4056-8ea5-dc0577533080",
+                            "title":"Asia",
+                            "isSpecial":false,
+                            "slug":"asia",
+                            "path":"/travel/destinations/asia",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"26f2eb86-3075-4cb5-a05e-24f271798ca8",
+                            "title":"Australia and Pacific",
+                            "isSpecial":false,
+                            "slug":"australia-and-pacific",
+                            "path":"/travel/destinations/australia-and-pacific",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"230a1fb6-66b9-4081-860f-6a6d75a8f09c",
+                            "title":"Caribbean \u0026 Bermuda",
+                            "isSpecial":false,
+                            "slug":"caribbean-bermuda",
+                            "path":"/travel/destinations/caribbean",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"7af9c4af-8d82-4b3d-a047-0e54d4339b22",
+                            "title":"Central America",
+                            "isSpecial":false,
+                            "slug":"central-america",
+                            "path":"/travel/destinations/central-america",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"a7ab1ce0-807b-4138-b737-500953290c2d",
+                            "title":"Europe",
+                            "isSpecial":false,
+                            "slug":"europe",
+                            "path":"/travel/destinations/europe",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"9b32fdaa-669d-4cfc-b5ce-22fea88f1b26",
+                            "title":"Middle East",
+                            "isSpecial":false,
+                            "slug":"middle-east",
+                            "path":"/travel/destinations/middle-east",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"4d5c0a79-ddea-408c-ad8b-4efa3992a998",
+                            "title":"North America",
+                            "isSpecial":false,
+                            "slug":"north-america",
+                            "path":"/travel/destinations/north-america",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"41cf45a7-2362-4a36-845a-3009f66e31eb",
+                            "title":"South America",
+                            "isSpecial":false,
+                            "slug":"south-america",
+                            "path":"/travel/destinations/south-america",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         }
+                      ]
+                   },
+                   {
+                      "id":"14fe1a3c-8c00-4e84-a0d5-ff1bd6514909",
+                      "title":"World’s Table",
+                      "isSpecial":false,
+                      "slug":"world’s-table",
+                      "path":"/travel/worlds-table",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"2570275a-ca6a-4fc8-8689-41abdecf36ed",
+                      "title":"Culture \u0026 Experiences",
+                      "isSpecial":false,
+                      "slug":"culture-experiences",
+                      "path":"/travel/cultural-experiences",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"70050619-bae5-4bae-98f3-cb54df7aa677",
+                      "title":"Adventures",
+                      "isSpecial":false,
+                      "slug":"adventures",
+                      "path":"/travel/adventures",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"94cf3c00-561b-41a4-a32e-4a2539b086c2",
+                      "title":"The SpeciaList",
+                      "isSpecial":false,
+                      "slug":"the-specialist",
+                      "path":"/travel/specialist",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   }
+                ]
+             },
+             {
+                "id":"2bf7729d-23f0-491e-a898-45a1d0f6fa1c",
+                "title":"Earth",
+                "isSpecial":false,
+                "slug":"earth",
+                "path":"/future-planet",
+                "externalTarget":"_self",
+                "subMenus":[
+                   {
+                      "id":"04d0bda7-340a-4810-adff-78910b8fb920",
+                      "title":"Natural Wonders",
+                      "isSpecial":false,
+                      "slug":"natural-wonders",
+                      "path":"/future-planet/natural-wonders",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"755c9d3f-c16f-4195-914e-be6a531d5407",
+                      "title":"Weather \u0026 Science",
+                      "isSpecial":false,
+                      "slug":"weather-science",
+                      "path":"/future-planet/weather-science",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"ce4b60d0-607c-41b5-922e-babecedd8a3f",
+                      "title":"Climate Solutions",
+                      "isSpecial":false,
+                      "slug":"climate-solutions",
+                      "path":"/future-planet/solutions",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"5d43562f-fa69-4336-8427-5d7bf606a4a9",
+                      "title":"Sustainable Business",
+                      "isSpecial":false,
+                      "slug":"sustainable-business",
+                      "path":"/future-planet/sustainable-business",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"b4d729cb-5944-46f2-b374-d3682bc5e332",
+                      "title":"Green Living",
+                      "isSpecial":false,
+                      "slug":"green-living",
+                      "path":"/future-planet/green-living",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   }
+                ]
+             },
+             {
+                "id":"1c2c9874-74a3-45c2-8290-19f59a89b157",
+                "title":"Video",
+                "isSpecial":true,
+                "slug":"video",
+                "path":"/video",
+                "externalTarget":"_self",
+                "subMenus":[
+                   
+                ]
+             },
+             {
+                "id":"481a93bf-2df6-42da-963e-d48ae3fb3dec",
+                "title":"Live",
+                "isSpecial":false,
+                "slug":"live",
+                "path":"/live",
+                "externalTarget":"_self",
+                "subMenus":[
+                   {
+                      "id":"acd10f1f-2795-4b79-a4b4-f96c25225684",
+                      "title":"Live News",
+                      "isSpecial":false,
+                      "slug":"live-news",
+                      "path":"/live/news",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"145cddc7-0db1-4ef9-b429-6235a534d1da",
+                      "title":"Live Sport",
+                      "isSpecial":false,
+                      "slug":"live-sport",
+                      "path":"/live/sport",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   }
+                ]
+             }
+          ],
+          "hamburgerNavigation":[
+             {
+                "id":"e69eb00e-dc92-48e8-86b5-89ee05b0548c",
+                "title":"Home",
+                "isSpecial":false,
+                "slug":"home",
+                "path":"/home",
+                "externalTarget":"_self",
+                "subMenus":[
+                   
+                ]
+             },
+             {
+                "id":"6e78b2b9-f1cc-4875-9ad6-63e0efc7f940",
+                "title":"News",
+                "isSpecial":false,
+                "slug":"news",
+                "path":"/news",
+                "externalTarget":"_self",
+                "subMenus":[
+                   {
+                      "id":"765b0872-fbac-4335-b1d5-d3e3dacba828",
+                      "title":"News",
+                      "isSpecial":false,
+                      "slug":"news",
+                      "path":"/news",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"cf6b1e12-9b4b-4b7c-8b7e-4a425c2a4f26",
+                      "title":"Israel-Gaza War",
+                      "isSpecial":false,
+                      "slug":"c2vdnvdg6xxt",
+                      "path":"/news/topics/c2vdnvdg6xxt",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"23bd3c43-5470-47c6-902d-0b674eb01eb1",
+                      "title":"War in Ukraine",
+                      "isSpecial":false,
+                      "slug":"war-in-ukraine",
+                      "path":"/news/war-in-ukraine",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"a6a3faa5-c2e6-4ca5-838b-2b6d226db75b",
+                      "title":"World",
+                      "isSpecial":false,
+                      "slug":"world",
+                      "path":"/news/world",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         {
+                            "id":"1d02cd12-1a56-4426-a8b0-96f73d687325",
+                            "title":"World",
+                            "isSpecial":false,
+                            "slug":"world",
+                            "path":"/news/world",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"1c5acf8c-f73a-4200-b017-102867627133",
+                            "title":"Africa",
+                            "isSpecial":false,
+                            "slug":"africa",
+                            "path":"/news/world/africa",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"b4006257-f7fe-454f-9c93-442fe08aa5b8",
+                            "title":"Asia",
+                            "isSpecial":false,
+                            "slug":"asia",
+                            "path":"/news/world/asia",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"4f6b63ed-10a8-4bf3-8091-17e9989e3b90",
+                            "title":"Australia",
+                            "isSpecial":false,
+                            "slug":"australia",
+                            "path":"/news/world/australia",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"ea353814-92ec-4b3d-a27f-a83e648d3c9a",
+                            "title":"Europe",
+                            "isSpecial":false,
+                            "slug":"europe",
+                            "path":"/news/world/europe",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"69ab4f1a-c414-48d1-a63e-4c122a741e47",
+                            "title":"Latin America",
+                            "isSpecial":false,
+                            "slug":"latin_america",
+                            "path":"/news/world/latin_america",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"7bc9015f-55b1-4543-854e-55bd553453d0",
+                            "title":"Middle East",
+                            "isSpecial":false,
+                            "slug":"middle_east",
+                            "path":"/news/world/middle_east",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         }
+                      ]
+                   },
+                   {
+                      "id":"910549f1-76bb-445e-b852-b98db77468d3",
+                      "title":"US \u0026 Canada",
+                      "isSpecial":false,
+                      "slug":"us-canada",
+                      "path":"/news/us-canada",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"2b724a82-7c60-4d22-9a6d-af4ff98c13d5",
+                      "title":"UK",
+                      "isSpecial":false,
+                      "slug":"uk",
+                      "path":"/news/uk",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         {
+                            "id":"1277bed6-fae0-4af1-a1a0-27036febf932",
+                            "title":"UK",
+                            "isSpecial":false,
+                            "slug":"uk",
+                            "path":"/news/uk",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"d69b9f49-dd21-4146-99d8-1235e498ac34",
+                            "title":"England",
+                            "isSpecial":false,
+                            "slug":"england",
+                            "path":"/news/england",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"7a12f4e0-feb2-4e42-92a6-87054bbf166d",
+                            "title":"N. Ireland",
+                            "isSpecial":false,
+                            "slug":"northern_ireland",
+                            "path":"/news/northern_ireland",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"e1bc4949-7e75-421f-a5a4-2a5f78b28e29",
+                            "title":"Scotland",
+                            "isSpecial":false,
+                            "slug":"scotland",
+                            "path":"/news/scotland",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"e67095d8-9c9e-4cc9-85ec-a721af34b18e",
+                            "title":"Wales",
+                            "isSpecial":false,
+                            "slug":"wales",
+                            "path":"/news/wales",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"9560496f-6fac-4276-900e-b001465bac18",
+                            "title":"UK Nations and Regions",
+                            "isSpecial":false,
+                            "externalUrl":"https://www.bbc.com/news/regions",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         }
+                      ]
+                   },
+                   {
+                      "id":"46495004-dfac-4c8a-a18d-f438e6c5dd15",
+                      "title":"In Pictures",
+                      "isSpecial":false,
+                      "slug":"in_pictures",
+                      "path":"/news/in_pictures",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"cfb2f433-5c8d-427d-8d48-99a6e676c1df",
+                      "title":"BBC Verify",
+                      "isSpecial":false,
+                      "slug":"reality_check",
+                      "path":"/news/reality_check",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   }
+                ]
+             },
+             {
+                "id":"31280ea2-4d19-420a-84bc-d27464a9f009",
+                "title":"Sport",
+                "isSpecial":false,
+                "slug":"sport",
+                "path":"/sport",
+                "externalTarget":"_self",
+                "subMenus":[
+                   
+                ]
+             },
+             {
+                "id":"fdc06ff7-2ab7-42e8-ad97-6a0f3220e8bd",
+                "title":"Business",
+                "isSpecial":false,
+                "slug":"business",
+                "path":"/business",
+                "externalTarget":"_self",
+                "subMenus":[
+                   {
+                      "id":"b55f3171-924b-41ab-9df6-efe117b8d865",
+                      "title":"Business",
+                      "isSpecial":false,
+                      "slug":"business",
+                      "path":"/business",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"5ae50147-962e-42a1-9a46-769af062202e",
+                      "title":"Future of Business",
+                      "isSpecial":false,
+                      "slug":"future-of-business",
+                      "path":"/business/future-of-business",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"41625d35-2839-4a9e-8322-e843fbaae8b6",
+                      "title":"Technology of Business",
+                      "isSpecial":false,
+                      "slug":"technology-of-business",
+                      "path":"/business/technology-of-business",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"5b56a688-5330-4c30-8aff-f32c5661859f",
+                      "title":"Work Culture",
+                      "isSpecial":false,
+                      "slug":"c-suite",
+                      "path":"/business/c-suite",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"715d7e30-a6b4-4067-b744-440e57f2865f",
+                      "title":"Market Data",
+                      "isSpecial":false,
+                      "externalUrl":"https://www.bbc.com/news/business/market-data",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   }
+                ]
+             },
+             {
+                "id":"395574d0-fe54-49cb-b0e0-b13a75ca7811",
+                "title":"Innovation",
+                "isSpecial":false,
+                "slug":"innovation",
+                "path":"/innovation",
+                "externalTarget":"_self",
+                "subMenus":[
+                   {
+                      "id":"1f33c067-f57e-4d8c-a692-0b323eec93bc",
+                      "title":"Innovation",
+                      "isSpecial":false,
+                      "slug":"innovation",
+                      "path":"/innovation",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"8608c554-030d-42ae-a4ef-86babb9e5df3",
+                      "title":"Technology",
+                      "isSpecial":false,
+                      "slug":"technology",
+                      "path":"/innovation/technology",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"b3f51729-5ae7-4e55-81cf-4ecd3ee46af8",
+                      "title":"Science \u0026 Health",
+                      "isSpecial":false,
+                      "slug":"science",
+                      "path":"/innovation/science",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"b1027cc8-2c39-445d-bc85-8753f7728969",
+                      "title":"Artificial Intelligence",
+                      "isSpecial":false,
+                      "slug":"artificial-intelligence",
+                      "path":"/innovation/artificial-intelligence",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   }
+                ]
+             },
+             {
+                "id":"9fe9e661-4626-4501-a62c-8e14d509d739",
+                "title":"Culture",
+                "isSpecial":false,
+                "slug":"culture",
+                "path":"/culture",
+                "externalTarget":"_self",
+                "subMenus":[
+                   {
+                      "id":"392dce10-d523-482e-9adf-d24cc3940afe",
+                      "title":"Culture",
+                      "isSpecial":false,
+                      "slug":"culture",
+                      "path":"/culture",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"209f0c6a-d538-4f69-b47b-f11aa56b6923",
+                      "title":"Film \u0026 TV",
+                      "isSpecial":false,
+                      "slug":"film-tv",
+                      "path":"/culture/film-tv",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"65d02c09-1a24-4f9e-8739-63e7a0bbea3a",
+                      "title":"Music",
+                      "isSpecial":false,
+                      "slug":"music",
+                      "path":"/culture/music",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"242e585f-d686-4495-bf52-aebe8f6592f7",
+                      "title":"Art \u0026 Design",
+                      "isSpecial":false,
+                      "slug":"art",
+                      "path":"/culture/art",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"56cde501-7459-4595-92fa-07e0cde214db",
+                      "title":"Style",
+                      "isSpecial":false,
+                      "slug":"style",
+                      "path":"/culture/style",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"dcc8b010-ebb2-4840-9363-d1df116ffb92",
+                      "title":"Books",
+                      "isSpecial":false,
+                      "slug":"books",
+                      "path":"/culture/books",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"86407d43-ba92-4f74-93bd-ddb5f4b393f0",
+                      "title":"Entertainment News",
+                      "isSpecial":false,
+                      "slug":"entertainment-news",
+                      "path":"/culture/entertainment-news",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   }
+                ]
+             },
+             {
+                "id":"e1d31511-a8b7-4185-bc8c-028b4b9a2871",
+                "title":"Travel",
+                "isSpecial":false,
+                "slug":"travel",
+                "path":"/travel",
+                "externalTarget":"_self",
+                "subMenus":[
+                   {
+                      "id":"8312b208-3cf8-4208-8fd5-ccd34f50f416",
+                      "title":"Travel",
+                      "isSpecial":false,
+                      "slug":"travel",
+                      "path":"/travel",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"a749f1fb-14b5-42b2-b7e6-cd5d78935955",
+                      "title":"Destinations",
+                      "isSpecial":false,
+                      "slug":"destinations",
+                      "path":"/travel/destinations",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"e793913b-e6af-4037-b27c-954b9a9ff2d7",
+                      "title":"World’s Table",
+                      "isSpecial":false,
+                      "slug":"worlds-table",
+                      "path":"/travel/worlds-table",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"394549fe-e465-4e04-8199-d5bc8588c352",
+                      "title":"Culture \u0026 Experiences",
+                      "isSpecial":false,
+                      "slug":"cultural-experiences",
+                      "path":"/travel/cultural-experiences",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"d29eb8f8-1d7f-4bfc-86e7-35dd9c5fd4bc",
+                      "title":"Adventures",
+                      "isSpecial":false,
+                      "slug":"adventures",
+                      "path":"/travel/adventures",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"937b3a91-d8c9-4afc-860d-fee67fe6ecdc",
+                      "title":"The SpeciaList",
+                      "isSpecial":false,
+                      "slug":"specialist",
+                      "path":"/travel/specialist",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   }
+                ]
+             },
+             {
+                "id":"2e71e7ab-0ab1-49fe-b9a8-49ff58b3bf9b",
+                "title":"Earth",
+                "isSpecial":false,
+                "slug":"future-planet",
+                "path":"/future-planet",
+                "externalTarget":"_self",
+                "subMenus":[
+                   {
+                      "id":"f62d34f3-9feb-4764-bd1d-3dc4b6201fda",
+                      "title":"Earth",
+                      "isSpecial":false,
+                      "slug":"future-planet",
+                      "path":"/future-planet",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"f899c1f0-0b52-4076-80e4-a118aad5f7f0",
+                      "title":"Natural Wonders",
+                      "isSpecial":false,
+                      "slug":"natural-wonders",
+                      "path":"/future-planet/natural-wonders",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"dcaa3459-869b-47da-bdab-6ccf47c523e2",
+                      "title":"Weather \u0026 Science",
+                      "isSpecial":false,
+                      "slug":"weather-science",
+                      "path":"/future-planet/weather-science",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"8024b6f2-07ad-42a7-9e3b-cdce6d3cac74",
+                      "title":"Climate Solutions",
+                      "isSpecial":false,
+                      "slug":"solutions",
+                      "path":"/future-planet/solutions",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"24683b04-ccfb-4779-bae3-09c6edb4e106",
+                      "title":"Sustainable Business",
+                      "isSpecial":false,
+                      "slug":"sustainable-business",
+                      "path":"/future-planet/sustainable-business",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"afb9808a-ae28-4105-9674-bed810b87c24",
+                      "title":"Green Living",
+                      "isSpecial":false,
+                      "slug":"green-living",
+                      "path":"/future-planet/green-living",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   }
+                ]
+             },
+             {
+                "id":"6d7acde7-1609-453c-a25e-18cd3df8e4c4",
+                "title":"Video",
+                "isSpecial":false,
+                "slug":"video",
+                "path":"/video",
+                "externalTarget":"_self",
+                "subMenus":[
+                   
+                ]
+             },
+             {
+                "id":"4eb10e48-a34c-4eeb-8794-f43041d21573",
+                "title":"Live",
+                "isSpecial":false,
+                "slug":"live",
+                "path":"/live",
+                "externalTarget":"_self",
+                "subMenus":[
+                   {
+                      "id":"e3c29f0a-fc08-4687-98c5-7e81bfce9634",
+                      "title":"Live",
+                      "isSpecial":false,
+                      "slug":"live",
+                      "path":"/live",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"a70bf8e7-19fe-4a82-88e8-5991b0ea9f84",
+                      "title":"Live News",
+                      "isSpecial":false,
+                      "slug":"news",
+                      "path":"/live/news",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"db9d8f1b-de92-4064-a33a-1e7fbf4e602c",
+                      "title":"Live Sport",
+                      "isSpecial":false,
+                      "slug":"sport",
+                      "path":"/live/sport",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   }
+                ]
+             },
+             {
+                "id":"6ed2480c-a749-44a1-a162-8b1cfc4f94d1",
+                "title":"Audio",
+                "isSpecial":false,
+                "externalUrl":"https://www.bbc.co.uk/sounds",
+                "externalTarget":"_self",
+                "subMenus":[
+                   
+                ]
+             },
+             {
+                "id":"308d76c6-32f6-420d-abbf-86d791cc19c5",
+                "title":"Weather",
+                "isSpecial":false,
+                "externalUrl":"https://www.bbc.com/weather",
+                "externalTarget":"_self",
+                "subMenus":[
+                   
+                ]
+             }
+          ],
+          "footer":{
+             "contentLinks":[
+                {
+                   "id":"fb82fcab-247c-4dd0-809d-b07acfbdb489",
+                   "title":"Home",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"8ff91731-7a8b-4f28-8915-8c70a148d51e",
+                   "title":"News",
+                   "isSpecial":false,
+                   "slug":"news",
+                   "path":"/news",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"26271833-3b4b-4f24-9129-f5eceeffba44",
+                   "title":"Sport",
+                   "isSpecial":false,
+                   "slug":"sport",
+                   "path":"/sport",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"eeafae32-d70a-4ac9-982e-95bb2c7ffe2d",
+                   "title":"Business",
+                   "isSpecial":false,
+                   "slug":"business",
+                   "path":"/business",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"ec29bec8-89fa-4d0c-a688-7069a45869cc",
+                   "title":"Innovation",
+                   "isSpecial":false,
+                   "slug":"innovation",
+                   "path":"/innovation",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"321b0046-a5a9-419d-b4ac-6df716d48878",
+                   "title":"Culture",
+                   "isSpecial":false,
+                   "slug":"culture",
+                   "path":"/culture",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"cc9bbb4e-06d0-4c66-af89-a5def13b82b1",
+                   "title":"Travel",
+                   "isSpecial":false,
+                   "slug":"travel",
+                   "path":"/travel",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"63f2f436-d892-49a0-920e-a6dd6400a3f7",
+                   "title":"Earth",
+                   "isSpecial":false,
+                   "slug":"future-planet",
+                   "path":"/future-planet",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"4359a21d-36e8-434f-9eb2-b1a9b0608584",
+                   "title":"Video",
+                   "isSpecial":false,
+                   "slug":"video",
+                   "path":"/video",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"81f71bdf-f8bb-422e-bbdf-1ae7906597c4",
+                   "title":"Live",
+                   "isSpecial":false,
+                   "slug":"live",
+                   "path":"/live",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"b902a3a8-0b3f-4d0a-a9cc-01bafeefe839",
+                   "title":"Audio",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.co.uk/sounds",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"0bec1e28-949f-4b09-8f2f-ddd8c835dd72",
+                   "title":"Weather",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/weather",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"dec73bea-0dfc-4edd-b470-f702bcdebdc2",
+                   "title":"BBC Shop",
+                   "isSpecial":false,
+                   "externalUrl":"https://shop.bbc.com/",
+                   "externalTarget":"_self"
+                }
+             ],
+             "languages":[
+                {
+                   "id":"01476618-3313-4f4e-9971-9dc7a2cb2edb",
+                   "title":"Oduu Afaan Oromootiin",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/afaanoromoo",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"1e231022-2284-46d5-9ee0-708bbd337259",
+                   "title":"Amharic ዜና በአማርኛ",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/amharic",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"a496b109-87ad-47be-bf4b-fcd916ea0b9b",
+                   "title":"Arabic عربي",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/arabic",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"ac555f04-2d16-4a03-b649-e9e2c9961ba0",
+                   "title":"Azeri AZƏRBAYCAN",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/azeri",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"92c22b8a-09d3-4295-ae75-d5695ed34825",
+                   "title":"Bangla বাংলা",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/bengali",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"1c9e6665-d1b8-4972-b4e2-fd8e00280ea1",
+                   "title":"Burmese မြန်မာ",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/burmese",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"cf50b4cc-75c7-44cc-9cce-bbc669d40b0c",
+                   "title":"Chinese 中文网",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/zhongwen/simp",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"ce69f250-b3db-4d33-96ef-d65b302f73b6",
+                   "title":"French AFRIQUE",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/afrique",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"30859881-e9a9-4e8f-b36f-967b906b6ae5",
+                   "title":"Hausa HAUSA",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/hausa",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"9239c7c6-6114-4c99-a1dc-27f0624c394b",
+                   "title":"Hindi हिन्दी",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/hindi",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"fd0803bf-663a-4f5b-ad78-e01b5a763b91",
+                   "title":"Gaelic NAIDHEACHDAN",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/naidheachdan",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"1758c58d-ce2b-4fb8-83e8-bcaadfc24bfd",
+                   "title":"Gujarati ગુજરાતીમાં સમાચાર",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/gujarati",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"6cfdac8d-f870-46f4-af15-4fb4b6e10f69",
+                   "title":"Igbo AKỤKỌ N’IGBO",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/igbo",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"c15f7a02-7e37-4eb8-bbbc-53f62d0d1f31",
+                   "title":"Indonesian INDONESIA",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/indonesia",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"dc7248a3-5007-4ced-ae1b-dad9850e753d",
+                   "title":"Japanese 日本語",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/japanese",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"72fcb885-57bb-4353-9021-f66a1485a07d",
+                   "title":"Kinyarwanda GAHUZA",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/gahuza",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"73784cf3-9f35-4393-a7c5-812a0474812f",
+                   "title":"Kirundi KIRUNDI",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/gahuza",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"4dda40b2-4fb7-4f94-b65c-06a7b18a23f6",
+                   "title":"Korean 한국어",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/korean",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"0aa7e3cd-867e-433e-86be-b4ef1e840b70",
+                   "title":"Kyrgyz Кыргыз",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/kyrgyz",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"e5c4e26b-44ae-4b25-8430-ded7fdee8259",
+                   "title":"Marathi मराठी",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/marathi",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"06214b5f-05f8-4331-b8a4-8a0cbd321698",
+                   "title":"Nepali नेपाली",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/nepali",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"cacd7fc2-4e8d-4744-9688-51aed10fbcbc",
+                   "title":"Noticias para hispanoparlantes",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/mundo",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"7853e1f9-d87d-4995-9a8a-dcd858716c38",
+                   "title":"Pashto پښتو",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/pashto",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"6bb674a8-7a4c-408d-838c-10df36711ad3",
+                   "title":"Persian فارسی",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/persian",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"356cc0b0-870b-4c85-bfe7-77be8371357d",
+                   "title":"Pigdin",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/pidgin",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"93c7c37d-4c0e-4a84-afef-bb4dca4a5885",
+                   "title":"Portuguese BRASIL",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/portuguese",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"cbaaf377-56a4-4830-a720-c16a43a8f359",
+                   "title":"Punjabi ਪੰਜਾਬੀ ਖ਼ਬਰਾਂ",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/punjabi",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"589b61e1-d61d-4f98-81df-704d5a4348ae",
+                   "title":"Russian НА РУССКОМ",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/russian",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"6bae247c-1769-4c72-b8aa-d580b857d40a",
+                   "title":"Serbian  NA SRPSKOM",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/serbian/lat",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"b3cc36dc-f1eb-464e-9b19-6c4da4f3ccfb",
+                   "title":"Sinhala සිංහල",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/sinhala",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"b6f3cfd8-96bf-4f66-995a-8c2cd1364935",
+                   "title":"Somali SOMALI",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/somali",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"177d5567-b412-4baa-a959-e27bb65ce439",
+                   "title":"Swahili  HABARI KWA KISWAHILI",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/swahili",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"e303a0e2-2c1c-4e3f-a4f1-f84f0aabb30a",
+                   "title":"Tamil தமிழில் செய்திகள்",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/tamil",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"63652a09-1c8a-494c-825a-c7ec65af0f58",
+                   "title":"Telugu తెలుగు వార్తలు",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/telugu",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"91ad9962-c2d3-40fd-876a-cbd199310dc5",
+                   "title":"Thai ข่าวภาษาไทย",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/thai",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"79a6795d-d464-4768-9d62-1acc488573bf",
+                   "title":"Tigrinya ዜና ብትግርኛ",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/tigrinya",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"6be9ba6b-9818-48e4-89d3-08d765c22d0a",
+                   "title":"Turkish TÜRKÇE",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/turkce",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"977f8d77-304f-405e-bc3e-fdb56fd8b453",
+                   "title":"Ukrainian УКРАЇНСЬКA",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/ukrainian",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"9a5d0753-fdde-4950-9d8f-73055fc5c625",
+                   "title":"Urdu اردو",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/urdu",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"e0ef0bc5-40cf-426f-ba7c-9ac8f34a1e0c",
+                   "title":"Uzbek O'ZBEK",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/uzbek",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"393c2c11-6a79-4439-8a70-730f73ae4232",
+                   "title":"Vietnamese TIẾNG VIỆT",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/vietnamese",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"5e9a4025-cb90-456f-9e91-fcfbcfc27fde",
+                   "title":"Welsh NEWYIDDION",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/cymrufyw",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"8a1c9311-dcb2-4461-b1c5-6bac711e574f",
+                   "title":"Yoruba  ÌRÒYÌN NÍ YORÙBÁ",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/yoruba",
+                   "externalTarget":"_self"
+                }
+             ],
+             "legalLinks":[
+                {
+                   "id":"e05506b4-6dff-4188-95ca-a8ed23952b39",
+                   "title":"Terms of Use",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.co.uk/usingthebbc/terms",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"122be937-f2cf-40fa-9dc7-7053fa28c6a3",
+                   "title":"About the BBC",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.co.uk/aboutthebbc",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"f7c92e4e-1fd6-4666-a027-520dde141c0a",
+                   "title":"Privacy Policy",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/usingthebbc/privacy/",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"ebdb01ba-b5c6-4425-b63f-10aa58007ead",
+                   "title":"Cookies",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/usingthebbc/cookies/",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"ffb84b3f-907b-46db-85f6-875a67c5ee4a",
+                   "title":"Accessibility Help",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.co.uk/accessibility/",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"3de2cd85-9f1a-41d2-aa55-d99e018d1f1e",
+                   "title":"Contact the BBC",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.co.uk/contact",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"611212f6-337c-43af-abef-e852e1778e87",
+                   "title":"Advertise with us",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/advertisingcontact",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"208325e1-156f-4dfe-8058-8a440b1f61ad",
+                   "title":"Do not share or sell my info",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/usingthebbc/cookies/how-can-i-change-my-bbc-cookie-settings/",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"93883777-cd1b-41ce-b5fe-ce03e548a57e",
+                   "title":"Contact technical support",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/contact-bbc-com-help",
+                   "externalTarget":"_self"
+                }
+             ],
+             "languageButtonText":"BBC in other languages",
+             "languageHeadline":"The BBC is in multiple languages",
+             "languageSubHeadline":"Read the BBC In your own language",
+             "legalTextContent":[
+                {
+                   "type":"text",
+                   "model":{
+                      "blocks":[
+                         {
+                            "type":"paragraph",
+                            "model":{
+                               "text":"Copyright current_year BBC. All rights reserved.  The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
+                               "blocks":[
+                                  {
+                                     "type":"fragment",
+                                     "model":{
+                                        "text":"Copyright current_year BBC. All rights reserved. ",
+                                        "attributes":[
+                                           
+                                        ]
+                                     }
+                                  },
+                                  {
+                                     "type":"fragment",
+                                     "model":{
+                                        "text":" ",
+                                        "attributes":[
+                                           "italic"
+                                        ]
+                                     }
+                                  },
+                                  {
+                                     "type":"fragment",
+                                     "model":{
+                                        "text":"The",
+                                        "attributes":[
+                                           
+                                        ]
+                                     }
+                                  },
+                                  {
+                                     "type":"fragment",
+                                     "model":{
+                                        "text":" BBC ",
+                                        "attributes":[
+                                           "italic"
+                                        ]
+                                     }
+                                  },
+                                  {
+                                     "type":"fragment",
+                                     "model":{
+                                        "text":"is",
+                                        "attributes":[
+                                           
+                                        ]
+                                     }
+                                  },
+                                  {
+                                     "type":"fragment",
+                                     "model":{
+                                        "text":" not responsible for the content of external sites.",
+                                        "attributes":[
+                                           "italic"
+                                        ]
+                                     }
+                                  },
+                                  {
+                                     "type":"fragment",
+                                     "model":{
+                                        "text":" ",
+                                        "attributes":[
+                                           
+                                        ]
+                                     }
+                                  },
+                                  {
+                                     "type":"urlLink",
+                                     "model":{
+                                        "text":" not responsible for the content of external sites.",
+                                        "locator":"https://www.bbc.co.uk/editorialguidelines/guidance/feeds-and-links",
+                                        "blocks":[
+                                           {
+                                              "type":"fragment",
+                                              "model":{
+                                                 "text":"Read about our approach to external linking.",
+                                                 "attributes":[
+                                                    "bold"
+                                                 ]
+                                              }
+                                           }
+                                        ]
+                                     }
+                                  }
+                               ]
+                            }
+                         }
+                      ]
+                   }
+                },
+                {
+                   "type":"text",
+                   "model":{
+                      "blocks":[
+                         {
+                            "type":"paragraph",
+                            "model":{
+                               "text":" ",
+                               "blocks":[
+                                  {
+                                     "type":"fragment",
+                                     "model":{
+                                        "text":" ",
+                                        "attributes":[
+                                           
+                                        ]
+                                     }
+                                  }
+                               ]
+                            }
+                         }
+                      ]
+                   }
+                }
+             ],
+             "legalText":"[{\"type\":\"text\",\"model\":{\"blocks\":[{\"type\":\"paragraph\",\"model\":{\"text\":\"Copyright current_year BBC. All rights reserved.  The BBC is not responsible for the content of external sites. Read about our approach to external linking.\",\"blocks\":[{\"type\":\"fragment\",\"model\":{\"text\":\"Copyright current_year BBC. All rights reserved. \",\"attributes\":[]}},{\"type\":\"fragment\",\"model\":{\"text\":\" \",\"attributes\":[\"italic\"]}},{\"type\":\"fragment\",\"model\":{\"text\":\"The\",\"attributes\":[]}},{\"type\":\"fragment\",\"model\":{\"text\":\" BBC \",\"attributes\":[\"italic\"]}},{\"type\":\"fragment\",\"model\":{\"text\":\"is\",\"attributes\":[]}},{\"type\":\"fragment\",\"model\":{\"text\":\" not responsible for the content of external sites.\",\"attributes\":[\"italic\"]}},{\"type\":\"fragment\",\"model\":{\"text\":\" \",\"attributes\":[]}},{\"type\":\"urlLink\",\"model\":{\"text\":\" not responsible for the content of external sites.\",\"locator\":\"https://www.bbc.co.uk/editorialguidelines/guidance/feeds-and-links\",\"blocks\":[{\"type\":\"fragment\",\"model\":{\"text\":\"Read about our approach to external linking.\",\"attributes\":[\"bold\"]}}]}}]}}]}},{\"type\":\"text\",\"model\":{\"blocks\":[{\"type\":\"paragraph\",\"model\":{\"text\":\" \",\"blocks\":[{\"type\":\"fragment\",\"model\":{\"text\":\" \",\"attributes\":[]}}]}}]}}]"
+          },
+          "worldNewsTvPath":null,
+          "flagPoles":{
+             "ops":{
+                "Metadata":{
+                   "FlagpoleBucketPrefix":"",
+                   "FlagpoleDate":"07 Aug 23 18:52 UTC",
+                   "FlagpoleFileID":"gn-flagpoles/gnlops",
+                   "FlagpoleIdentity":"gnlops",
+                   "FlagpoleSystem":"gn-flagpoles",
+                   "Guid":"8dfe60a2-4322-411c-8a71-04dc7084fec4",
+                   "urn":"urn:pubpipe:gnflagpoles:gnlops:gn-flagpoles/gnlops"
+                },
+                "Urn":"urn:pubpipe:gnflagpoles:gnlops:gn-flagpoles/gnlops",
+                "adverts":"true",
+                "analytics":"true",
+                "wwhp_feeds":"true",
+                "wwhp_obituary":"false",
+                "xproxy":"true",
+                "zephr":"true",
+                "zephrx":"true"
+             },
+             "ngas":{
+                "Metadata":{
+                   "FlagpoleBucketPrefix":"",
+                   "FlagpoleDate":"18 Mar 24 10:17 UTC",
+                   "FlagpoleFileID":"gn-flagpoles/ngas",
+                   "FlagpoleIdentity":"ngas",
+                   "FlagpoleSystem":"gn-flagpoles",
+                   "Guid":"e229d810-0dcd-45f0-a61b-ff6a4178aff7",
+                   "urn":"urn:pubpipe:gnflagpoles:ngas:gn-flagpoles/ngas"
+                },
+                "Urn":"urn:pubpipe:gnflagpoles:ngas:gn-flagpoles/ngas",
+                "adsense":"true",
+                "aps":"false",
+                "banner":"true",
+                "beta":"true",
+                "cmp":"true",
+                "comscoremmx":"true",
+                "comscoremmxeea":"true",
+                "content_rec":"true",
+                "covatic":"true",
+                "covatic_admeta":"true",
+                "effectivemeasure":"false",
+                "effectivemeasureeea":"false",
+                "fedid":"true",
+                "fedid_google":"true",
+                "fedid_permutive":"true",
+                "fpd":"true",
+                "fundingchoices_cmp":"false",
+                "gpp":"true",
+                "grapeshot":"true",
+                "ias_publisher":"true",
+                "iris":"false",
+                "name":"ngas",
+                "native_size":"true",
+                "newadunit":"true",
+                "newkeys":"true",
+                "nielsen":"true",
+                "ozone":"true",
+                "permutive":"true",
+                "permutive_cohort":"true",
+                "piano":"true",
+                "platinum":"true",
+                "sherlock":"false",
+                "signin":"false",
+                "signinnews":"false",
+                "speedcurve":"true",
+                "spo":"true",
+                "sticky_leader":"true",
+                "survey":"true",
+                "surveyx":"true",
+                "thirdpartyeea":"false",
+                "tmt_media_filter":"true",
+                "version":"1.28"
+             }
+          },
+          "isMobileWebview":false,
+          "os":{
+             "name":null,
+             "version":null
+          },
+          "browser":{
+             "name":null,
+             "version":null
+          },
+          "metadata":{
+             "contributor":"By Theo Leggett",
+             "description":"Dave Calhoun will leave the planemaker at end of this year amid a deepening crisis over its safety record.",
+             "firstPublished":1711369537000,
+             "lastPublished":1711437211000,
+             "lastUpdated":1712342567000,
+             "indexImage":{
+                "blocks":[
+                   {
+                      "type":"altText",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"text",
+                               "model":{
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"Boeing chief executive Dave Calhoun",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"rawImage",
+                      "model":{
+                         "height":549,
+                         "width":976,
+                         "locator":"3A0C/production/_133006841_davecalhoun_reuters.jpg",
+                         "originCode":"cpsprodpb",
+                         "copyrightHolder":"Reuters"
+                      }
+                   },
+                   {
+                      "type":"caption",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"text",
+                               "model":{
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"Boeing chief executive Dave Calhoun",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   }
+                ],
+                "alt":"Boeing chief executive Dave Calhoun",
+                "originalSrc":"https://c.files.bbci.co.uk/3A0C/production/_133006841_davecalhoun_reuters.jpg",
+                "iChefRecipe":"https://ichef.bbci.co.uk/news/$recipe/branded_news/3A0C/production/_133006841_davecalhoun_reuters.jpg",
+                "width":976,
+                "height":549,
+                "isEditorialImage":true
+             },
+             "seoHeadline":"Boeing chief executive Dave Calhoun to leave as firm faces safety crisis",
+             "promoHeadline":"Boeing boss to leave as firm faces safety crisis",
+             "options":{
+                "isIgorSeoTagsEnabled":false,
+                "includeComments":false,
+                "allowRightHandSide":true,
+                "isFactCheck":false,
+                "allowDateStamp":true,
+                "suitableForSyndication":true,
+                "hasNewsTracker":false,
+                "allowRelatedStoriesBox":true,
+                "isKeyContent":false,
+                "allowHeadline":true,
+                "allowAdvertising":true,
+                "hasContentWarning":false,
+                "isBreakingNews":false,
+                "allowPrintingSharingLinks":true
+             }
+          },
+          "pageKey":"@\"news\",\"business-68656925\",",
+          "type":"article",
+          "subtype":"news",
+          "slug":[
+             "news",
+             "business-68656925"
+          ],
+          "analytics":{
+             "producer":"NEWS",
+             "language":"en-gb",
+             "publicationDate":"1711369537000",
+             "pubUpdateDate":"1711437211000",
+             "contentId":"urn:bbc:cps:curie:asset:b4030033-d701-4634-affd-9c3f61f4a235",
+             "section":"business",
+             "name":"news.business.story.68656925.page"
+          }
+       },
+       "__N_SSP":true
+    },
+    "page":"/[[...slug]]",
+    "query":{
+       "slug":[
+          "news",
+          "business-68656925"
+       ]
+    },
+    "buildId":"xIm_j3E5yqJC4XFAbVfB-",
+    "assetPrefix":"/bbcx",
+    "isFallback":false,
+    "dynamicIds":[
+       73333,
+       54786,
+       39283,
+       48921
+    ],
+    "gssp":true,
+    "customServer":true,
+    "appGip":true,
+    "scriptLoader":[
+       
+    ]
+ }

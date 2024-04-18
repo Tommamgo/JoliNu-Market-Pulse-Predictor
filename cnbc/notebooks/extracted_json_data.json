@@ -1,0 +1,95 @@
+{
+    "routing": {
+        "locationBeforeTransitions": null
+    },
+    "navStatus": {
+        "pageType": "page",
+        "articleTitle": "",
+        "hasNewsAlert": false,
+        "hasLiveAlert": false,
+        "hasFiveThings": false,
+        "hasLivePlayer": false,
+        "hasCountDownClock": false,
+        "hasPartnerExp": false,
+        "articleSettings": {},
+        "megaMenuToggleFlag": false,
+        "isExpanded": false,
+        "isIntraSiteLink": false,
+        "hasLiveAlertAd": true,
+        "HFS": null
+    },
+    "dataByMarketMover": {},
+    "videoDataWithPosition": {
+        "top": "-3000px",
+        "left": "-3000px",
+        "data": {},
+        "videoAttributes": {}
+    },
+    "videoIsPreloader": {
+        "isPreloader": true,
+        "autoPlay": false,
+        "firstVideoClickedOnPage": true
+    },
+    "videoPlayerInfo": {
+        "position": "0",
+        "layout": "HIDDEN",
+        "playback": false,
+        "adPlayback": false
+    },
+    "videoEventsInfo": {
+        "position": 0
+    },
+    "placeholderInfo": {
+        "placeholderState": "INITIAL",
+        "replayVideo": false,
+        "trackedIDs": []
+    },
+    "videoRecommendationInfo": {
+        "videoRecommendation": false
+    },
+    "videoEndCardInfo": {},
+    "continuousPlayInfo": {
+        "continuousToNextVideo": false,
+        "playingIdx": 0
+    },
+    "playBackInitiativeInfo": {
+        "playBackInitiative": "Manual",
+        "isPlaylist": false
+    },
+    "dataByQuote": {},
+    "metaTags": {
+        "articleData": {},
+        "pageData": {}
+    },
+    "dataByGDSMarketTable": {},
+    "page": {
+        "loading": false,
+        "page": null,
+        "errors": null
+    },
+    "menu": {
+        "loading": false,
+        "menu": null,
+        "errors": null
+    },
+    "request": {
+        "cookies": {},
+        "hostname": "web.cnbc.com",
+        "query": {},
+        "headers": {
+            "partner": "cnbc01"
+        },
+        "site": "cnbc",
+        "path": "/component/header/cnbc/web"
+    },
+    "quote": {},
+    "sailthru": {
+        "sailthruLoaded": false
+    },
+    "relatedVideos": {},
+    "videoPlaceholders": {
+        "activeVideoPlaceholderKey": null,
+        "placeholders": {}
+    },
+    "marketSummary": {}
+}
