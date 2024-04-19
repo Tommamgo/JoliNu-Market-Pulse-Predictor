@@ -96,6 +96,10 @@ def print_progress(current, total):
     progress_bar = '#' * bars + '-' * (progress_length - bars)
     print(f"\r[{progress_bar}] {int(100 * percent_complete)}% - Artikel {current} von {total}", end="")
 
+def save_progress(processed_articles_count):
+    with open("progress.json", "w") as file:
+        json.dump({"processed_articles_count": processed_articles_count}, file)
+
 def main():
     user_agents = load_user_agents(user_agents_file)
     articles = load_json_data(input_file)
@@ -123,3 +127,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

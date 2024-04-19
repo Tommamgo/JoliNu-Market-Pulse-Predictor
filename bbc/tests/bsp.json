@@ -1,0 +1,3592 @@
+{
+    "props":{
+       "pageProps":{
+          "page":{
+             "@\"news\",\"business-68775413\",":{
+                "id":"urn:bbc:cps:curie:asset:deb3aab9-b444-445e-b8b4-3e3e0ab68de6",
+                "contents":[
+                   {
+                      "type":"headline",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"fragment",
+                               "model":{
+                                  "text":"Boeing hit after new whistleblower raises safety concerns",
+                                  "attributes":[
+                                     
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"timestamp",
+                      "model":{
+                         "timestamp":1712699255000
+                      }
+                   },
+                   {
+                      "type":"byline",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"contributor",
+                               "model":{
+                                  "blocks":[
+                                     {
+                                        "type":"name",
+                                        "model":{
+                                           "blocks":[
+                                              {
+                                                 "type":"text",
+                                                 "model":{
+                                                    "blocks":[
+                                                       {
+                                                          "type":"paragraph",
+                                                          "model":{
+                                                             "text":"By Natalie Sherman",
+                                                             "blocks":[
+                                                                {
+                                                                   "type":"fragment",
+                                                                   "model":{
+                                                                      "text":"By Natalie Sherman",
+                                                                      "attributes":[
+                                                                         
+                                                                      ]
+                                                                   }
+                                                                }
+                                                             ]
+                                                          }
+                                                       }
+                                                    ]
+                                                 }
+                                              }
+                                           ]
+                                        }
+                                     },
+                                     {
+                                        "type":"role",
+                                        "model":{
+                                           "blocks":[
+                                              {
+                                                 "type":"text",
+                                                 "model":{
+                                                    "blocks":[
+                                                       {
+                                                          "type":"paragraph",
+                                                          "model":{
+                                                             "text":"Business reporter, New York",
+                                                             "blocks":[
+                                                                {
+                                                                   "type":"fragment",
+                                                                   "model":{
+                                                                      "text":"Business reporter, New York",
+                                                                      "attributes":[
+                                                                         
+                                                                      ]
+                                                                   }
+                                                                }
+                                                             ]
+                                                          }
+                                                       }
+                                                    ]
+                                                 }
+                                              }
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            },
+                            {
+                               "type":"timestamp",
+                               "model":{
+                                  "timestamp":1712699255000
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"image",
+                      "model":{
+                         "emphasiseImage":true,
+                         "blocks":[
+                            {
+                               "type":"altText",
+                               "model":{
+                                  "blocks":[
+                                     {
+                                        "type":"text",
+                                        "model":{
+                                           "blocks":[
+                                              {
+                                                 "type":"fragment",
+                                                 "model":{
+                                                    "text":"An American Airlines Boeing 787-8 Dreamliner is landing at Barcelona Airport in Barcelona, Spain, on March 25, 2024",
+                                                    "attributes":[
+                                                       
+                                                    ]
+                                                 }
+                                              }
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            },
+                            {
+                               "type":"rawImage",
+                               "model":{
+                                  "height":549,
+                                  "width":976,
+                                  "locator":"E56B/production/_133113785_whatsubject.jpg",
+                                  "originCode":"cpsprodpb",
+                                  "copyrightHolder":"Getty Images"
+                               }
+                            },
+                            {
+                               "type":"caption",
+                               "model":{
+                                  "blocks":[
+                                     {
+                                        "type":"text",
+                                        "model":{
+                                           "blocks":[
+                                              {
+                                                 "type":"fragment",
+                                                 "model":{
+                                                    "text":"Boeing 787 Dreamliners are often used on international flights",
+                                                    "attributes":[
+                                                       
+                                                    ]
+                                                 }
+                                              }
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"Boeing is facing new pressure after a whistleblower reported safety concerns over the manufacturing of some of its planes to US regulators.",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"Boeing is facing new pressure after a whistleblower reported safety concerns over the manufacturing of some of its planes to US regulators.",
+                                           "attributes":[
+                                              "bold"
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"Engineer Sam Salehpour accused Boeing of taking shortcuts in the construction of its 787 and 777 jets.",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"Engineer Sam Salehpour accused Boeing of taking shortcuts in the construction of its 787 and 777 jets.",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"He claimed he was \"threatened with termination\" after raising concerns with bosses.",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"He claimed he was \"threatened with termination\" after raising concerns with bosses.",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"But Boeing said the claims were \"inaccurate\" and added it was confident its planes were safe.",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"But Boeing said the claims were \"inaccurate\" and added it was confident its planes were safe.",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"\"The issues raised have been subject to rigorous engineering examination under [Federal Aviation Administration] oversight,\" the company said.",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"\"The issues raised have been subject to rigorous engineering examination under [Federal Aviation Administration] oversight,\" the company said.",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"advertisement",
+                      "model":{
+                         "adType":"horizontal"
+                      },
+                      "incrementedType":"mid_1"
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"\"This analysis has validated that these issues do not present any safety concerns and the aircraft will maintain its service life over several decades.\"",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"\"This analysis has validated that these issues do not present any safety concerns and the aircraft will maintain its service life over several decades.\"",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"Shares in the plane manufacturer sank almost 2% on Tuesday after the Federal Aviation Administration (FAA) said it was investigating the claims, and the company reported it had delivered just 83 planes to customers in the first three months of the year - the smallest number since 2021. ",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"Shares in the plane manufacturer sank almost 2% on Tuesday after the Federal Aviation Administration (FAA) said it was investigating the claims, and the company reported it had delivered just 83 planes to customers in the first three months of the year - the smallest number since 2021. ",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"The whistleblower complaint, which was first reported by the New York Times, is the latest incident to focus attention on the safety of planes made by US-based Boeing, one of the world's two major producers of commercial planes. ",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"The whistleblower complaint, which was first reported by the New York Times, is the latest incident to focus attention on the safety of planes made by US-based Boeing, one of the world's two major producers of commercial planes. ",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"The company was already facing criminal investigation and other legal troubles, after an unused exit door broke off of one of its smaller 737 Max 9 planes shortly after take-off in January.",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"The company was already facing criminal investigation and other legal troubles, after an unused exit door broke off of one of its smaller 737 Max 9 planes shortly after take-off in January.",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"Passengers escaped serious injury but the incident has plunged the company into crisis, forcing a temporary grounding of dozens of 737 Max 9 planes, drawing regulatory probes and prompting Boeing to dramatically slow production of its planes.",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"Passengers escaped serious injury but the incident has plunged the company into crisis, forcing a temporary grounding of dozens of 737 Max 9 planes, drawing regulatory probes and prompting Boeing to dramatically slow production of its planes.",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"advertisement",
+                      "model":{
+                         "adType":"horizontal"
+                      },
+                      "incrementedType":"mid_2"
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"The company coming under intense scrutiny again led its chief executive David Calhoun to announce last month that he would step down by the end of the year.",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"The company coming under intense scrutiny again led its chief executive David Calhoun to announce last month that he would step down by the end of the year.",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"unorderedList",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"listItem",
+                               "model":{
+                                  "blocks":[
+                                     {
+                                        "type":"urlLink",
+                                        "model":{
+                                           "text":"Boeing pays Alaska Air $160m after mid-air blowout",
+                                           "locator":"https://www.bbc.co.uk/news/business-68737292",
+                                           "blocks":[
+                                              {
+                                                 "type":"fragment",
+                                                 "model":{
+                                                    "text":"Boeing pays Alaska Air $160m after mid-air blowout",
+                                                    "attributes":[
+                                                       
+                                                    ]
+                                                 }
+                                              }
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            },
+                            {
+                               "type":"listItem",
+                               "model":{
+                                  "blocks":[
+                                     {
+                                        "type":"urlLink",
+                                        "model":{
+                                           "text":"Probe after Boeing plane engine cover falls off",
+                                           "locator":"https://www.bbc.co.uk/news/business-68758088",
+                                           "blocks":[
+                                              {
+                                                 "type":"fragment",
+                                                 "model":{
+                                                    "text":"Probe after Boeing plane engine cover falls off",
+                                                    "attributes":[
+                                                       
+                                                    ]
+                                                 }
+                                              }
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            },
+                            {
+                               "type":"listItem",
+                               "model":{
+                                  "blocks":[
+                                     {
+                                        "type":"urlLink",
+                                        "model":{
+                                           "text":"Boeing tells pilots to check seats after plane drops",
+                                           "locator":"https://www.bbc.co.uk/news/business-68580950",
+                                           "blocks":[
+                                              {
+                                                 "type":"fragment",
+                                                 "model":{
+                                                    "text":"Boeing tells pilots to check seats after plane drops",
+                                                    "attributes":[
+                                                       
+                                                    ]
+                                                 }
+                                              }
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"On Tuesday, attorneys for engineer Mr Salehpour said Boeing had made decisions for 787 aircraft assembly which placed stress on joints that linked up parts of the body of the jets, an issue affecting more than 1,000 planes. ",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"On Tuesday, attorneys for engineer Mr Salehpour said Boeing had made decisions for 787 aircraft assembly which placed stress on joints that linked up parts of the body of the jets, an issue affecting more than 1,000 planes. ",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"In a whistleblower complaint filed with the FAA in January, he alleged the method could reduce the lifespan of the plane. ",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"In a whistleblower complaint filed with the FAA in January, he alleged the method could reduce the lifespan of the plane. ",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"\"These problems are the direct result of Boeing's decision in recent years to prioritize profits over safety, and a regulator in the FAA that has become too deferential to industry,\" his lawyers, Debra Katz and Lisa Banks, said in a statement.",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"\"These problems are the direct result of Boeing's decision in recent years to prioritize profits over safety, and a regulator in the FAA that has become too deferential to industry,\" his lawyers, Debra Katz and Lisa Banks, said in a statement.",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"advertisement",
+                      "model":{
+                         "adType":"horizontal"
+                      },
+                      "incrementedType":"mid_3"
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"The attorneys added Mr Salehpour had been transferred to work on the 777 plane after he raised concerns.",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"The attorneys added Mr Salehpour had been transferred to work on the 777 plane after he raised concerns.",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"They said he had soon observed other issues in the assembly of that plane.",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"They said he had soon observed other issues in the assembly of that plane.",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"\"He was threatened with termination, excluded from important meetings, projects, and communication, denied reasonable requests for medical leave,  assigned work outside of his expertise, and effectively declared persona non grata to his colleagues,\" they said.",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"\"He was threatened with termination, excluded from important meetings, projects, and communication, denied reasonable requests for medical leave,  assigned work outside of his expertise, and effectively declared persona non grata to his colleagues,\" they said.",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"The 787 Dreamliner is a bigger plane than the 737, often used on international flights. It has been flying commercially since 2011, but almost from the start has been the target of quality complaints. ",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"The 787 Dreamliner is a bigger plane than the 737, often used on international flights. It has been flying commercially since 2011, but almost from the start has been the target of quality complaints. ",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"Boeing eventually slowed production and stopped deliveries for almost two years, responding to issues that had been raised. The FAA in 2022 cleared Boeing to resume deliveries. ",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"Boeing eventually slowed production and stopped deliveries for almost two years, responding to issues that had been raised. The FAA in 2022 cleared Boeing to resume deliveries. ",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"advertisement",
+                      "model":{
+                         "adType":"horizontal"
+                      },
+                      "incrementedType":"mid_4"
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"The FAA, which has increased its oversight of Boeing since the door plug blowout in January, said in a statement that it encouraged people in the aviation industry to share information. ",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"The FAA, which has increased its oversight of Boeing since the door plug blowout in January, said in a statement that it encouraged people in the aviation industry to share information. ",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"text",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"paragraph",
+                               "model":{
+                                  "text":"\"We thoroughly investigate all reports,\" the agency said when asked about the report. ",
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"\"We thoroughly investigate all reports,\" the agency said when asked about the report. ",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"links",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"link",
+                               "model":{
+                                  "blocks":[
+                                     {
+                                        "type":"text",
+                                        "model":{
+                                           "blocks":[
+                                              {
+                                                 "type":"paragraph",
+                                                 "model":{
+                                                    "text":"Dreamliner aircraft to be scrapped at Prestwick",
+                                                    "blocks":[
+                                                       {
+                                                          "type":"urlLink",
+                                                          "model":{
+                                                             "text":"Dreamliner aircraft to be scrapped at Prestwick",
+                                                             "locator":"/news/uk-scotland-scotland-business-64834924",
+                                                             "blocks":[
+                                                                {
+                                                                   "type":"fragment",
+                                                                   "model":{
+                                                                      "text":"Dreamliner aircraft to be scrapped at Prestwick",
+                                                                      "attributes":[
+                                                                         
+                                                                      ]
+                                                                   }
+                                                                }
+                                                             ]
+                                                          }
+                                                       }
+                                                    ]
+                                                 }
+                                              }
+                                           ]
+                                        }
+                                     },
+                                     {
+                                        "type":"image",
+                                        "model":{
+                                           "blocks":[
+                                              {
+                                                 "type":"altText",
+                                                 "model":{
+                                                    "blocks":[
+                                                       {
+                                                          "type":"text",
+                                                          "model":{
+                                                             "blocks":[
+                                                                {
+                                                                   "type":"fragment",
+                                                                   "model":{
+                                                                      "text":"Dreamliners",
+                                                                      "attributes":[
+                                                                         
+                                                                      ]
+                                                                   }
+                                                                }
+                                                             ]
+                                                          }
+                                                       }
+                                                    ]
+                                                 }
+                                              },
+                                              {
+                                                 "type":"rawImage",
+                                                 "model":{
+                                                    "height":549,
+                                                    "width":976,
+                                                    "locator":"6ECC/production/_128846382_geograph-6718402-by-mark-s.jpg",
+                                                    "originCode":"cpsprodpb",
+                                                    "copyrightHolder":"MarkS/Geograph"
+                                                 }
+                                              },
+                                              {
+                                                 "type":"caption",
+                                                 "model":{
+                                                    "blocks":[
+                                                       {
+                                                          "type":"text",
+                                                          "model":{
+                                                             "blocks":[
+                                                                {
+                                                                   "type":"fragment",
+                                                                   "model":{
+                                                                      "text":"A number of Dreamliner aircraft have been in long term storage at Prestwick Airport",
+                                                                      "attributes":[
+                                                                         
+                                                                      ]
+                                                                   }
+                                                                }
+                                                             ]
+                                                          }
+                                                       }
+                                                    ]
+                                                 }
+                                              }
+                                           ]
+                                        }
+                                     }
+                                  ],
+                                  "timestamp":1677861269000
+                               }
+                            },
+                            {
+                               "type":"link",
+                               "model":{
+                                  "blocks":[
+                                     {
+                                        "type":"text",
+                                        "model":{
+                                           "blocks":[
+                                              {
+                                                 "type":"paragraph",
+                                                 "model":{
+                                                    "text":"Boeing tells pilots to check seats after plane drops",
+                                                    "blocks":[
+                                                       {
+                                                          "type":"urlLink",
+                                                          "model":{
+                                                             "text":"Boeing tells pilots to check seats after plane drops",
+                                                             "locator":"/news/business-68580950",
+                                                             "blocks":[
+                                                                {
+                                                                   "type":"fragment",
+                                                                   "model":{
+                                                                      "text":"Boeing tells pilots to check seats after plane drops",
+                                                                      "attributes":[
+                                                                         
+                                                                      ]
+                                                                   }
+                                                                }
+                                                             ]
+                                                          }
+                                                       }
+                                                    ]
+                                                 }
+                                              }
+                                           ]
+                                        }
+                                     },
+                                     {
+                                        "type":"image",
+                                        "model":{
+                                           "blocks":[
+                                              {
+                                                 "type":"altText",
+                                                 "model":{
+                                                    "blocks":[
+                                                       {
+                                                          "type":"text",
+                                                          "model":{
+                                                             "blocks":[
+                                                                {
+                                                                   "type":"fragment",
+                                                                   "model":{
+                                                                      "text":"Boeing 787 Dreamliner",
+                                                                      "attributes":[
+                                                                         
+                                                                      ]
+                                                                   }
+                                                                }
+                                                             ]
+                                                          }
+                                                       }
+                                                    ]
+                                                 }
+                                              },
+                                              {
+                                                 "type":"rawImage",
+                                                 "model":{
+                                                    "height":549,
+                                                    "width":976,
+                                                    "locator":"5DFA/production/_132885042_gettyimages-1671786130.jpg",
+                                                    "originCode":"cpsprodpb",
+                                                    "copyrightHolder":"Getty Images"
+                                                 }
+                                              },
+                                              {
+                                                 "type":"caption",
+                                                 "model":{
+                                                    "blocks":[
+                                                       {
+                                                          "type":"text",
+                                                          "model":{
+                                                             "blocks":[
+                                                                {
+                                                                   "type":"fragment",
+                                                                   "model":{
+                                                                      "text":"Latam says the incident involved a Boeing 787 Dreamliner",
+                                                                      "attributes":[
+                                                                         
+                                                                      ]
+                                                                   }
+                                                                }
+                                                             ]
+                                                          }
+                                                       }
+                                                    ]
+                                                 }
+                                              }
+                                           ]
+                                        }
+                                     }
+                                  ],
+                                  "timestamp":1710526221000
+                               }
+                            }
+                         ],
+                         "isLast":true
+                      }
+                   }
+                ],
+                "topics":[
+                   {
+                      "title":"Companies",
+                      "url":"/news/business/companies",
+                      "isEvent":false
+                   },
+                   {
+                      "title":"Boeing",
+                      "url":"/news/topics/c40rjmqd0pgt",
+                      "isEvent":false
+                   },
+                   {
+                      "title":"Air travel",
+                      "url":"/news/topics/crz4004j5zet",
+                      "isEvent":false
+                   }
+                ],
+                "onwardJourney":[
+                   {
+                      "type":"ohio",
+                      "content":[
+                         {
+                            "title":"Netflix profits soar after password crackdown",
+                            "href":"/news/business-68850766",
+                            "isLiveNow":false,
+                            "metadata":{
+                               "contentType":"article",
+                               "subtype":"news",
+                               "lastUpdated":1713516065000,
+                               "firstUpdated":1713489053000,
+                               "topics":[
+                                  "Business"
+                               ]
+                            },
+                            "tags":[
+                               
+                            ],
+                            "description":"The streaming giant said it added 9.3 million subscribers in the first three months of the year.",
+                            "image":{
+                               "type":"indexImage",
+                               "model":{
+                                  "blocks":{
+                                     "src":"https://ichef.bbci.co.uk/news/480/cpsprodpb/13194/production/_132282287_12ae2a46-05cc-4011-bf0b-57aea1a35977.jpg",
+                                     "altText":"Sofía Vergara as Griselda Blanco",
+                                     "width":976,
+                                     "height":549
+                                  }
+                               }
+                            },
+                            "relatedUrls":[
+                               
+                            ],
+                            "id":"urn:bbc:cps:curie:asset:84bb00c3-743b-45a2-8cf3-f25912a812b4",
+                            "state":"published"
+                         },
+                         {
+                            "title":"Ex-Post Office chair defends himself against claims",
+                            "href":"/news/articles/cjk4nr63j04o",
+                            "isLiveNow":false,
+                            "metadata":{
+                               "contentType":"article",
+                               "subtype":"news",
+                               "lastUpdated":1713447797843,
+                               "firstUpdated":1713442068084,
+                               "topics":[
+                                  "Business"
+                               ]
+                            },
+                            "tags":[
+                               
+                            ],
+                            "description":"A report claims Henry Staunton used derogatory language about recruiting a board member",
+                            "image":{
+                               "type":"indexImage",
+                               "model":{
+                                  "blocks":{
+                                     "src":"https://ichef.bbci.co.uk/news/480/cpsprodpb/c73a/live/3abbde30-fd6c-11ee-a9f7-4d961743aa47.png",
+                                     "altText":"Former Post Office chairman Henry Staunton ",
+                                     "width":970,
+                                     "height":558
+                                  }
+                               }
+                            },
+                            "relatedUrls":[
+                               
+                            ],
+                            "id":"urn:bbc:optimo:asset:cjk4nr63j04o",
+                            "state":"published"
+                         },
+                         {
+                            "title":"Post Office boss cleared of misconduct claims",
+                            "href":"/news/business-68835798",
+                            "isLiveNow":false,
+                            "metadata":{
+                               "contentType":"article",
+                               "subtype":"news",
+                               "lastUpdated":1713370725000,
+                               "firstUpdated":1713349976000,
+                               "topics":[
+                                  "Business"
+                               ]
+                            },
+                            "tags":[
+                               
+                            ],
+                            "description":"An investigation on behalf of the Post Office cleared Nick Read of misconduct allegations.",
+                            "image":{
+                               "type":"indexImage",
+                               "model":{
+                                  "blocks":{
+                                     "src":"https://ichef.bbci.co.uk/news/480/cpsprodpb/90E7/production/_132759073_c5d1165d5da731d9d6175cd549478888fb67788e.jpg",
+                                     "altText":"Nick Read",
+                                     "width":976,
+                                     "height":549
+                                  }
+                               }
+                            },
+                            "relatedUrls":[
+                               
+                            ],
+                            "id":"urn:bbc:cps:curie:asset:5e5ad709-a173-4ba2-98f1-9f8fe510884a",
+                            "state":"published"
+                         }
+                      ],
+                      "collectionId":"",
+                      "paginationData":{
+                         "page":0,
+                         "pageSize":3,
+                         "total":3
+                      },
+                      "title":"Companies"
+                   },
+                   {
+                      "type":"alaska",
+                      "content":[
+                         {
+                            "title":"Plane forced to land after filming melted windows",
+                            "href":"/news/uk-england-essex-68854396",
+                            "isLiveNow":false,
+                            "metadata":{
+                               "contentType":"article",
+                               "subtype":"news",
+                               "lastUpdated":1713529956000,
+                               "firstUpdated":1713529956000,
+                               "topics":[
+                                  "Essex"
+                               ]
+                            },
+                            "tags":[
+                               
+                            ],
+                            "description":"An Airbus turned back at 14,000ft after lighting caused window panes to fall out, investigators say.",
+                            "image":{
+                               "type":"indexImage",
+                               "model":{
+                                  "blocks":{
+                                     "src":"https://ichef.bbci.co.uk/news/480/cpsprodpb/C8C2/production/_131449315_gettyimages-92122386.jpg",
+                                     "altText":"Airbus A-321 jet airplane stock photo",
+                                     "width":976,
+                                     "height":549
+                                  }
+                               }
+                            },
+                            "relatedUrls":[
+                               
+                            ],
+                            "id":"urn:bbc:cps:curie:asset:1314e2b1-df6f-4c6c-bdd9-739f0367e870",
+                            "state":"published"
+                         },
+                         {
+                            "title":"Boeing whistleblower says he was put through 'hell'",
+                            "href":"/news/world-us-canada-68834525",
+                            "isLiveNow":false,
+                            "metadata":{
+                               "contentType":"article",
+                               "subtype":"news",
+                               "lastUpdated":1713402007000,
+                               "firstUpdated":1713362804000,
+                               "topics":[
+                                  "US \u0026 Canada"
+                               ]
+                            },
+                            "tags":[
+                               
+                            ],
+                            "description":"Lawmakers voice concerns over claims that Boeing threatens staff who raise safety concerns.",
+                            "image":{
+                               "type":"indexImage",
+                               "model":{
+                                  "blocks":{
+                                     "src":"https://ichef.bbci.co.uk/news/480/cpsprodpb/DE69/production/_133173965_gettyimages-2147882906.jpg",
+                                     "altText":"Boeing engineer, Sam Salehpour testifies before the US Senate Homeland Security and Governmental Affairs Subcommittee on Investigations during a hearing on \"Examining Boeing's Broken Safety Culture: Firsthand Accounts,\" at Capitol Hill in Washington, DC, on April 17, 2024.",
+                                     "width":976,
+                                     "height":549
+                                  }
+                               }
+                            },
+                            "relatedUrls":[
+                               
+                            ],
+                            "id":"urn:bbc:cps:curie:asset:dda3631e-f0d5-4788-86bb-73f53fa1dd3a",
+                            "state":"published"
+                         },
+                         {
+                            "title":"United Airlines says Boeing blowout cost it $200m",
+                            "href":"/news/articles/cd189nmv2dro",
+                            "isLiveNow":false,
+                            "metadata":{
+                               "contentType":"article",
+                               "subtype":"news",
+                               "lastUpdated":1713382583447,
+                               "firstUpdated":1713317562431,
+                               "topics":[
+                                  "Business"
+                               ]
+                            },
+                            "tags":[
+                               
+                            ],
+                            "description":"The firm had to ground its Boeing 737 MAX 9 fleet after a mid-air blowout on an Alaska Airlines flight.",
+                            "image":{
+                               "type":"indexImage",
+                               "model":{
+                                  "blocks":{
+                                     "src":"https://ichef.bbci.co.uk/news/480/cpsprodpb/9287/live/9b370890-fc5c-11ee-8649-bfbba1b76bbf.jpg",
+                                     "altText":"United Airlines Boeing 737-9 MAX takes off at Los Angeles International Airport.",
+                                     "width":2198,
+                                     "height":1236
+                                  }
+                               }
+                            },
+                            "relatedUrls":[
+                               
+                            ],
+                            "id":"urn:bbc:optimo:asset:cd189nmv2dro",
+                            "state":"published"
+                         },
+                         {
+                            "title":"EasyJet suspends flights to Israel until October ",
+                            "href":"/news/articles/czvj84v7w9go",
+                            "isLiveNow":false,
+                            "metadata":{
+                               "contentType":"article",
+                               "subtype":"news",
+                               "lastUpdated":1713273529184,
+                               "firstUpdated":1713265630114,
+                               "topics":[
+                                  
+                               ]
+                            },
+                            "tags":[
+                               
+                            ],
+                            "description":"The airline blames the \"evolving situation in Israel\" for stopping journeys to Tel Aviv",
+                            "image":{
+                               "type":"indexImage",
+                               "model":{
+                                  "blocks":{
+                                     "src":"https://ichef.bbci.co.uk/news/480/cpsprodpb/9cdf/live/4466fbf0-fbe0-11ee-bbcb-57c9a3db37cb.png",
+                                     "altText":"EasyJet plane",
+                                     "width":1114,
+                                     "height":626
+                                  }
+                               }
+                            },
+                            "relatedUrls":[
+                               
+                            ],
+                            "id":"urn:bbc:optimo:asset:czvj84v7w9go",
+                            "state":"published"
+                         },
+                         {
+                            "title":"What are my rights if my flight is cancelled or delayed?",
+                            "href":"/news/business-61646214",
+                            "isLiveNow":false,
+                            "metadata":{
+                               "contentType":"article",
+                               "subtype":"news",
+                               "lastUpdated":1713180286000,
+                               "firstUpdated":1653997597000,
+                               "topics":[
+                                  "Business"
+                               ]
+                            },
+                            "tags":[
+                               
+                            ],
+                            "description":"If you face disruption because flights are cancelled or delayed, then what can you do?",
+                            "image":{
+                               "type":"indexImage",
+                               "model":{
+                                  "blocks":{
+                                     "src":"https://ichef.bbci.co.uk/news/480/cpsprodpb/10120/production/_130342856_n-mgf-vm.png",
+                                     "altText":"Red graphic of a woman dragging suitcase",
+                                     "width":976,
+                                     "height":549
+                                  }
+                               }
+                            },
+                            "relatedUrls":[
+                               
+                            ],
+                            "id":"urn:bbc:cps:curie:asset:180120c6-e516-4caa-986b-a5f56c434553",
+                            "state":"published"
+                         }
+                      ],
+                      "collectionId":"",
+                      "paginationData":{
+                         "page":0,
+                         "pageSize":5,
+                         "total":5
+                      },
+                      "title":"Boeing, Air travel"
+                   }
+                ],
+                "relatedUrls":[
+                   
+                ],
+                "collections":[
+                   
+                ],
+                "section":[
+                   {
+                      "title":"Business",
+                      "url":"/news/business"
+                   }
+                ],
+                "pillar":[
+                   {
+                      "title":"Business",
+                      "url":"/business"
+                   }
+                ],
+                "collection":[
+                   
+                ],
+                "destination":[
+                   
+                ]
+             }
+          },
+          "country":"de",
+          "isUkHeader":"no",
+          "featureFlags":{
+             "authentication":true,
+             "bookmarking":false,
+             "client-side-routing":false,
+             "client-side-uk-redirect":true,
+             "comments":false,
+             "legacy-api":false,
+             "live-articles-in-same-tab":true,
+             "nevada-ad":true,
+             "new-navigation":false,
+             "optimizely-web":true,
+             "playlists":false,
+             "seo-allow-indexing":true,
+             "virginia-ad":true,
+             "webvitals":true,
+             "wntv":true,
+             "wntv-preroll-ad":false,
+             "zephr":true
+          },
+          "authInfo":{
+             "signInUrl":"https://session.bbc.com/session",
+             "signOutUrl":"https://account.bbc.com/signout",
+             "registerUrl":"https://session.bbc.com/session?action=register",
+             "statusUrl":"https://account.bbc.com/account",
+             "idSignedInCookieName":"ckns_id",
+             "accessTokenRefreshUrl":"https://session.bbc.com/session?ptrt=https%3A%2F%2Fsession.bbc.com%2Fsession%2Fannounce",
+             "accessTokenExpiredAt":0
+          },
+          "mainNavigation":[
+             {
+                "id":"2924a9c1-2dbf-442e-8833-a3254378fd7c",
+                "title":"Home",
+                "isSpecial":false,
+                "slug":"home",
+                "path":"/home",
+                "externalTarget":"_self",
+                "subMenus":[
+                   
+                ]
+             },
+             {
+                "id":"063bcb3d-4b69-4e37-8ee5-c3dba83cb654",
+                "title":"News",
+                "isSpecial":false,
+                "slug":"news",
+                "path":"/news",
+                "externalTarget":"_self",
+                "subMenus":[
+                   {
+                      "id":"1c020eb5-cf14-48eb-9049-ff1a23a87d1c",
+                      "title":"Israel-Gaza War",
+                      "isSpecial":false,
+                      "slug":"israel-gaza-war",
+                      "path":"/news/topics/c2vdnvdg6xxt",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"acaf7d2e-de25-43e9-bff7-526430a68103",
+                      "title":"War in Ukraine",
+                      "isSpecial":false,
+                      "slug":"war-in-ukraine",
+                      "path":"/news/war-in-ukraine",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"80120dd4-34d8-4f88-8fac-b9106634f6cb",
+                      "title":"India Election",
+                      "isSpecial":false,
+                      "slug":"india-election",
+                      "path":"/news/topics/ce483qevngqt",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"e2faeeff-4114-4b41-97c6-94241ab50cca",
+                      "title":"World",
+                      "isSpecial":false,
+                      "slug":"world",
+                      "path":"/news/world",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         {
+                            "id":"e2efbbaf-151d-4535-a36b-c96abcfbdff9",
+                            "title":"Africa",
+                            "isSpecial":false,
+                            "slug":"africa",
+                            "path":"/news/world/africa",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"63d03180-0656-4f2b-a835-0b4002151161",
+                            "title":"Asia",
+                            "isSpecial":false,
+                            "slug":"asia",
+                            "path":"/news/world/asia",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               {
+                                  "id":"68010f8a-b8f3-4f02-935b-583c08478b00",
+                                  "title":"China",
+                                  "isSpecial":false,
+                                  "slug":"china",
+                                  "path":"/news/world/asia/china",
+                                  "externalTarget":"_self",
+                                  "subMenus":[
+                                     
+                                  ]
+                               },
+                               {
+                                  "id":"8089a450-8ea8-4fa8-a5a2-6357342138e4",
+                                  "title":"India",
+                                  "isSpecial":false,
+                                  "slug":"india",
+                                  "path":"/news/world/asia/india",
+                                  "externalTarget":"_self",
+                                  "subMenus":[
+                                     
+                                  ]
+                               }
+                            ]
+                         },
+                         {
+                            "id":"e14c130b-87bb-48f9-b908-64e93662d0f3",
+                            "title":"Australia",
+                            "isSpecial":false,
+                            "slug":"australia",
+                            "path":"/news/world/australia",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"f40d59f3-59f1-4287-9463-776d9072d156",
+                            "title":"Europe",
+                            "isSpecial":false,
+                            "slug":"europe",
+                            "path":"/news/world/europe",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"a291d96d-ccf0-4bd9-87d0-6ed5d96c725a",
+                            "title":"Latin America",
+                            "isSpecial":false,
+                            "slug":"latin-america",
+                            "path":"/news/world/latin_america",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"0a95d057-dd2a-4bf0-853a-26906ade9e83",
+                            "title":"Middle East",
+                            "isSpecial":false,
+                            "slug":"middle-east",
+                            "path":"/news/world/middle_east",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         }
+                      ]
+                   },
+                   {
+                      "id":"12c17a85-99ae-498c-88af-e5e5e546cc2d",
+                      "title":"US \u0026 Canada",
+                      "isSpecial":false,
+                      "slug":"us-canada",
+                      "path":"/news/us-canada",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"d8de1db9-12e1-47dd-a98b-dd7e030278a7",
+                      "title":"UK",
+                      "isSpecial":false,
+                      "slug":"uk",
+                      "path":"/news/uk",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         {
+                            "id":"ca027fed-d827-464b-8d98-01bd459a0c8c",
+                            "title":"England",
+                            "isSpecial":false,
+                            "slug":"england",
+                            "path":"/news/england",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"83a33066-764c-40bc-8462-6d7fdfd7b854",
+                            "title":"N. Ireland",
+                            "isSpecial":false,
+                            "slug":"n-ireland",
+                            "path":"/news/northern_ireland",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"6d92711e-4fd3-412c-b472-b0b5772ae6e6",
+                            "title":"Scotland",
+                            "isSpecial":false,
+                            "slug":"scotland",
+                            "path":"/news/scotland",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"57a2e313-6272-4130-ac93-bc47b22414ee",
+                            "title":"Wales",
+                            "isSpecial":false,
+                            "slug":"wales",
+                            "path":"/news/wales",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         }
+                      ]
+                   },
+                   {
+                      "id":"c48c08cf-0ffb-4448-8456-0f8ece418e55",
+                      "title":"In Pictures",
+                      "isSpecial":false,
+                      "slug":"in-pictures",
+                      "path":"/news/in_pictures",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"8ad13692-3b57-4698-9476-be7cbd66b8e8",
+                      "title":"BBC Verify",
+                      "isSpecial":false,
+                      "slug":"bbc-verify",
+                      "path":"/news/reality_check",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   }
+                ]
+             },
+             {
+                "id":"9a3b487e-0449-4acd-91ad-8912fd803f4c",
+                "title":"Sport",
+                "isSpecial":false,
+                "slug":"sport",
+                "path":"/sport",
+                "externalTarget":"_self",
+                "subMenus":[
+                   
+                ]
+             },
+             {
+                "id":"3be1a98c-d5e2-4f4e-b6ba-5573200d9cfa",
+                "title":"Business",
+                "isSpecial":false,
+                "slug":"business",
+                "path":"/business",
+                "externalTarget":"_self",
+                "subMenus":[
+                   {
+                      "id":"f2d5c866-b6bf-4002-80d6-f9da730568e3",
+                      "title":"Future of Business",
+                      "isSpecial":false,
+                      "slug":"future-of-business",
+                      "path":"/business/future-of-business",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"ec9bb35b-b0c5-4473-b5d9-10a7b67b1384",
+                      "title":"Technology of Business",
+                      "isSpecial":false,
+                      "slug":"technology-of-business",
+                      "path":"/business/technology-of-business",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"8f3e7695-e96a-40d6-9981-090398fff842",
+                      "title":"Work Culture",
+                      "isSpecial":false,
+                      "slug":"work-culture",
+                      "path":"/business/c-suite",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   }
+                ]
+             },
+             {
+                "id":"89b4df75-21d5-4279-98b7-3d38e6042c35",
+                "title":"Innovation",
+                "isSpecial":false,
+                "slug":"innovation",
+                "path":"/innovation",
+                "externalTarget":"_self",
+                "subMenus":[
+                   {
+                      "id":"c0450682-a477-4e83-abd9-5aeac1b01fa1",
+                      "title":"Technology",
+                      "isSpecial":false,
+                      "slug":"technology",
+                      "path":"/innovation/technology",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"9e68bb61-339e-42ad-88c6-cc8e802971a8",
+                      "title":"Science \u0026 Health",
+                      "isSpecial":false,
+                      "slug":"science-health",
+                      "path":"/innovation/science",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"b1ce6e08-3410-485b-8374-f43e3a07bedd",
+                      "title":"Artificial Intelligence",
+                      "isSpecial":false,
+                      "slug":"artificial-intelligence",
+                      "path":"/innovation/artificial-intelligence",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   }
+                ]
+             },
+             {
+                "id":"7f881a05-b03a-45db-bd10-4a47a7ad802e",
+                "title":"Culture",
+                "isSpecial":false,
+                "slug":"culture",
+                "path":"/culture",
+                "externalTarget":"_self",
+                "subMenus":[
+                   {
+                      "id":"22b964f1-da30-4ca0-863e-a106c3ef7254",
+                      "title":"Film \u0026 TV",
+                      "isSpecial":false,
+                      "slug":"film-tv",
+                      "path":"/culture/film-tv",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"f6a70c74-d5e2-44bb-878e-ce36732714f1",
+                      "title":"Music",
+                      "isSpecial":false,
+                      "slug":"music",
+                      "path":"/culture/music",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"80e96f33-f78e-4847-b330-45ac21b8e9c6",
+                      "title":"Art \u0026 Design",
+                      "isSpecial":false,
+                      "slug":"art-design",
+                      "path":"/culture/art",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"f59dcc11-f05f-4040-acbb-2d4cf2af78ec",
+                      "title":"Style",
+                      "isSpecial":false,
+                      "slug":"style",
+                      "path":"/culture/style",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"8cf69260-e393-4d06-9073-ca5c513ddce7",
+                      "title":"Books",
+                      "isSpecial":false,
+                      "slug":"books",
+                      "path":"/culture/books",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"1bc7e1e8-3a92-4fb8-8828-7afffd4b60b8",
+                      "title":"Entertainment News",
+                      "isSpecial":false,
+                      "slug":"entertainment-news",
+                      "path":"/culture/entertainment-news",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   }
+                ]
+             },
+             {
+                "id":"cb51d1b0-ae3f-4946-88ea-c6022adf46b1",
+                "title":"Travel",
+                "isSpecial":false,
+                "slug":"travel",
+                "path":"/travel",
+                "externalTarget":"_self",
+                "subMenus":[
+                   {
+                      "id":"7b43af35-0fd3-40ce-b254-6ed9820a2391",
+                      "title":"Destinations",
+                      "isSpecial":false,
+                      "slug":"destinations",
+                      "path":"/travel/destinations",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         {
+                            "id":"ed3f9748-cc5e-4b0d-a4de-6097aad91772",
+                            "title":"Africa",
+                            "isSpecial":false,
+                            "slug":"africa",
+                            "path":"/travel/destinations/africa",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"60709f46-1f75-4cdc-8687-c3c9b00e95e3",
+                            "title":"Antarctica",
+                            "isSpecial":false,
+                            "slug":"antarctica",
+                            "path":"/travel/destinations/antarctica",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"8783c04f-4394-4514-b3db-88947a3bf55a",
+                            "title":"Asia",
+                            "isSpecial":false,
+                            "slug":"asia",
+                            "path":"/travel/destinations/asia",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"13a35b17-e9b4-4e87-9f63-8852ca9880e1",
+                            "title":"Australia and Pacific",
+                            "isSpecial":false,
+                            "slug":"australia-and-pacific",
+                            "path":"/travel/destinations/australia-and-pacific",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"5b91b0d8-45a9-414e-9e06-04cbca66cf93",
+                            "title":"Caribbean \u0026 Bermuda",
+                            "isSpecial":false,
+                            "slug":"caribbean-bermuda",
+                            "path":"/travel/destinations/caribbean",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"9ecf4a50-cbc8-4c87-bea4-dd647d0f1c82",
+                            "title":"Central America",
+                            "isSpecial":false,
+                            "slug":"central-america",
+                            "path":"/travel/destinations/central-america",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"abba2b53-c1dd-4eba-95f9-b6056abdc761",
+                            "title":"Europe",
+                            "isSpecial":false,
+                            "slug":"europe",
+                            "path":"/travel/destinations/europe",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"16268d63-696f-4b88-9045-44c11c2d639a",
+                            "title":"Middle East",
+                            "isSpecial":false,
+                            "slug":"middle-east",
+                            "path":"/travel/destinations/middle-east",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"013ce363-791e-4c07-96d3-f3e7a570984a",
+                            "title":"North America",
+                            "isSpecial":false,
+                            "slug":"north-america",
+                            "path":"/travel/destinations/north-america",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"a57297c1-0fe4-436d-a389-5009770fa83d",
+                            "title":"South America",
+                            "isSpecial":false,
+                            "slug":"south-america",
+                            "path":"/travel/destinations/south-america",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         }
+                      ]
+                   },
+                   {
+                      "id":"79eca921-87eb-40fd-a1ba-9a82d8a1e339",
+                      "title":"World’s Table",
+                      "isSpecial":false,
+                      "slug":"world’s-table",
+                      "path":"/travel/worlds-table",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"7e259905-cdd6-4c56-a6ea-76763b1b62be",
+                      "title":"Culture \u0026 Experiences",
+                      "isSpecial":false,
+                      "slug":"culture-experiences",
+                      "path":"/travel/cultural-experiences",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"c40666a1-bd96-4b52-85cd-3a5ff09ab81c",
+                      "title":"Adventures",
+                      "isSpecial":false,
+                      "slug":"adventures",
+                      "path":"/travel/adventures",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"ccd1959f-26e6-42a3-b66a-3644b603f6a3",
+                      "title":"The SpeciaList",
+                      "isSpecial":false,
+                      "slug":"the-specialist",
+                      "path":"/travel/specialist",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   }
+                ]
+             },
+             {
+                "id":"e69e3dc1-450c-4401-97ec-5aa419c5647d",
+                "title":"Earth",
+                "isSpecial":false,
+                "slug":"earth",
+                "path":"/future-planet",
+                "externalTarget":"_self",
+                "subMenus":[
+                   {
+                      "id":"48ba2e36-9e30-40f8-8da0-c11c8609bb92",
+                      "title":"Natural Wonders",
+                      "isSpecial":false,
+                      "slug":"natural-wonders",
+                      "path":"/future-planet/natural-wonders",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"2be892ec-e990-4b2a-a9cc-e23041bfccbe",
+                      "title":"Weather \u0026 Science",
+                      "isSpecial":false,
+                      "slug":"weather-science",
+                      "path":"/future-planet/weather-science",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"64782a53-cd27-4278-afa9-8dab421e86a2",
+                      "title":"Climate Solutions",
+                      "isSpecial":false,
+                      "slug":"climate-solutions",
+                      "path":"/future-planet/solutions",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"cff20569-a988-4937-9e8f-80cdceb37549",
+                      "title":"Sustainable Business",
+                      "isSpecial":false,
+                      "slug":"sustainable-business",
+                      "path":"/future-planet/sustainable-business",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"f5a1424e-6f93-4507-aefe-d6e6b9733e39",
+                      "title":"Green Living",
+                      "isSpecial":false,
+                      "slug":"green-living",
+                      "path":"/future-planet/green-living",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   }
+                ]
+             },
+             {
+                "id":"a93006de-fe8e-4cd1-8e38-329baa6fa415",
+                "title":"Video",
+                "isSpecial":true,
+                "slug":"video",
+                "path":"/video",
+                "externalTarget":"_self",
+                "subMenus":[
+                   
+                ]
+             },
+             {
+                "id":"285803eb-1f18-40cb-a0fd-71c814947269",
+                "title":"Live",
+                "isSpecial":false,
+                "slug":"live",
+                "path":"/live",
+                "externalTarget":"_self",
+                "subMenus":[
+                   {
+                      "id":"6f83038b-f067-4ec9-aa67-932f5e54ac6f",
+                      "title":"Live News",
+                      "isSpecial":false,
+                      "slug":"live-news",
+                      "path":"/live/news",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"2a6ab7e8-aa2a-4a71-9dcf-558aa87cf8db",
+                      "title":"Live Sport",
+                      "isSpecial":false,
+                      "slug":"live-sport",
+                      "path":"/live/sport",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   }
+                ]
+             }
+          ],
+          "hamburgerNavigation":[
+             {
+                "id":"b14afeb7-8f5b-49b3-ab36-b883bf42ac7b",
+                "title":"Home",
+                "isSpecial":false,
+                "slug":"home",
+                "path":"/home",
+                "externalTarget":"_self",
+                "subMenus":[
+                   
+                ]
+             },
+             {
+                "id":"a33fa543-59ef-4909-9efc-9a0e9c225524",
+                "title":"News",
+                "isSpecial":false,
+                "slug":"news",
+                "path":"/news",
+                "externalTarget":"_self",
+                "subMenus":[
+                   {
+                      "id":"1ace3c07-97e6-447b-bec2-fdabcd695c77",
+                      "title":"News",
+                      "isSpecial":false,
+                      "slug":"news",
+                      "path":"/news",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"0a0cb3c4-8814-44ea-a903-870bfdeeb878",
+                      "title":"Israel-Gaza War",
+                      "isSpecial":false,
+                      "slug":"c2vdnvdg6xxt",
+                      "path":"/news/topics/c2vdnvdg6xxt",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"ab9201af-2c4d-4fc6-9929-73b5227fa201",
+                      "title":"War in Ukraine",
+                      "isSpecial":false,
+                      "slug":"war-in-ukraine",
+                      "path":"/news/war-in-ukraine",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"d6c63889-dba4-47e9-8e42-dac11c7d9052",
+                      "title":"India Election",
+                      "isSpecial":false,
+                      "slug":"ce483qevngqt",
+                      "path":"/news/topics/ce483qevngqt",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"bfc3aab8-2c45-45ad-af01-08e3aaa9ef0e",
+                      "title":"World",
+                      "isSpecial":false,
+                      "slug":"world",
+                      "path":"/news/world",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         {
+                            "id":"6b0ec95d-90f8-4bff-8913-944099fc7bb6",
+                            "title":"World",
+                            "isSpecial":false,
+                            "slug":"world",
+                            "path":"/news/world",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"c29a9821-392c-4254-a924-f654445df273",
+                            "title":"Africa",
+                            "isSpecial":false,
+                            "slug":"africa",
+                            "path":"/news/world/africa",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"eed2c2ca-aeb5-4370-995d-ea38787f15b6",
+                            "title":"Asia",
+                            "isSpecial":false,
+                            "slug":"asia",
+                            "path":"/news/world/asia",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"2d0b82cc-fa27-4e54-9e82-e252c0215ed4",
+                            "title":"Australia",
+                            "isSpecial":false,
+                            "slug":"australia",
+                            "path":"/news/world/australia",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"f1c7f86f-1798-4930-a51b-2bc4fb64c949",
+                            "title":"Europe",
+                            "isSpecial":false,
+                            "slug":"europe",
+                            "path":"/news/world/europe",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"b5c10e8c-b885-44b4-b9b7-ee3171413a4a",
+                            "title":"Latin America",
+                            "isSpecial":false,
+                            "slug":"latin_america",
+                            "path":"/news/world/latin_america",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"e0688f77-0317-413a-96c4-6f25cdc6ebf2",
+                            "title":"Middle East",
+                            "isSpecial":false,
+                            "slug":"middle_east",
+                            "path":"/news/world/middle_east",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         }
+                      ]
+                   },
+                   {
+                      "id":"3ec73621-02cb-4491-81d0-fbe2e9898a43",
+                      "title":"US \u0026 Canada",
+                      "isSpecial":false,
+                      "slug":"us-canada",
+                      "path":"/news/us-canada",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"0c1e53d0-1cec-4f0e-a742-8addf7146b89",
+                      "title":"UK",
+                      "isSpecial":false,
+                      "slug":"uk",
+                      "path":"/news/uk",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         {
+                            "id":"d4129e61-25a1-4147-94ea-52496b99b2b3",
+                            "title":"UK",
+                            "isSpecial":false,
+                            "slug":"uk",
+                            "path":"/news/uk",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"32255fc2-6d9e-4dc1-9050-f9db0dda78cf",
+                            "title":"England",
+                            "isSpecial":false,
+                            "slug":"england",
+                            "path":"/news/england",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"7062bc98-edf2-49c6-b692-2cf38cb3a0b1",
+                            "title":"N. Ireland",
+                            "isSpecial":false,
+                            "slug":"northern_ireland",
+                            "path":"/news/northern_ireland",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"66e8a5ec-d040-47a5-b9de-8b9499d5b8bd",
+                            "title":"Scotland",
+                            "isSpecial":false,
+                            "slug":"scotland",
+                            "path":"/news/scotland",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"bec15455-d856-4001-9e83-7bf0e7ea9f13",
+                            "title":"Wales",
+                            "isSpecial":false,
+                            "slug":"wales",
+                            "path":"/news/wales",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         },
+                         {
+                            "id":"28055b81-65fd-4093-ad9c-e1b167826528",
+                            "title":"UK Nations and Regions",
+                            "isSpecial":false,
+                            "externalUrl":"https://www.bbc.com/news/regions",
+                            "externalTarget":"_self",
+                            "subMenus":[
+                               
+                            ]
+                         }
+                      ]
+                   },
+                   {
+                      "id":"e431163d-bae4-4936-9173-2bd76d86a633",
+                      "title":"In Pictures",
+                      "isSpecial":false,
+                      "slug":"in_pictures",
+                      "path":"/news/in_pictures",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"dd68fcdc-1323-454d-b43d-6595afbc84d8",
+                      "title":"BBC Verify",
+                      "isSpecial":false,
+                      "slug":"reality_check",
+                      "path":"/news/reality_check",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   }
+                ]
+             },
+             {
+                "id":"dde6b319-5544-4833-82f0-dce357a285a6",
+                "title":"Sport",
+                "isSpecial":false,
+                "slug":"sport",
+                "path":"/sport",
+                "externalTarget":"_self",
+                "subMenus":[
+                   
+                ]
+             },
+             {
+                "id":"bfd6720a-dbb2-4e51-b30b-6566e54d535f",
+                "title":"Business",
+                "isSpecial":false,
+                "slug":"business",
+                "path":"/business",
+                "externalTarget":"_self",
+                "subMenus":[
+                   {
+                      "id":"8aa93a8a-9e06-446a-8ef9-b00d5477382a",
+                      "title":"Business",
+                      "isSpecial":false,
+                      "slug":"business",
+                      "path":"/business",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"f0f3345d-eb79-4d57-b09f-2fb2f784e23d",
+                      "title":"Future of Business",
+                      "isSpecial":false,
+                      "slug":"future-of-business",
+                      "path":"/business/future-of-business",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"c33edb32-0f37-48c0-bf3f-594f03b0bb54",
+                      "title":"Technology of Business",
+                      "isSpecial":false,
+                      "slug":"technology-of-business",
+                      "path":"/business/technology-of-business",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"37da9595-a351-4d2c-8158-8a7c0897f96c",
+                      "title":"Work Culture",
+                      "isSpecial":false,
+                      "slug":"c-suite",
+                      "path":"/business/c-suite",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"8d9b9868-6b57-4764-b08b-9b9b9dd3514e",
+                      "title":"Market Data",
+                      "isSpecial":false,
+                      "externalUrl":"https://www.bbc.com/news/business/market-data",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   }
+                ]
+             },
+             {
+                "id":"8222e0da-2ce8-4836-8d13-1bf56c6e76bd",
+                "title":"Innovation",
+                "isSpecial":false,
+                "slug":"innovation",
+                "path":"/innovation",
+                "externalTarget":"_self",
+                "subMenus":[
+                   {
+                      "id":"931f2b2c-c66a-4148-864b-10efbca6fbb0",
+                      "title":"Innovation",
+                      "isSpecial":false,
+                      "slug":"innovation",
+                      "path":"/innovation",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"f7b30f67-6829-4085-9810-9492ccec3f05",
+                      "title":"Technology",
+                      "isSpecial":false,
+                      "slug":"technology",
+                      "path":"/innovation/technology",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"e72952dd-3dad-4128-8f0e-370690b2a1f6",
+                      "title":"Science \u0026 Health",
+                      "isSpecial":false,
+                      "slug":"science",
+                      "path":"/innovation/science",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"a27ec795-b75b-409c-b54b-4990b2059620",
+                      "title":"Artificial Intelligence",
+                      "isSpecial":false,
+                      "slug":"artificial-intelligence",
+                      "path":"/innovation/artificial-intelligence",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   }
+                ]
+             },
+             {
+                "id":"b8c0cfd2-2cc7-4bc9-ba8e-2a210d2636fe",
+                "title":"Culture",
+                "isSpecial":false,
+                "slug":"culture",
+                "path":"/culture",
+                "externalTarget":"_self",
+                "subMenus":[
+                   {
+                      "id":"c473c556-df48-41ec-a1c3-35dfd109ab8b",
+                      "title":"Culture",
+                      "isSpecial":false,
+                      "slug":"culture",
+                      "path":"/culture",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"ff45f6f5-88d6-453f-a2a6-adcead9b7cb2",
+                      "title":"Film \u0026 TV",
+                      "isSpecial":false,
+                      "slug":"film-tv",
+                      "path":"/culture/film-tv",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"d300f6cb-3ed7-4d25-ab77-1c747b82e32b",
+                      "title":"Music",
+                      "isSpecial":false,
+                      "slug":"music",
+                      "path":"/culture/music",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"d0097ad5-dc73-4b4a-a393-1b6ac195a53f",
+                      "title":"Art \u0026 Design",
+                      "isSpecial":false,
+                      "slug":"art",
+                      "path":"/culture/art",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"0df05f31-e39d-4451-bff6-71d6155b2232",
+                      "title":"Style",
+                      "isSpecial":false,
+                      "slug":"style",
+                      "path":"/culture/style",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"6c69bd66-d721-4b94-9c3d-16e5c662cd32",
+                      "title":"Books",
+                      "isSpecial":false,
+                      "slug":"books",
+                      "path":"/culture/books",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"c819f495-7ee3-4d06-8873-34263c42efb6",
+                      "title":"Entertainment News",
+                      "isSpecial":false,
+                      "slug":"entertainment-news",
+                      "path":"/culture/entertainment-news",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   }
+                ]
+             },
+             {
+                "id":"cc2e44a5-735b-42a5-bea1-9f95087e5923",
+                "title":"Travel",
+                "isSpecial":false,
+                "slug":"travel",
+                "path":"/travel",
+                "externalTarget":"_self",
+                "subMenus":[
+                   {
+                      "id":"2e31976a-7a69-44fa-b2a3-c631663e3201",
+                      "title":"Travel",
+                      "isSpecial":false,
+                      "slug":"travel",
+                      "path":"/travel",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"26a0b5f5-f1fd-49fb-9412-746f1f12fce6",
+                      "title":"Destinations",
+                      "isSpecial":false,
+                      "slug":"destinations",
+                      "path":"/travel/destinations",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"7dfe4b3a-33ef-436f-a313-4627522193d5",
+                      "title":"World’s Table",
+                      "isSpecial":false,
+                      "slug":"worlds-table",
+                      "path":"/travel/worlds-table",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"3cc2f367-91cb-45a0-91ba-92e0211c6a40",
+                      "title":"Culture \u0026 Experiences",
+                      "isSpecial":false,
+                      "slug":"cultural-experiences",
+                      "path":"/travel/cultural-experiences",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"00f646c7-6f6b-472d-878f-7e96351cc975",
+                      "title":"Adventures",
+                      "isSpecial":false,
+                      "slug":"adventures",
+                      "path":"/travel/adventures",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"32f3bc72-3250-4956-b031-726d342e95ad",
+                      "title":"The SpeciaList",
+                      "isSpecial":false,
+                      "slug":"specialist",
+                      "path":"/travel/specialist",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   }
+                ]
+             },
+             {
+                "id":"8e3b0e6a-8af6-4988-b9e9-0a9bebafc359",
+                "title":"Earth",
+                "isSpecial":false,
+                "slug":"future-planet",
+                "path":"/future-planet",
+                "externalTarget":"_self",
+                "subMenus":[
+                   {
+                      "id":"8ae174e3-5ccf-4c0d-b1e2-cb59dbf96a33",
+                      "title":"Earth",
+                      "isSpecial":false,
+                      "slug":"future-planet",
+                      "path":"/future-planet",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"e1aa79ee-96d7-4de7-9ac6-3cd8c59226ce",
+                      "title":"Natural Wonders",
+                      "isSpecial":false,
+                      "slug":"natural-wonders",
+                      "path":"/future-planet/natural-wonders",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"33aefe46-75e4-4f31-9e62-1cac8a326772",
+                      "title":"Weather \u0026 Science",
+                      "isSpecial":false,
+                      "slug":"weather-science",
+                      "path":"/future-planet/weather-science",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"bfd82399-4a05-43a0-8fac-798248620545",
+                      "title":"Climate Solutions",
+                      "isSpecial":false,
+                      "slug":"solutions",
+                      "path":"/future-planet/solutions",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"0f4c408b-e243-49ca-8fbd-311110e8ffde",
+                      "title":"Sustainable Business",
+                      "isSpecial":false,
+                      "slug":"sustainable-business",
+                      "path":"/future-planet/sustainable-business",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"e519e837-4f43-47b3-83df-e0e0df0a0817",
+                      "title":"Green Living",
+                      "isSpecial":false,
+                      "slug":"green-living",
+                      "path":"/future-planet/green-living",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   }
+                ]
+             },
+             {
+                "id":"31cf39da-d028-479a-a7b9-50d46087bc58",
+                "title":"Video",
+                "isSpecial":false,
+                "slug":"video",
+                "path":"/video",
+                "externalTarget":"_self",
+                "subMenus":[
+                   
+                ]
+             },
+             {
+                "id":"1db9ffaa-973e-4e9b-9322-3111cf51f34f",
+                "title":"Live",
+                "isSpecial":false,
+                "slug":"live",
+                "path":"/live",
+                "externalTarget":"_self",
+                "subMenus":[
+                   {
+                      "id":"ad957085-3b55-47fa-b633-48dbd9fd8a6f",
+                      "title":"Live",
+                      "isSpecial":false,
+                      "slug":"live",
+                      "path":"/live",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"2125a656-387f-4915-8f92-5fcd3667f830",
+                      "title":"Live News",
+                      "isSpecial":false,
+                      "slug":"news",
+                      "path":"/live/news",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   },
+                   {
+                      "id":"9c515d02-b037-4dc2-abf9-079d1278d578",
+                      "title":"Live Sport",
+                      "isSpecial":false,
+                      "slug":"sport",
+                      "path":"/live/sport",
+                      "externalTarget":"_self",
+                      "subMenus":[
+                         
+                      ]
+                   }
+                ]
+             },
+             {
+                "id":"ab1b3ac7-4313-4df8-a1fb-f9248950443b",
+                "title":"Audio",
+                "isSpecial":false,
+                "externalUrl":"https://www.bbc.co.uk/sounds",
+                "externalTarget":"_self",
+                "subMenus":[
+                   
+                ]
+             },
+             {
+                "id":"95c1f9a3-3191-4388-91dc-606b2ffea529",
+                "title":"Weather",
+                "isSpecial":false,
+                "externalUrl":"https://www.bbc.com/weather",
+                "externalTarget":"_self",
+                "subMenus":[
+                   
+                ]
+             }
+          ],
+          "footer":{
+             "contentLinks":[
+                {
+                   "id":"fb82fcab-247c-4dd0-809d-b07acfbdb489",
+                   "title":"Home",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"8ff91731-7a8b-4f28-8915-8c70a148d51e",
+                   "title":"News",
+                   "isSpecial":false,
+                   "slug":"news",
+                   "path":"/news",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"26271833-3b4b-4f24-9129-f5eceeffba44",
+                   "title":"Sport",
+                   "isSpecial":false,
+                   "slug":"sport",
+                   "path":"/sport",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"eeafae32-d70a-4ac9-982e-95bb2c7ffe2d",
+                   "title":"Business",
+                   "isSpecial":false,
+                   "slug":"business",
+                   "path":"/business",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"ec29bec8-89fa-4d0c-a688-7069a45869cc",
+                   "title":"Innovation",
+                   "isSpecial":false,
+                   "slug":"innovation",
+                   "path":"/innovation",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"321b0046-a5a9-419d-b4ac-6df716d48878",
+                   "title":"Culture",
+                   "isSpecial":false,
+                   "slug":"culture",
+                   "path":"/culture",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"cc9bbb4e-06d0-4c66-af89-a5def13b82b1",
+                   "title":"Travel",
+                   "isSpecial":false,
+                   "slug":"travel",
+                   "path":"/travel",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"63f2f436-d892-49a0-920e-a6dd6400a3f7",
+                   "title":"Earth",
+                   "isSpecial":false,
+                   "slug":"future-planet",
+                   "path":"/future-planet",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"4359a21d-36e8-434f-9eb2-b1a9b0608584",
+                   "title":"Video",
+                   "isSpecial":false,
+                   "slug":"video",
+                   "path":"/video",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"81f71bdf-f8bb-422e-bbdf-1ae7906597c4",
+                   "title":"Live",
+                   "isSpecial":false,
+                   "slug":"live",
+                   "path":"/live",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"b902a3a8-0b3f-4d0a-a9cc-01bafeefe839",
+                   "title":"Audio",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.co.uk/sounds",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"0bec1e28-949f-4b09-8f2f-ddd8c835dd72",
+                   "title":"Weather",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/weather",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"dec73bea-0dfc-4edd-b470-f702bcdebdc2",
+                   "title":"BBC Shop",
+                   "isSpecial":false,
+                   "externalUrl":"https://shop.bbc.com/",
+                   "externalTarget":"_self"
+                }
+             ],
+             "languages":[
+                {
+                   "id":"01476618-3313-4f4e-9971-9dc7a2cb2edb",
+                   "title":"Oduu Afaan Oromootiin",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/afaanoromoo",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"1e231022-2284-46d5-9ee0-708bbd337259",
+                   "title":"Amharic ዜና በአማርኛ",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/amharic",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"a496b109-87ad-47be-bf4b-fcd916ea0b9b",
+                   "title":"Arabic عربي",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/arabic",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"ac555f04-2d16-4a03-b649-e9e2c9961ba0",
+                   "title":"Azeri AZƏRBAYCAN",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/azeri",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"92c22b8a-09d3-4295-ae75-d5695ed34825",
+                   "title":"Bangla বাংলা",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/bengali",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"1c9e6665-d1b8-4972-b4e2-fd8e00280ea1",
+                   "title":"Burmese မြန်မာ",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/burmese",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"cf50b4cc-75c7-44cc-9cce-bbc669d40b0c",
+                   "title":"Chinese 中文网",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/zhongwen/simp",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"ce69f250-b3db-4d33-96ef-d65b302f73b6",
+                   "title":"French AFRIQUE",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/afrique",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"30859881-e9a9-4e8f-b36f-967b906b6ae5",
+                   "title":"Hausa HAUSA",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/hausa",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"9239c7c6-6114-4c99-a1dc-27f0624c394b",
+                   "title":"Hindi हिन्दी",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/hindi",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"fd0803bf-663a-4f5b-ad78-e01b5a763b91",
+                   "title":"Gaelic NAIDHEACHDAN",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/naidheachdan",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"1758c58d-ce2b-4fb8-83e8-bcaadfc24bfd",
+                   "title":"Gujarati ગુજરાતીમાં સમાચાર",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/gujarati",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"6cfdac8d-f870-46f4-af15-4fb4b6e10f69",
+                   "title":"Igbo AKỤKỌ N’IGBO",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/igbo",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"c15f7a02-7e37-4eb8-bbbc-53f62d0d1f31",
+                   "title":"Indonesian INDONESIA",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/indonesia",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"dc7248a3-5007-4ced-ae1b-dad9850e753d",
+                   "title":"Japanese 日本語",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/japanese",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"72fcb885-57bb-4353-9021-f66a1485a07d",
+                   "title":"Kinyarwanda GAHUZA",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/gahuza",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"73784cf3-9f35-4393-a7c5-812a0474812f",
+                   "title":"Kirundi KIRUNDI",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/gahuza",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"4dda40b2-4fb7-4f94-b65c-06a7b18a23f6",
+                   "title":"Korean 한국어",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/korean",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"0aa7e3cd-867e-433e-86be-b4ef1e840b70",
+                   "title":"Kyrgyz Кыргыз",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/kyrgyz",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"e5c4e26b-44ae-4b25-8430-ded7fdee8259",
+                   "title":"Marathi मराठी",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/marathi",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"06214b5f-05f8-4331-b8a4-8a0cbd321698",
+                   "title":"Nepali नेपाली",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/nepali",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"cacd7fc2-4e8d-4744-9688-51aed10fbcbc",
+                   "title":"Noticias para hispanoparlantes",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/mundo",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"7853e1f9-d87d-4995-9a8a-dcd858716c38",
+                   "title":"Pashto پښتو",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/pashto",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"6bb674a8-7a4c-408d-838c-10df36711ad3",
+                   "title":"Persian فارسی",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/persian",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"356cc0b0-870b-4c85-bfe7-77be8371357d",
+                   "title":"Pigdin",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/pidgin",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"93c7c37d-4c0e-4a84-afef-bb4dca4a5885",
+                   "title":"Portuguese BRASIL",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/portuguese",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"cbaaf377-56a4-4830-a720-c16a43a8f359",
+                   "title":"Punjabi ਪੰਜਾਬੀ ਖ਼ਬਰਾਂ",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/punjabi",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"589b61e1-d61d-4f98-81df-704d5a4348ae",
+                   "title":"Russian НА РУССКОМ",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/russian",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"6bae247c-1769-4c72-b8aa-d580b857d40a",
+                   "title":"Serbian  NA SRPSKOM",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/serbian/lat",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"b3cc36dc-f1eb-464e-9b19-6c4da4f3ccfb",
+                   "title":"Sinhala සිංහල",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/sinhala",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"b6f3cfd8-96bf-4f66-995a-8c2cd1364935",
+                   "title":"Somali SOMALI",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/somali",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"177d5567-b412-4baa-a959-e27bb65ce439",
+                   "title":"Swahili  HABARI KWA KISWAHILI",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/swahili",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"e303a0e2-2c1c-4e3f-a4f1-f84f0aabb30a",
+                   "title":"Tamil தமிழில் செய்திகள்",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/tamil",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"63652a09-1c8a-494c-825a-c7ec65af0f58",
+                   "title":"Telugu తెలుగు వార్తలు",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/telugu",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"91ad9962-c2d3-40fd-876a-cbd199310dc5",
+                   "title":"Thai ข่าวภาษาไทย",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/thai",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"79a6795d-d464-4768-9d62-1acc488573bf",
+                   "title":"Tigrinya ዜና ብትግርኛ",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/tigrinya",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"6be9ba6b-9818-48e4-89d3-08d765c22d0a",
+                   "title":"Turkish TÜRKÇE",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/turkce",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"977f8d77-304f-405e-bc3e-fdb56fd8b453",
+                   "title":"Ukrainian УКРАЇНСЬКA",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/ukrainian",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"9a5d0753-fdde-4950-9d8f-73055fc5c625",
+                   "title":"Urdu اردو",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/urdu",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"e0ef0bc5-40cf-426f-ba7c-9ac8f34a1e0c",
+                   "title":"Uzbek O'ZBEK",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/uzbek",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"393c2c11-6a79-4439-8a70-730f73ae4232",
+                   "title":"Vietnamese TIẾNG VIỆT",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/vietnamese",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"5e9a4025-cb90-456f-9e91-fcfbcfc27fde",
+                   "title":"Welsh NEWYIDDION",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/cymrufyw",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"8a1c9311-dcb2-4461-b1c5-6bac711e574f",
+                   "title":"Yoruba  ÌRÒYÌN NÍ YORÙBÁ",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/yoruba",
+                   "externalTarget":"_self"
+                }
+             ],
+             "legalLinks":[
+                {
+                   "id":"e05506b4-6dff-4188-95ca-a8ed23952b39",
+                   "title":"Terms of Use",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.co.uk/usingthebbc/terms",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"122be937-f2cf-40fa-9dc7-7053fa28c6a3",
+                   "title":"About the BBC",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.co.uk/aboutthebbc",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"f7c92e4e-1fd6-4666-a027-520dde141c0a",
+                   "title":"Privacy Policy",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/usingthebbc/privacy/",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"ebdb01ba-b5c6-4425-b63f-10aa58007ead",
+                   "title":"Cookies",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/usingthebbc/cookies/",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"ffb84b3f-907b-46db-85f6-875a67c5ee4a",
+                   "title":"Accessibility Help",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.co.uk/accessibility/",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"3de2cd85-9f1a-41d2-aa55-d99e018d1f1e",
+                   "title":"Contact the BBC",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.co.uk/contact",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"611212f6-337c-43af-abef-e852e1778e87",
+                   "title":"Advertise with us",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/advertisingcontact",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"208325e1-156f-4dfe-8058-8a440b1f61ad",
+                   "title":"Do not share or sell my info",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/usingthebbc/cookies/how-can-i-change-my-bbc-cookie-settings/",
+                   "externalTarget":"_self"
+                },
+                {
+                   "id":"93883777-cd1b-41ce-b5fe-ce03e548a57e",
+                   "title":"Contact technical support",
+                   "isSpecial":false,
+                   "externalUrl":"https://www.bbc.com/contact-bbc-com-help",
+                   "externalTarget":"_self"
+                }
+             ],
+             "languageButtonText":"BBC in other languages",
+             "languageHeadline":"The BBC is in multiple languages",
+             "languageSubHeadline":"Read the BBC In your own language",
+             "legalTextContent":[
+                {
+                   "type":"text",
+                   "model":{
+                      "blocks":[
+                         {
+                            "type":"paragraph",
+                            "model":{
+                               "text":"Copyright current_year BBC. All rights reserved.  The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
+                               "blocks":[
+                                  {
+                                     "type":"fragment",
+                                     "model":{
+                                        "text":"Copyright current_year BBC. All rights reserved. ",
+                                        "attributes":[
+                                           
+                                        ]
+                                     }
+                                  },
+                                  {
+                                     "type":"fragment",
+                                     "model":{
+                                        "text":" ",
+                                        "attributes":[
+                                           "italic"
+                                        ]
+                                     }
+                                  },
+                                  {
+                                     "type":"fragment",
+                                     "model":{
+                                        "text":"The",
+                                        "attributes":[
+                                           
+                                        ]
+                                     }
+                                  },
+                                  {
+                                     "type":"fragment",
+                                     "model":{
+                                        "text":" BBC ",
+                                        "attributes":[
+                                           "italic"
+                                        ]
+                                     }
+                                  },
+                                  {
+                                     "type":"fragment",
+                                     "model":{
+                                        "text":"is",
+                                        "attributes":[
+                                           
+                                        ]
+                                     }
+                                  },
+                                  {
+                                     "type":"fragment",
+                                     "model":{
+                                        "text":" not responsible for the content of external sites.",
+                                        "attributes":[
+                                           "italic"
+                                        ]
+                                     }
+                                  },
+                                  {
+                                     "type":"fragment",
+                                     "model":{
+                                        "text":" ",
+                                        "attributes":[
+                                           
+                                        ]
+                                     }
+                                  },
+                                  {
+                                     "type":"urlLink",
+                                     "model":{
+                                        "text":" not responsible for the content of external sites.",
+                                        "locator":"https://www.bbc.co.uk/editorialguidelines/guidance/feeds-and-links",
+                                        "blocks":[
+                                           {
+                                              "type":"fragment",
+                                              "model":{
+                                                 "text":"Read about our approach to external linking.",
+                                                 "attributes":[
+                                                    "bold"
+                                                 ]
+                                              }
+                                           }
+                                        ]
+                                     }
+                                  }
+                               ]
+                            }
+                         }
+                      ]
+                   }
+                },
+                {
+                   "type":"text",
+                   "model":{
+                      "blocks":[
+                         {
+                            "type":"paragraph",
+                            "model":{
+                               "text":" ",
+                               "blocks":[
+                                  {
+                                     "type":"fragment",
+                                     "model":{
+                                        "text":" ",
+                                        "attributes":[
+                                           
+                                        ]
+                                     }
+                                  }
+                               ]
+                            }
+                         }
+                      ]
+                   }
+                }
+             ],
+             "legalText":"[{\"type\":\"text\",\"model\":{\"blocks\":[{\"type\":\"paragraph\",\"model\":{\"text\":\"Copyright current_year BBC. All rights reserved.  The BBC is not responsible for the content of external sites. Read about our approach to external linking.\",\"blocks\":[{\"type\":\"fragment\",\"model\":{\"text\":\"Copyright current_year BBC. All rights reserved. \",\"attributes\":[]}},{\"type\":\"fragment\",\"model\":{\"text\":\" \",\"attributes\":[\"italic\"]}},{\"type\":\"fragment\",\"model\":{\"text\":\"The\",\"attributes\":[]}},{\"type\":\"fragment\",\"model\":{\"text\":\" BBC \",\"attributes\":[\"italic\"]}},{\"type\":\"fragment\",\"model\":{\"text\":\"is\",\"attributes\":[]}},{\"type\":\"fragment\",\"model\":{\"text\":\" not responsible for the content of external sites.\",\"attributes\":[\"italic\"]}},{\"type\":\"fragment\",\"model\":{\"text\":\" \",\"attributes\":[]}},{\"type\":\"urlLink\",\"model\":{\"text\":\" not responsible for the content of external sites.\",\"locator\":\"https://www.bbc.co.uk/editorialguidelines/guidance/feeds-and-links\",\"blocks\":[{\"type\":\"fragment\",\"model\":{\"text\":\"Read about our approach to external linking.\",\"attributes\":[\"bold\"]}}]}}]}}]}},{\"type\":\"text\",\"model\":{\"blocks\":[{\"type\":\"paragraph\",\"model\":{\"text\":\" \",\"blocks\":[{\"type\":\"fragment\",\"model\":{\"text\":\" \",\"attributes\":[]}}]}}]}}]"
+          },
+          "worldNewsTvPath":null,
+          "flagPoles":{
+             "ops":{
+                "Metadata":{
+                   "FlagpoleBucketPrefix":"",
+                   "FlagpoleDate":"07 Aug 23 18:52 UTC",
+                   "FlagpoleFileID":"gn-flagpoles/gnlops",
+                   "FlagpoleIdentity":"gnlops",
+                   "FlagpoleSystem":"gn-flagpoles",
+                   "Guid":"8dfe60a2-4322-411c-8a71-04dc7084fec4",
+                   "urn":"urn:pubpipe:gnflagpoles:gnlops:gn-flagpoles/gnlops"
+                },
+                "Urn":"urn:pubpipe:gnflagpoles:gnlops:gn-flagpoles/gnlops",
+                "adverts":"true",
+                "analytics":"true",
+                "wwhp_feeds":"true",
+                "wwhp_obituary":"false",
+                "xproxy":"true",
+                "zephr":"true",
+                "zephrx":"true"
+             },
+             "ngas":{
+                "Metadata":{
+                   "FlagpoleBucketPrefix":"",
+                   "FlagpoleDate":"18 Mar 24 10:17 UTC",
+                   "FlagpoleFileID":"gn-flagpoles/ngas",
+                   "FlagpoleIdentity":"ngas",
+                   "FlagpoleSystem":"gn-flagpoles",
+                   "Guid":"e229d810-0dcd-45f0-a61b-ff6a4178aff7",
+                   "urn":"urn:pubpipe:gnflagpoles:ngas:gn-flagpoles/ngas"
+                },
+                "Urn":"urn:pubpipe:gnflagpoles:ngas:gn-flagpoles/ngas",
+                "adsense":"true",
+                "aps":"false",
+                "banner":"true",
+                "beta":"true",
+                "cmp":"true",
+                "comscoremmx":"true",
+                "comscoremmxeea":"true",
+                "content_rec":"true",
+                "covatic":"true",
+                "covatic_admeta":"true",
+                "effectivemeasure":"false",
+                "effectivemeasureeea":"false",
+                "fedid":"true",
+                "fedid_google":"true",
+                "fedid_permutive":"true",
+                "fpd":"true",
+                "fundingchoices_cmp":"false",
+                "gpp":"true",
+                "grapeshot":"true",
+                "ias_publisher":"true",
+                "iris":"false",
+                "name":"ngas",
+                "native_size":"true",
+                "newadunit":"true",
+                "newkeys":"true",
+                "nielsen":"true",
+                "ozone":"true",
+                "permutive":"true",
+                "permutive_cohort":"true",
+                "piano":"true",
+                "platinum":"true",
+                "sherlock":"false",
+                "signin":"false",
+                "signinnews":"false",
+                "speedcurve":"true",
+                "spo":"true",
+                "sticky_leader":"true",
+                "survey":"true",
+                "surveyx":"true",
+                "thirdpartyeea":"false",
+                "tmt_media_filter":"true",
+                "version":"1.28"
+             }
+          },
+          "isMobileWebview":false,
+          "os":{
+             "name":null,
+             "version":null
+          },
+          "browser":{
+             "name":null,
+             "version":null
+          },
+          "metadata":{
+             "contributor":"By Natalie Sherman",
+             "description":"Boeing shares dropped almost 2% after concerns were raised over its 787 and 777 jets.",
+             "firstPublished":1712699255000,
+             "lastPublished":1712699255000,
+             "lastUpdated":1712739181000,
+             "indexImage":{
+                "blocks":[
+                   {
+                      "type":"altText",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"text",
+                               "model":{
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"An American Airlines Boeing 787-8 Dreamliner is landing at Barcelona Airport in Barcelona, Spain, on March 25, 2024",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   },
+                   {
+                      "type":"rawImage",
+                      "model":{
+                         "height":549,
+                         "width":976,
+                         "locator":"10C7B/production/_133113786_whatsubject.jpg",
+                         "originCode":"cpsprodpb",
+                         "copyrightHolder":"Getty Images"
+                      }
+                   },
+                   {
+                      "type":"caption",
+                      "model":{
+                         "blocks":[
+                            {
+                               "type":"text",
+                               "model":{
+                                  "blocks":[
+                                     {
+                                        "type":"fragment",
+                                        "model":{
+                                           "text":"An American Airlines Boeing 787-8 Dreamliner is landing at Barcelona Airport in Barcelona, Spain, on March 25, 2024",
+                                           "attributes":[
+                                              
+                                           ]
+                                        }
+                                     }
+                                  ]
+                               }
+                            }
+                         ]
+                      }
+                   }
+                ],
+                "alt":"An American Airlines Boeing 787-8 Dreamliner is landing at Barcelona Airport in Barcelona, Spain, on March 25, 2024",
+                "originalSrc":"https://c.files.bbci.co.uk/10C7B/production/_133113786_whatsubject.jpg",
+                "iChefRecipe":"https://ichef.bbci.co.uk/news/$recipe/branded_news/10C7B/production/_133113786_whatsubject.jpg",
+                "width":976,
+                "height":549,
+                "isEditorialImage":true
+             },
+             "seoHeadline":"Boeing hit after new whistleblower raises safety concerns",
+             "promoHeadline":"Boeing hit after new whistleblower raises concerns",
+             "options":{
+                "isIgorSeoTagsEnabled":false,
+                "includeComments":false,
+                "allowRightHandSide":true,
+                "isFactCheck":false,
+                "allowDateStamp":true,
+                "suitableForSyndication":true,
+                "hasNewsTracker":false,
+                "allowRelatedStoriesBox":true,
+                "isKeyContent":false,
+                "allowHeadline":true,
+                "allowAdvertising":true,
+                "hasContentWarning":false,
+                "isBreakingNews":false,
+                "allowPrintingSharingLinks":true
+             }
+          },
+          "pageKey":"@\"news\",\"business-68775413\",",
+          "type":"article",
+          "subtype":"news",
+          "slug":[
+             "news",
+             "business-68775413"
+          ],
+          "analytics":{
+             "producer":"NEWS",
+             "language":"en-gb",
+             "publicationDate":"1712699255000",
+             "pubUpdateDate":"1712699255000",
+             "contentId":"urn:bbc:cps:curie:asset:deb3aab9-b444-445e-b8b4-3e3e0ab68de6",
+             "section":"business",
+             "name":"news.business.story.68775413.page"
+          }
+       },
+       "__N_SSP":true
+    },
+    "page":"/[[...slug]]",
+    "query":{
+       "slug":[
+          "news",
+          "business-68775413"
+       ]
+    },
+    "buildId":"xIm_j3E5yqJC4XFAbVfB-",
+    "assetPrefix":"/bbcx",
+    "isFallback":false,
+    "dynamicIds":[
+       73333,
+       54786,
+       39283,
+       48921
+    ],
+    "gssp":true,
+    "customServer":true,
+    "appGip":true,
+    "scriptLoader":[
+       
+    ]
+ }

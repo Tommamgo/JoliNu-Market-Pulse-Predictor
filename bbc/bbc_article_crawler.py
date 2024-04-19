@@ -1,16 +1,19 @@
 import requests
-import time
 import random
 import json
-import re
 from datetime import datetime
+from bs4 import BeautifulSoup
+import time
 
-# Konfiguration
+# Configuration
 input_file = "bbc/bbc_scraped_links.json"
 output_file = "bbc/bbc_scraped_articles.json"
 user_agents_file = "bbc/userAgents.txt"
-min_delay = 10
-max_delay = 20
+min_delay = 5
+max_delay = 10
+
+def filter_news_articles(data):
+    return [item for item in data if item.get('type') == 'article' and 'Boxing' not in item.get('topics', [])]
 
 def load_user_agents(filename):
     with open(filename, "r") as file:
@@ -19,75 +22,89 @@ def load_user_agents(filename):
     return agents
 
 def load_json_data(filename):
-    with open(filename, "r") as file:
-        try:
+    try:
+        with open(filename, "r") as file:
             data = json.load(file)
-        except json.JSONDecodeError:
-            data = {}  # Wenn die Datei leer oder beschädigt ist, starten Sie mit leeren Daten
+    except FileNotFoundError:
+        data = {}  # Initialisiere eine leere Datenstruktur, wenn die Datei nicht gefunden wird
+    except json.JSONDecodeError:
+        data = {}  # Initialisiere eine leere Datenstruktur, wenn die Datei beschädigt ist
     return data
 
-def filter_news_articles(data):
-    return [item for item in data if item.get('type') == 'NewsArticle']
+def build_full_url(path):
+    return f"https://www.bbc.com{path}"
 
-def extract_json_from_html(url, user_agent):
+def get_html_content(url, user_agent):
     headers = {
-        "User-Agent": user_agent
+        "User-Agent": user_agent,
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "de-DE,de;q=0.9",
+        "Connection": "keep-alive",
+        "Referer": "https://www.bbc.com/search?q=Boeing"
     }
-    try:
-        response = requests.get(url, headers=headers)
-        if response.status_code == 200:
-            json_match = re.search(r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>', response.text, re.DOTALL)
-            if json_match:
-                return json.loads(json_match.group(1))
-        else:
-            print(f"Fehler beim Abrufen der URL {url}: Status-Code {response.status_code}")
-    except requests.exceptions.RequestException as e:
-        print(f"Fehler bei der Netzwerkanfrage für {url}: {e}")
-    return None
+    response = requests.get(url, headers=headers)
+    response.raise_for_status()
+    return response.text
 
-def parse_date(date_str):
-    if not date_str:
-        return None  # Verhindert einen Fehler, wenn date_str None oder leer ist
-    for fmt in ("%Y-%m-%dT%H:%M:%S.%fZ", "%Y-%m-%dT%H:%M:%SZ"):
-        try:
-            return datetime.strptime(date_str, fmt)
-        except ValueError:
-            continue
-    return None  # Gibt None zurück, wenn kein gültiges Datum gefunden wurde
+def extract_data_from_html(html_content):
+    soup = BeautifulSoup(html_content, 'html.parser')
 
+    # Extract JSON-LD data for metadata
+    script_json_ld = soup.find('script', type='application/ld+json')
+    metadata = json.loads(script_json_ld.string) if script_json_ld else {}
 
-def transform_article_data(article, titles_done):
-    if not isinstance(article, dict):
+    # Find the correct script tag that contains the article data
+    script_tag = soup.find('script', {'id': '__NEXT_DATA__'})
+    if not script_tag:
         return {}
-    
-    title = article.get("headline", "nan")
-    if title in titles_done:
-        return None  # Überspringe Artikel, die bereits verarbeitet wurden
-    
-    authors_list = article.get("author", [{"name": "nan"}])
-    authors = ", ".join([author.get("name", "nan") for author in authors_list if author.get("name")])
 
-    transformed = {
-        title: {
-            "publish_date": parse_date(article.get("datePublished", "nan")).strftime("%B %d, %Y %I:%M %p GMT+2") if parse_date(article.get("datePublished")) else "nan",
-            "keywords": ", ".join(article.get("articleSection", ["nan"])),
-            "authors": authors if authors else "nan",
-            "title": title,
-            "text": article.get("articleBody", "nan"),
-            "link": article.get("mainEntityOfPage", {}).get("url", "nan"),
-            "original_publisher": article.get("publisher", {}).get("name", "nan"),
-            "article_publisher": article.get("publisher", {}).get("name", "nan"),
-            "search_word": "Boeing",
-            "short_description": article.get("description", "nan"),
-            "last_modified_date": parse_date(article.get("dateModified", "nan")).strftime("%B %d, %Y %I:%M %p GMT+2") if parse_date(article.get("dateModified")) else "nan"
-        }
+    data = json.loads(script_tag.string)
+    
+    # Navigate through the nested JSON to extract article content
+    page_data = data['props']['pageProps']['page']
+    article_id = list(page_data.keys())[0]  # Get the first key in the page dictionary
+    contents = page_data[article_id]['contents']
+    
+    full_text = []
+    for content in contents:
+        if content['type'] == 'text':
+            for block in content['model']['blocks']:
+                if block['type'] == 'paragraph':
+                    full_text.append(block['model']['text'])
+
+    full_text = ' '.join(full_text)
+    authors = metadata.get('author', [{}])
+
+    # Extract authors' names
+    author_names = [author.get('name', 'nan') for author in authors] if isinstance(authors, list) else [authors.get('name', 'nan')]
+
+    # Determine the correct link
+    main_entity_page = metadata.get('mainEntityOfPage', {})
+    article_link = main_entity_page if isinstance(main_entity_page, str) else main_entity_page.get('@id', 'nan')
+
+    # Create the result dictionary
+    article_data = {
+        'publish_date': metadata.get('datePublished', 'nan'),
+        'last_modified_date': metadata.get('dateModified', 'nan'),
+        'authors': author_names,
+        'title': metadata.get('headline', 'nan'),
+        'text': full_text,
+        'link': article_link,
+        'original_publisher': metadata.get('publisher', {}).get('name', 'nan'),
+        'article_publisher': "BBC",
+        'search_word': "Boeing",
+        'keywords': metadata.get('keywords', 'nan'),
+        'short_description': metadata.get('description', 'nan')
     }
-    return transformed
+    return article_data
+
 
 def save_data(data, filename):
     with open(filename, "w") as file:
-        json.dump({"articles": data}, file, indent=4)
+        json.dump(data, file, indent=4)  # Direktes Speichern der übergebenen Daten ohne zusätzliche Verpackung in "articles"
     print("Daten gespeichert.")
+
 
 def print_progress(current, total):
     progress_length = 50
@@ -98,28 +115,36 @@ def print_progress(current, total):
 
 def main():
     user_agents = load_user_agents(user_agents_file)
-    articles = load_json_data(input_file)
+    articles = filter_news_articles(load_json_data(input_file).get('results', []))
     transformed_data = load_json_data(output_file)
-    titles_done = set(transformed_data.get("articles", {}).keys())  # Ladet bereits gespeicherte Titel
-    news_articles = filter_news_articles(articles)
-    
-    transformed_articles = transformed_data.get("articles", {})
-    for index, article in enumerate(news_articles):
-        extracted_json = extract_json_from_html(article['url'], random.choice(user_agents))
-        if extracted_json:
-            transformed_article = transform_article_data(extracted_json, titles_done)
-            if transformed_article:
-                transformed_articles.update(transformed_article)
-                titles_done.update(transformed_article.keys())
-        
-        print_progress(len(titles_done) + index + 1, len(news_articles))
-        time.sleep(random.randint(min_delay, max_delay))  # Delay zwischen den Abrufen
+    if "articles" not in transformed_data:
+        transformed_data["articles"] = {}  # Stellen Sie sicher, dass die Datenstruktur richtig initialisiert wird.
 
-        # Zwischenspeicherung alle 10 Artikel
-        if (index + 1) % 10 == 0 or index == len(news_articles) - 1:
-            save_data(transformed_articles, output_file)
+    processed_articles_count = len(transformed_data["articles"])
+    print(f"Fortgeschritten: {processed_articles_count} von {len(articles)} Artikel verarbeitet.")
+
+    start_index = processed_articles_count
+
+    for index, article in enumerate(articles[start_index:], start=start_index):
+        full_url = build_full_url(article['path'])
+        user_agent = random.choice(user_agents)
+        html_content = get_html_content(full_url, user_agent)
+        extracted_data = extract_data_from_html(html_content)
+        if extracted_data:
+            article_title = extracted_data.get('title', f"Unnamed Article {index}")
+            transformed_data["articles"][article_title] = extracted_data  # Aktualisierung eines bestimmten Artikels
+
+        processed_articles_count += 1
+        print_progress(processed_articles_count, len(articles))
+        time.sleep(random.randint(min_delay, max_delay))
+
+        if processed_articles_count % 10 == 0 or index == len(articles) - 1:
+            save_data(transformed_data, output_file)  # Speichern der Daten
 
     print("\nScraping abgeschlossen!")
 
 if __name__ == "__main__":
     main()
+
+
+
