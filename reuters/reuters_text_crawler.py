@@ -11,18 +11,10 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.firefox.firefox_profile import FirefoxProfile
-
-def create_driver():
-    profile = FirefoxProfile()
-    profile.set_preference("permissions.default.image", 2)  # 2 bedeutet, dass keine Bilder geladen werden
-    profile.set_preference("dom.ipc.plugins.enabled.libflashplayer.so", "false")  # Deaktiviert Flash
-    options = Options()
-    options.add_argument("--headless")  # Falls Sie den Browser nicht sehen möchten
-    options.add_argument(f"--user-agent={random.choice(user_agents)}")
-    driver = webdriver.Firefox(options=options, firefox_profile=profile)
-    return driver
-
 from pathlib import Path
+
+
+batch_size = 10
 
 # Basis-URL festlegen
 base_url = "https://www.reuters.com"
@@ -33,6 +25,13 @@ csv_file_path = '/Users/jonas/Documents/Master/S2/Natural Language Processing/co
 with open('/Users/jonas/Documents/Master/S2/Natural Language Processing/codes/git/JoliNu-Market-Pulse-Predictor/reuters/userAgents.txt', 'r') as file:
     user_agents = [line.strip() for line in file.readlines()]
 
+def remove_top_line_from_csv(file_path, size):
+    with open(file_path, 'r', encoding='utf-8') as file:
+        lines = file.readlines()
+    with open(file_path, 'w', encoding='utf-8') as file:
+        file.writelines(lines[size:])  # Schreibe alle Zeilen außer der ersten zurück in die Datei
+
+
 def print_progress(current, total):
     progress_length = 50
     percent_complete = current / total
@@ -41,6 +40,7 @@ def print_progress(current, total):
     print(f"\r[{progress_bar}] {int(100 * percent_complete)}% - Artikel {current} von {total}", end="")
 
 def save_article(articles_buffer, file_name="reuters_articles.json"):
+    c = 0
     file_path = Path(file_name)
     data = {"articles": {}}
     if file_path.exists():
@@ -53,17 +53,19 @@ def save_article(articles_buffer, file_name="reuters_articles.json"):
                 data = {"articles": {}}
 
     for article in articles_buffer:
+        c+=1
         title = article['title']
         data["articles"][title] = article
 
     with open(file_path, 'w', encoding='utf-8') as file:
         json.dump(data, file, ensure_ascii=False, indent=4)
+    print(f" -  {c} Artikel gespeichert!")
 
 def create_driver():
     options = Options()
-    #options.add_argument("--headless")
+    options.add_argument("--headless")
     options.add_argument(f"--user-agent={random.choice(user_agents)}")
-    #options.set_preference("permissions.default.image", 2)  # Kein Laden von Bildern
+    options.set_preference("permissions.default.image", 2)  # Kein Laden von Bildern
     #options.set_preference("dom.ipc.plugins.enabled.libflashplayer.so", "false")  # Deaktiviert Flash
     #options.set_preference("privacy.trackingprotection.enabled", True)
     #options.set_preference("dom.enable_resource_timing", False)
@@ -71,8 +73,9 @@ def create_driver():
     driver = webdriver.Firefox(options=options)
     driver.delete_all_cookies()
     return driver
+
 def scrape_article(article_url):
-    options = webdriver.FirefoxOptions()
+    #options = webdriver.FirefoxOptions()
     #options.add_argument("--headless")
     #options.add_argument(f"--user-agent={random.choice(user_agents)}")
     #driver = webdriver.Firefox(options=options)
@@ -156,11 +159,11 @@ try:
             full_url = base_url + row[0]
             article_data = scrape_article(full_url)
             if article_data and article_data["text"] != "nan":
-                print(article_data["text"])
                 all_extracted_data.append(article_data)
                 counter += 1
                 print_progress(counter, total_articles)
-                if counter % 3 == 0:
+                if counter % batch_size == 0:
+                    remove_top_line_from_csv(csv_file_path, batch_size)
                     save_article(all_extracted_data)
                     all_extracted_data = []
             else:
