@@ -4,16 +4,34 @@ import json
 from datetime import datetime
 from bs4 import BeautifulSoup
 import time
+import re
 
 # Configuration
 input_file = "bbc/bbc_scraped_links.json"
 output_file = "bbc/bbc_scraped_articles.json"
 user_agents_file = "bbc/userAgents.txt"
-min_delay = 5
-max_delay = 10
+min_delay = 8
+max_delay = 12
 
 def filter_news_articles(data):
-    return [item for item in data if item.get('type') == 'article' and 'Boxing' not in item.get('topics', [])]
+    articles = []
+    keywords = ["Boeing", "Airbus", "Plane"]
+    for item in data:
+        # Überprüfen, ob es sich um einen Artikel handelt
+        if item.get('type') == 'article':
+            title = item.get('title', '').lower()
+            summary = item.get('summary', '').lower()
+            alt_text = item.get('indexImage', {}).get('model', {}).get('blocks', {}).get('altText', '')
+            
+            # Überprüfen, ob eines der Schlüsselwörter in Titel, Zusammenfassung oder Bildtext enthalten ist
+            if alt_text is not None:  # Überprüfen, ob alt_text nicht None ist
+                alt_text = alt_text.lower()
+            for keyword in keywords:
+                if keyword.lower() in title or keyword.lower() in summary or (alt_text and keyword.lower() in alt_text):
+                    articles.append(item)
+                    break  # Beenden Sie die Schleife, sobald ein Schlüsselwort gefunden wurde
+    
+    return articles
 
 def load_user_agents(filename):
     with open(filename, "r") as file:
@@ -47,43 +65,47 @@ def get_html_content(url, user_agent):
     response.raise_for_status()
     return response.text
 
-def extract_data_from_html(html_content):
+def extract_keywords_from_url(url):
+    # Extrahiert die Stücke zwischen den Bindestrichen vor der letzten Nummer
+    match = re.search(r'/([\w-]+)-\d+', url)
+    if match:
+        parts = match.group(1).split('-')
+        return [] + parts
+    return ['nan']
+
+def extract_data_from_html(html_content, url):
     soup = BeautifulSoup(html_content, 'html.parser')
 
     # Extract JSON-LD data for metadata
     script_json_ld = soup.find('script', type='application/ld+json')
     metadata = json.loads(script_json_ld.string) if script_json_ld else {}
 
-    # Find the correct script tag that contains the article data
-    script_tag = soup.find('script', {'id': '__NEXT_DATA__'})
-    if not script_tag:
-        return {}
-
-    data = json.loads(script_tag.string)
-    
-    # Navigate through the nested JSON to extract article content
-    page_data = data['props']['pageProps']['page']
-    article_id = list(page_data.keys())[0]  # Get the first key in the page dictionary
-    contents = page_data[article_id]['contents']
-    
+    data = {}
     full_text = []
-    for content in contents:
-        if content['type'] == 'text':
-            for block in content['model']['blocks']:
-                if block['type'] == 'paragraph':
-                    full_text.append(block['model']['text'])
+    script_tag = soup.find('script', {'id': '__NEXT_DATA__'})
+    if script_tag:
+        data = json.loads(script_tag.string)
+        page_data = data['props']['pageProps']['page']
+        article_id = list(page_data.keys())[0]
+        contents = page_data[article_id]['contents']
+
+        for content in contents:
+            if content['type'] == 'text':
+                for block in content['model']['blocks']:
+                    if block['type'] == 'paragraph':
+                        full_text.append(block['model']['text'])
 
     full_text = ' '.join(full_text)
     authors = metadata.get('author', [{}])
 
-    # Extract authors' names
     author_names = [author.get('name', 'nan') for author in authors] if isinstance(authors, list) else [authors.get('name', 'nan')]
 
-    # Determine the correct link
-    main_entity_page = metadata.get('mainEntityOfPage', {})
-    article_link = main_entity_page if isinstance(main_entity_page, str) else main_entity_page.get('@id', 'nan')
+    # Verwenden des ursprünglichen URL als Link
+    article_link = url
 
-    # Create the result dictionary
+    # Keywords aus URL extrahieren
+    keywords = extract_keywords_from_url(url)
+
     article_data = {
         'publish_date': metadata.get('datePublished', 'nan'),
         'last_modified_date': metadata.get('dateModified', 'nan'),
@@ -94,7 +116,7 @@ def extract_data_from_html(html_content):
         'original_publisher': metadata.get('publisher', {}).get('name', 'nan'),
         'article_publisher': "BBC",
         'search_word': "Boeing",
-        'keywords': metadata.get('keywords', 'nan'),
+        'keywords': keywords,
         'short_description': metadata.get('description', 'nan')
     }
     return article_data
@@ -103,7 +125,7 @@ def extract_data_from_html(html_content):
 def save_data(data, filename):
     with open(filename, "w") as file:
         json.dump(data, file, indent=4)  # Direktes Speichern der übergebenen Daten ohne zusätzliche Verpackung in "articles"
-    print("Daten gespeichert.")
+    print(" Daten gespeichert.")
 
 
 def print_progress(current, total):
@@ -118,7 +140,7 @@ def main():
     articles = filter_news_articles(load_json_data(input_file).get('results', []))
     transformed_data = load_json_data(output_file)
     if "articles" not in transformed_data:
-        transformed_data["articles"] = {}  # Stellen Sie sicher, dass die Datenstruktur richtig initialisiert wird.
+        transformed_data["articles"] = {}
 
     processed_articles_count = len(transformed_data["articles"])
     print(f"Fortgeschritten: {processed_articles_count} von {len(articles)} Artikel verarbeitet.")
@@ -129,17 +151,17 @@ def main():
         full_url = build_full_url(article['path'])
         user_agent = random.choice(user_agents)
         html_content = get_html_content(full_url, user_agent)
-        extracted_data = extract_data_from_html(html_content)
+        extracted_data = extract_data_from_html(html_content, full_url)
         if extracted_data:
             article_title = extracted_data.get('title', f"Unnamed Article {index}")
-            transformed_data["articles"][article_title] = extracted_data  # Aktualisierung eines bestimmten Artikels
+            transformed_data["articles"][article_title] = extracted_data
 
         processed_articles_count += 1
         print_progress(processed_articles_count, len(articles))
         time.sleep(random.randint(min_delay, max_delay))
 
         if processed_articles_count % 10 == 0 or index == len(articles) - 1:
-            save_data(transformed_data, output_file)  # Speichern der Daten
+            save_data(transformed_data, output_file)
 
     print("\nScraping abgeschlossen!")
 

@@ -48,7 +48,7 @@ def scrape_article(article_url):
 
     # Headless Browser-Optionen konfigurieren
     options = webdriver.FirefoxOptions()
-    #options.add_argument("--headless")  # Firefox im Headless-Modus
+    options.add_argument("--headless")  # Firefox im Headless-Modus
     #options.add_argument("-private")
     options.add_argument(f"--user-agent={random.choice(user_agents)}")
     driver = webdriver.Firefox(options=options)
@@ -135,7 +135,7 @@ def scrape_article(article_url):
     
     finally:
         # Warte zwischen 2 und 8 Sekunden, um eine Überlastung des Servers zu vermeiden
-        rt = random.randint(5, 10)
+        rt = random.randint(3, 8)
         print(f"Es wird {rt} Sekunden gewartet")
         time.sleep(rt)
         driver.quit()

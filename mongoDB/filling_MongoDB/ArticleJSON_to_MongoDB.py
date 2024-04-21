@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 import json
 #-----------------------------------------
-json_path = 'cnn/scraped_articles.json'
+json_path = 'bbc/bbc_scraped_articles.json'
 #-----------------------------------------
 
 # Ersetze diese Werte mit deinen eigenen Anmeldeinformationen
