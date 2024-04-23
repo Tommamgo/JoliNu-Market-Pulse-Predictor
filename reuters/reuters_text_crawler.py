@@ -39,7 +39,7 @@ def print_progress(current, total):
     progress_bar = '#' * bars + '-' * (progress_length - bars)
     print(f"\r[{progress_bar}] {int(100 * percent_complete)}% - Artikel {current} von {total}", end="")
 
-def save_article(articles_buffer, file_name="reuters_articles.json"):
+def save_article(articles_buffer, file_name="reuters/reuters_articles.json"):
     c = 0
     file_path = Path(file_name)
     data = {"articles": {}}
@@ -63,7 +63,7 @@ def save_article(articles_buffer, file_name="reuters_articles.json"):
 
 def create_driver():
     options = Options()
-    #options.add_argument("--headless")
+    options.add_argument("--headless")
     options.set_preference("general.useragent.override",random.choice(user_agents))
     options.set_preference("permissions.default.image", 2)  # Kein Laden von Bildern
     options.set_preference("dom.ipc.plugins.enabled.libflashplayer.so", "false")  # Deaktiviert Flash
