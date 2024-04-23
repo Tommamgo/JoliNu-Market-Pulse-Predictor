@@ -10,7 +10,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver.firefox.options import Options
-from selenium.webdriver.firefox.firefox_profile import FirefoxProfile
+#from selenium.webdriver.safari.webdriver import Options
 from pathlib import Path
 
 
@@ -63,24 +63,48 @@ def save_article(articles_buffer, file_name="reuters_articles.json"):
 
 def create_driver():
     options = Options()
-    options.add_argument("--headless")
-    options.add_argument(f"--user-agent={random.choice(user_agents)}")
+    #options.add_argument("--headless")
+    options.set_preference("general.useragent.override",random.choice(user_agents))
     options.set_preference("permissions.default.image", 2)  # Kein Laden von Bildern
-    #options.set_preference("dom.ipc.plugins.enabled.libflashplayer.so", "false")  # Deaktiviert Flash
-    #options.set_preference("privacy.trackingprotection.enabled", True)
-    #options.set_preference("dom.enable_resource_timing", False)
+    options.set_preference("dom.ipc.plugins.enabled.libflashplayer.so", "false")  # Deaktiviert Flash
+    options.set_preference("privacy.trackingprotection.enabled", True)
+    options.set_preference("dom.enable_resource_timing", False)
     
+
+    # Adding argument to disable the AutomationControlled flag 
+    options.add_argument("--disable-blink-features=AutomationControlled") 
+
+
     driver = webdriver.Firefox(options=options)
+    #driver = webdriver.Safari(options=options)
     driver.delete_all_cookies()
+    #driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+    # Setzen einer zufälligen Fenstergröße
+    width = random.randint(800, 1600)  # Zufällige Breite zwischen 800 und 1600
+    height = random.randint(600, 900)  # Zufällige Höhe zwischen 600 und 900
+    driver.set_window_size(width, height)
+    #print(driver.execute_script("return navigator.userAgent;"))
+    
     return driver
 
+def random_scroll(driver):
+
+    driver.implicitly_wait(random.randint(1, 8))  
+
+    # Höhe der gesamten Webseite ermitteln
+    total_height = driver.execute_script("return document.body.scrollHeight")
+    
+    # Eine zufällige Position auf der Seite zum Scrollen bestimmen
+    random_position = random.randint(0, total_height)
+    
+    # Zum zufälligen Punkt auf der Seite scrollen
+    driver.execute_script(f"window.scrollTo(0, {random_position});")
+
 def scrape_article(article_url):
-    #options = webdriver.FirefoxOptions()
-    #options.add_argument("--headless")
-    #options.add_argument(f"--user-agent={random.choice(user_agents)}")
-    #driver = webdriver.Firefox(options=options)
+
     driver = create_driver()
     wait = WebDriverWait(driver, 20)
+    random_scroll(driver)
     extracted_info = {}
 
     try:
@@ -140,6 +164,7 @@ def scrape_article(article_url):
 
     except Exception as e:
         print(f"Fehler beim Verarbeiten von {article_url}: {e}")
+        driver.implicitly_wait(random.randint(1, 8)) 
         return None
 
     rt = random.randint(5, 15)
