@@ -6,9 +6,9 @@ import re
 import spacy
 
 # Pfade zu Artikel JSONS
-cnbc_pfad = "cnbc/CNBC_articles.json"
-nasdaq_pfad = "nasdaq/data/BoeingData.json"
-reuters_pfad = "reuters/reuters_articles.json"
+cnbc_pfad = "./../cnbc/CNBC_articles.json"
+nasdaq_pfad = "./../nasdaq/data/BoeingData.json"
+reuters_pfad = "./../reuters/reuters_articles.json"
 
 # Ersetze diese Werte mit deinen eigenen Anmeldeinformationen
 username = 'admin'
