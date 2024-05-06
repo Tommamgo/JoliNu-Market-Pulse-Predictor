@@ -1,5 +1,8 @@
 from pymongo import MongoClient
 import json
+#-----------------------------------------
+json_path = 'reuters/old_data/reuters_articles_test2.json'
+#-----------------------------------------
 
 # Ersetze diese Werte mit deinen eigenen Anmeldeinformationen
 username = 'admin'
@@ -19,7 +22,7 @@ db = client['web_articles']
 collection = db['articles']
 
 # Lade deine JSON-Daten
-with open('reuters/reuters_articles.json', 'r') as file:
+with open(json_path, 'r') as file:
     data = json.load(file)
 
 # Konvertiere die Daten in ein Array von Dokumenten
