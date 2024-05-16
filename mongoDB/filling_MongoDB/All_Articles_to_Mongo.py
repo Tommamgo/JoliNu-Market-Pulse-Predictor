@@ -1,14 +1,17 @@
 from pymongo import MongoClient
 import json
-from dateutil import parser
+from dateutil import parser as date_parser
+from datetime import datetime
 import pytz
 import re
 import spacy
 
-# Pfade zu Artikel JSONS
-cnbc_pfad = "./../cnbc/CNBC_articles.json"
-nasdaq_pfad = "./../nasdaq/data/BoeingData.json"
-reuters_pfad = "./../reuters/reuters_articles.json"
+# Pfade zu Artikel JSONs
+cnbc_pfad = "./../../cnbc/CNBC_articles.json"
+nasdaq_pfad = "./../../nasdaq/data/BoeingData.json"
+reuters_pfad = "./../../reuters/reuters_articles.json"
+bbc_pfad = "./../../bbc_scraped_articles.json"
+marketwatch_pfad = "./../../marketWatch/tests/marketwatch_scraped_articles copy.json"
 
 # Ersetze diese Werte mit deinen eigenen Anmeldeinformationen
 username = 'admin'
@@ -21,105 +24,99 @@ authSource = 'admin'  # Die Datenbank, die für die Authentifizierung verwendet 
 mongo_uri = f'mongodb://{username}:{password}@{host}:{port}/?authSource={authSource}'
 
 # Verbinde dich mit MongoDB unter Verwendung der Authentifizierung
+print("Verbindungsaufbau zu MongoDB...")
 client = MongoClient(mongo_uri)
+print("Verbindung erfolgreich.")
 
 # Referenziere deine Datenbank und Collection
 db = client['web_articles']
 collection = db['articles']
 
-# Artikel in mongo speichern -----------------------------------------------------------
-# Lade deine JSON-Daten
-with open(reuters_pfad, 'r') as file:
-    data = json.load(file)
+# Funktion zum Laden und Einfügen von Artikeln
+def load_and_insert_articles(file_path):
+    print(f"Lade Daten aus {file_path}...")
+    try:
+        with open(file_path, 'r') as file:
+            data = json.load(file)
+        articles = list(data['articles'].values())
+        collection.insert_many(articles)
+        print(f"{len(articles)} Artikel erfolgreich aus {file_path} eingefügt.")
+    except json.JSONDecodeError as e:
+        print(f"JSONDecodeError in Datei {file_path}: {e}")
+    except Exception as e:
+        print(f"Ein unerwarteter Fehler ist aufgetreten beim Laden der Datei {file_path}: {e}")
 
-# Konvertiere die Daten in ein Array von Dokumenten
-articles = list(data['articles'].values())
+# Artikel aus allen JSON-Dateien laden und einfügen
+file_paths = [cnbc_pfad, nasdaq_pfad, reuters_pfad, bbc_pfad, marketwatch_pfad]
+for path in file_paths:
+    load_and_insert_articles(path)
 
-# Füge die Dokumente in die MongoDB Collection ein
-collection.insert_many(articles)
+print("Alle Dokumente erfolgreich eingefügt.")
 
-with open(nasdaq_pfad, 'r') as file:
-    data = json.load(file)
-
-# Konvertiere die Daten in ein Array von Dokumenten
-articles = list(data['articles'].values())
-
-# Füge die Dokumente in die MongoDB Collection ein
-collection.insert_many(articles)
-
-with open(cnbc_pfad, 'r') as file:
-    data = json.load(file)
-
-# Konvertiere die Daten in ein Array von Dokumenten
-articles = list(data['articles'].values())
-
-# Füge die Dokumente in die MongoDB Collection ein
-collection.insert_many(articles)
-
-print("Dokumente erfolgreich eingefügt")
+# Fortschrittsanzeige
+def print_progress(current, total):
+    progress_length = 50
+    percent_complete = current / total
+    bars = int(progress_length * percent_complete)
+    progress_bar = '#' * bars + '-' * (progress_length - bars)
+    print(f"\r[{progress_bar}] {int(100 * percent_complete)}% {current} / {total}", end="")
 
 # Datum vereinheitlichen --------------------------------------------------------------------
-
 def preprocess_date(date_str):
-    # Ersetze — mit einem Leerzeichen, um das Parsing zu vereinfachen
     date_str = date_str.replace("—", " ")
-    # Ersetze Kommas und korrigiere das Format, wenn nötig
     date_str = re.sub(r',', '', date_str)
     return date_str
 
 def convert_date_format(date_str):
     try:
-        # Vorverarbeitung für spezielle Formate
         preprocessed_date_str = preprocess_date(date_str)
-        # Parser erkennt automatisch das Format und konvertiert es zu einem datetime Objekt
-        dt = parser.parse(preprocessed_date_str)
-        # Konvertiere das datetime Objekt zu einem einheitlichen ISO 8601 String
+        dt = date_parser.parse(preprocessed_date_str)
         return dt.astimezone(pytz.utc).isoformat()
-    except ValueError:
-        # Wenn das Parsing fehlschlägt, gib den ursprünglichen String zurück oder handle den Fehler
-        return date_str
+    except (ValueError, TypeError):
+        return datetime(1970, 1, 1, tzinfo=pytz.utc).isoformat()
 
+print("Beginne mit der Vereinheitlichung der Datumsformate...")
 cursor = collection.find(no_cursor_timeout=True)
+total_docs = collection.count_documents({})
 
 try:
-    schleife = 0
-    for document in cursor:
-        print(f"Durchgang Nummer:{schleife}")
-        schleife+=1
+    for i, document in enumerate(cursor, start=1):
+        updates = {}
         if 'publish_date' in document:
             new_date = convert_date_format(document['publish_date'])
-            collection.update_one({'_id': document['_id']}, {'$set': {'publish_date': new_date}})
+            updates['publish_date'] = new_date
+        if 'last_modified_date' in document:
+            new_date = convert_date_format(document['last_modified_date'])
+            updates['last_modified_date'] = new_date
+        if updates:
+            collection.update_one({'_id': document['_id']}, {'$set': updates})
+        print_progress(i, total_docs)
 finally:
     cursor.close()
 
-print("Datumsformate aktualisiert.")
+print("\nDatumsformate erfolgreich aktualisiert.")
 
 # Text vorverarbeitung ------------------------------------------------------------------
-# Lade das spaCy Modell
+print("Lade spaCy-Modell...")
 nlp = spacy.load("en_core_web_sm")
+print("spaCy-Modell erfolgreich geladen.")
 
 def preprocess_text(text):
-    # Erstelle ein Doc-Objekt
     doc = nlp(text)
-    # Entferne Stopwörter, Satzzeichen und führe Lemmatisierung durch, behalte nur alphabetische Zeichen
     clean_text = " ".join(token.lemma_.lower() for token in doc if not token.is_stop and not token.is_punct and token.is_alpha)
     return clean_text
 
-# Initialisiere einen Cursor für die schrittweise Verarbeitung
-cursor = collection.find(no_cursor_timeout=True)  # Verhindert das Timeout für große Collections
+print("Beginne mit der Textvorverarbeitung...")
+cursor = collection.find(no_cursor_timeout=True)
 
 try:
-    c = 0
-    for document in cursor:
-        print(f"Verarbeite Tex Nummer {c}")
-        c+=1
-        # Extrahiere den Text des Dokuments
+    for i, document in enumerate(cursor, start=1):
         text = document.get("text", "")
-        # Führe die Textvorverarbeitung durch
         processed_text = preprocess_text(text)
-        # Aktualisiere das Dokument mit dem neuen Feld "processed_text"
         collection.update_one({"_id": document["_id"]}, {"$set": {"preprocessed_text": processed_text}})
+        print_progress(i, total_docs)
 finally:
-    cursor.close()  # Stelle sicher, dass der Cursor ordnungsgemäß geschlossen wird
+    cursor.close()
 
-print("Textvorverarbeitung abgeschlossen.")
+print("\nTextvorverarbeitung erfolgreich abgeschlossen.")
+

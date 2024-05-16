@@ -124,3 +124,8 @@ Da eine einheitliche Verwendung der Datenbank unter den verschiedenen Entwickler
 
 * [Jonas ist cool](https://de.wikipedia.org/wiki/Wurmautomat)
 
+# Fragen an Jonas
+- können wir './marketWatch/' umbauen? (gerade läuft alles in einem script) 
+- Was hältst du davon, die Daten einerseits in die Datenbank zu schreiben und gleichzeitig noch gesondert als .json zu speichern? Dann muss man die Daten nur einmal scrapen und jeder kann sie nachträglich in seine eigene Datenbank importieren.
+
+
